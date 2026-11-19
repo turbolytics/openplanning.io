@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2012-09-13",
+    "source_document_sha256": "45ba7e9f4cf48be92d18d329d6c667871601a6187f4b150b09828de4c48f40d1"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Project Introduction - French Twist Building Addition",
+      "fields": {
+        "description": "The applicant has submitted architectural drawings for an addition on the rear of the French Twist building located at 732 Oklahoma Ave.",
+        "date_received": "2025-04-07",
+        "next_hearing_date": "2025-04-07",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

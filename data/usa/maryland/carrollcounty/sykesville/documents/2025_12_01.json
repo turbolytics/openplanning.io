@@ -1,0 +1,61 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "October 6 Minutes",
+      "sha256": "bdd3b68f0404a7f45105b38bbdabb13c4b127ea3b3bb8beb3eb7b932dd6f304d",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4812/October-6-Minutes",
+      "raw_key": "documents/sykesville/by-sha/bdd3b68f0404a7f45105b38bbdabb13c4b127ea3b3bb8beb3eb7b932dd6f304d.pdf",
+      "original_filename": "Minutes - October 6, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 6, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the October 6, 2025 regular Planning Commission meeting. Commissioners Ludvigsen and Scheiner absent. August 4, 2025 minutes approved unanimously. Business agenda consisted of informational updates only: Enclave at Parkside neighborhood square redesign, Train Station historic trust coordination, South End Streetscape progress, French Twist site plan in preparation, 7306 Springfield Ave new tenant preparation, MD-851 state road dedication request. Three Warfield BZA applications scheduled for October 29. Meeting adjourned at 7:22 PM."
+    },
+    {
+      "name": "Meeting Schedule",
+      "sha256": "33fd95678fb61af564ccf725f646675ceca839f4b4ec0761f97680f3bc821b68",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4809/Planning-Commission---2026-Schedule",
+      "raw_key": "documents/sykesville/by-sha/33fd95678fb61af564ccf725f646675ceca839f4b4ec0761f97680f3bc821b68.pdf",
+      "original_filename": "Planning Commission - 2026 Draft Meeting Schedule",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Draft 2026 Sykesville Planning Commission meeting schedule.",
+      "description": "Draft meeting schedule for the 2026 Planning Commission year. Monthly meetings on the first Monday of each month at Town House, 7547 Main Street: January 5, February 2, March 2, April 6, May 4, June 1, July 6, August 3, September 8 (moved to Tuesday due to Labor Day), October 5, November 2, December 7."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "0c1f37cd9968c21f2d36682cd4fc81b2a4769975fd743199625aa228619720d9",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4811/Staff-Report",
+      "raw_key": "documents/sykesville/by-sha/0c1f37cd9968c21f2d36682cd4fc81b2a4769975fd743199625aa228619720d9.pdf",
+      "original_filename": "Staff Report - 2026 Schedule and Chair/Vice Chair",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for December 1, 2025 PC housekeeping items: 2026 schedule and chair/vice chair nominations.",
+      "description": "Staff report covering two year-end housekeeping items: (1) review and approval of the draft 2026 meeting schedule (first Monday monthly, September moved to Sept 8 for Labor Day); (2) call for 2026 Chair and Vice Chair nominations per the Rules of Procedure. No Chair/Vice Chair vote required at this meeting; vote will be held at the January 2026 meeting."
+    },
+    {
+      "name": "Rules of Procedure",
+      "sha256": "73e21ee1a13de148585bffbb61b81de008156e7d01cf08edd39e2404149d8ecb",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4810/Planning-Commission-Rules-of-Procedure-",
+      "raw_key": "documents/sykesville/by-sha/73e21ee1a13de148585bffbb61b81de008156e7d01cf08edd39e2404149d8ecb.pdf",
+      "original_filename": "Planning Commission - Rules of Procedure",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Town of Sykesville Planning Commission Rules of Procedure.",
+      "description": "Sykesville Planning Commission Rules of Procedure governing conduct of meetings, officer elections (Chair and Vice Chair elected annually at first meeting of the year), quorum (four members), voting, reconsideration, work sessions, and staff relations. Attached as reference for the Chair/Vice Chair discussion."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "77851d49b170d96d462a1836fd807acee5e7c3c6ab718eb6fcf0baec20b90a41",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_12012025-210",
+      "raw_key": "documents/sykesville/by-sha/77851d49b170d96d462a1836fd807acee5e7c3c6ab718eb6fcf0baec20b90a41.pdf",
+      "original_filename": "Planning Commission Agenda - October 6, 2025",
+      "document_type": "AGENDA",
+      "synopsis": "December 1, 2025 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the December 1, 2025 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: approval of October 6, 2025 minutes; 2026 meeting schedule approval; 2026 Chair/Vice Chair nominations discussion; and town updates."
+    }
+  ]
+}

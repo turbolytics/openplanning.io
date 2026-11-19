@@ -1,0 +1,25 @@
+{
+  "version": "zoning_district/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "jurisdiction": "PC",
+  "zoning_districts": [
+    { "code": "C", "name": "Conservation District" },
+    { "code": "R-20000", "name": "Residence District" },
+    { "code": "R-10000", "name": "Suburban Residence District" },
+    { "code": "R-7500", "name": "Urban Residence District" },
+    { "code": "B-L", "name": "Local Business District" },
+    { "code": "B-G", "name": "General Business District" },
+    { "code": "I-R", "name": "Restricted Industrial District" },
+    {
+      "code": "PEC",
+      "name": "Planned Employment Center District",
+      "code_sections": ["180-134", "180-135", "180-136", "180-137", "180-138", "180-139", "180-140", "180-141", "180-142", "180-143", "180-144", "180-145"]
+    },
+    { "code": "H", "name": "Historic District" }
+  ]
+}

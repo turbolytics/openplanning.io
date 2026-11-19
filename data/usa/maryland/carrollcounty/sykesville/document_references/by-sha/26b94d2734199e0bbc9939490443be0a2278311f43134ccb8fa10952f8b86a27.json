@@ -1,0 +1,41 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "26b94d2734199e0bbc9939490443be0a2278311f43134ccb8fa10952f8b86a27",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 380,
+          "end": 388,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-II"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 420,
+          "end": 431,
+          "excerpt": "Application",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - May 5, 2025",
+      "document_type": "AGENDA",
+      "source_url": "https://townofsykesville.org/AgendaCenter/ViewFile/Agenda/_05052025-189",
+      "sha256": "05bdfbb9add59fd8791907049a18035cd8aa6697c87a1e7176005192cf56569f",
+      "raw_key": "documents/sykesville/by-sha/05bdfbb9add59fd8791907049a18035cd8aa6697c87a1e7176005192cf56569f.pdf",
+      "original_filename": "Planning Commission Agenda - May 5, 2025"
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-04-07",
+      "sha256": "d9351857d409d449fb3722070391bf2f6e498f4f8244aa047956331fbd88a31b",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4489/April-7-Minutes",
+      "raw_key": "documents/sykesville/by-sha/d9351857d409d449fb3722070391bf2f6e498f4f8244aa047956331fbd88a31b.pdf",
+      "original_filename": "Minutes - April 7, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the April 7, 2025 Planning Commission meeting.",
+      "description": "PC approved March 3 minutes unanimously. County update from Clare Stewart on Master Plan, Housing Study, and Annual Report. Business: ratified written Parcel B BZA recommendation (unanimous); approved Enclave at Parkside preliminary plan and pattern book (unanimous); French Twist addition introduced (no vote); approved Schoolhouse Road Apartments site plan with labeling corrections (unanimous). Town updates: Parcel B BZA hearing April 29; Station building in permitting; South End Streetscape begun."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "3c8f0ca4f0f50422d986a0b8e7b2d3c11c53a1a97baa5858b1209c6c44884f7b",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4490/PC-Staff-Report-Warfield-Concept-Plan-Update",
+      "raw_key": "documents/sykesville/by-sha/3c8f0ca4f0f50422d986a0b8e7b2d3c11c53a1a97baa5858b1209c6c44884f7b.pdf",
+      "original_filename": "Staff Report - Warfield Concept Plan Update",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for updated Warfield concept plan, recommending deferral due to impermissible ROW inclusion in land use calculations.",
+      "description": "Staff analysis of updated concept plan for Warfield Development (90.57 ac, PEC zone). Finds that the applicant's inclusion of ~12.21 acres of public ROW to satisfy retail and employment land use minimums is impermissible under \u00a7180-139 and Town zoning ordinance. Also notes unresolved HB538 (Housing Expansion and Affordability Act 2024) applicability. Staff recommends postponement pending revised plan excluding ROW and written HB538 clarification. Springfield Avenue realignment approved. Suggested motion provided for PC."
+    },
+    {
+      "name": "Updated Warfield Concept Plan",
+      "sha256": "7f6528514337f830b0974a67ae585a8b34bfacf08e7c976a3bc1827d0b51b7a4",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4491/Warfield---Concept-Plan-Amendment-4-17-2025",
+      "raw_key": "documents/sykesville/by-sha/7f6528514337f830b0974a67ae585a8b34bfacf08e7c976a3bc1827d0b51b7a4.pdf",
+      "original_filename": "Warfield - Concept Plan Amendment (4-17-2025)",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Updated concept plan for the Warfield Development (dated April 17, 2025).",
+      "description": "Revised concept plan for the 90.57-acre Warfield Commerce and Cultural Center (PEC zone) showing updated land use allocations: 18.41 ac office/industrial (including 2.39 ac ROW), 9.82 ac retail/service (entirely in ROW), 30.59 ac residential, 31.75 ac open space. Includes amended Springfield Avenue alignment running south of water tower. Plan references HB538."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "6bfcd508152051cefc0175d6eb4bd996cb232ef3cec8bc338cf8d24a7e05dc82",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_05052025-176",
+      "raw_key": "documents/sykesville/by-sha/6bfcd508152051cefc0175d6eb4bd996cb232ef3cec8bc338cf8d24a7e05dc82.pdf",
+      "original_filename": "05052025 176",
+      "document_type": "AGENDA",
+      "synopsis": "May 5, 2025 Planning Commission meeting agenda.",
+      "description": "Agenda for the May 5, 2025 regular Planning Commission meeting covering approval of April 7 minutes and consideration of the updated Warfield concept plan (staff recommends deferral due to ROW land use calculation issues)."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-05-05",
+      "sha256": "c09781cd358ae3f4ca91a4d771c73e13609777efc0193cd9cbac33781e420eb8",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_05052025-176",
+      "raw_key": "documents/sykesville/by-sha/c09781cd358ae3f4ca91a4d771c73e13609777efc0193cd9cbac33781e420eb8.pdf",
+      "original_filename": "Minutes - May 5, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the May 5, 2025 Planning Commission meeting.",
+      "description": "Full PC present. April 7 minutes approved unanimously (motion incorrectly reads 'March 3' in the official record). Business: Warfield updated concept plan presented by Dave Bowersox, Sean Davis (MRA), and Tom Cole (HB538 counsel). PC voted unanimously to continue to July 2025 pending revised plan excluding ROW from land use calculations and written HB538 explanation. Town updates: Station building received HDC approval and site plan submitted; South End Streetscape underway; Parcel B developers need PC-approved concept plan before County work. Public comment by Dan Andersen questioning development consideration."
+    }
+  ]
+}

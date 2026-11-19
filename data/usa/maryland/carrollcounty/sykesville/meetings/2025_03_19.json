@@ -1,0 +1,37 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "date": "2025-03-19",
+      "time": "13:00",
+      "location": "Town House Conference Room, 7547 Main Street, Sykesville, MD 21784",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Presentation - Board of Appeals Training",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "BZA",
+            "title": "Presentation - Board of Appeals Training"
+          }
+        },
+        {
+          "order": 2,
+          "title": "Consider/Discuss/Act on proposed Board of Appeals Rules of Procedure",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "BZA",
+            "title": "Consider/Discuss/Act on proposed Rules of Procedure"
+          }
+        }
+      ]
+    }
+  ]
+}

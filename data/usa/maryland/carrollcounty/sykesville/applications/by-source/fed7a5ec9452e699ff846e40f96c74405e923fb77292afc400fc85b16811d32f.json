@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-04-29",
+    "source_document_sha256": "fed7a5ec9452e699ff846e40f96c74405e923fb77292afc400fc85b16811d32f"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Discussion and Feedback - PEC Amendment Process Proposal",
+      "fields": {
+        "date_received": "2026-04-06",
+        "next_hearing_date": "2026-04-06",
+        "applicant": "Thrive at Warfield"
+      },
+      "retract": []
+    }
+  ]
+}

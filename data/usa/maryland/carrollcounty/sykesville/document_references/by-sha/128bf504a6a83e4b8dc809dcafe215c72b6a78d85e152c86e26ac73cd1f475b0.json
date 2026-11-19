@@ -1,0 +1,101 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "128bf504a6a83e4b8dc809dcafe215c72b6a78d85e152c86e26ac73cd1f475b0",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 213,
+          "end": 216,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 599,
+          "end": 602,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-95"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 750,
+          "end": 757,
+          "excerpt": "\u00a7180-95",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 2315,
+          "end": 2318,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 2592,
+          "end": 2595,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 2776,
+          "end": 2779,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 2783,
+          "end": 2817,
+          "excerpt": "Planned Employment Center District",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

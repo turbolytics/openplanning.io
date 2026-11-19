@@ -1,0 +1,104 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "0fb90835af646e98586e97dcc06e7c56873ca74e034934b3cabb260f9bd1e15e",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7306",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7549"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 711,
+          "end": 734,
+          "excerpt": "7306 Springfield Avenue",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 841,
+          "end": 844,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-G"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 867,
+          "end": 870,
+          "excerpt": "B-G",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1120,
+          "end": 1123,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1628,
+          "end": 1631,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-G"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1635,
+          "end": 1637,
+          "excerpt": "BG",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1758,
+          "end": 1761,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

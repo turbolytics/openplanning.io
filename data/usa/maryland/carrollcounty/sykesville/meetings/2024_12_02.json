@@ -1,0 +1,43 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-12-02",
+      "time": "19:00",
+      "location": "Town House Conference Room",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - November 4, 2024",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES"
+        },
+        {
+          "order": 3,
+          "title": "Projects Update",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Upcoming Projects Review and Updates"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

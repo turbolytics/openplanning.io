@@ -1,0 +1,294 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "3c8f0ca4f0f50422d986a0b8e7b2d3c11c53a1a97baa5858b1209c6c44884f7b",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 101,
+          "end": 109,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 170,
+          "end": 173,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 291,
+          "end": 299,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 451,
+          "end": 454,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 549,
+          "end": 567,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1866,
+          "end": 1869,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3958,
+          "end": 3976,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 4046,
+          "end": 4054,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4104,
+          "end": 4116,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4256,
+          "end": 4268,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 4588,
+          "end": 4591,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 6776,
+          "end": 6784,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 6865,
+          "end": 6868,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 7089,
+          "end": 7092,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 7645,
+          "end": 7648,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 8458,
+          "end": 8466,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 8480,
+          "end": 8483,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 8704,
+          "end": 8707,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 8827,
+          "end": 8835,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 9107,
+          "end": 9110,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 9593,
+          "end": 9601,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 9678,
+          "end": 9681,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 9733,
+          "end": 9741,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "4a5e734953b3fc5e53fc94541a9aacd0ca21000138f95b8dd03adc0be2eb22e8",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 0,
+          "end": 18,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-144"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2042,
+          "end": 2058,
+          "excerpt": "approval process",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 3613,
+          "end": 3621,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

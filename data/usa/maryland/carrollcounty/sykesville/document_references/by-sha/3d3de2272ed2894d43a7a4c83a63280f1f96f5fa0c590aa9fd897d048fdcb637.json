@@ -1,0 +1,92 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "3d3de2272ed2894d43a7a4c83a63280f1f96f5fa0c590aa9fd897d048fdcb637",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 145,
+          "end": 161,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 290,
+          "end": 306,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 398,
+          "end": 406,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 753,
+          "end": 769,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 887,
+          "end": 903,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 977,
+          "end": 985,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

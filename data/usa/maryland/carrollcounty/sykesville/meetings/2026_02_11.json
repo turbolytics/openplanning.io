@@ -1,0 +1,28 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "date": "2026-02-11",
+      "time": "18:00",
+      "location": "7547 Main Street - Town House",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Continuation of Case #2025-03: Request for a variance of the adopted land use percentages in the Planned Employment Center District of the Town of Sykesville zoning code",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "BZA",
+            "file_number": "2025-03"
+          }
+        }
+      ]
+    }
+  ]
+}

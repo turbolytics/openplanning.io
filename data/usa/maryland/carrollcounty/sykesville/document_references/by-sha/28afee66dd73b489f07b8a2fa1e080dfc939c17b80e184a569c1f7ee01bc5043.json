@@ -1,0 +1,81 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "28afee66dd73b489f07b8a2fa1e080dfc939c17b80e184a569c1f7ee01bc5043",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 17,
+          "end": 33,
+          "excerpt": "BOARD OF APPEALS",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 192,
+          "end": 208,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-108"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1170,
+          "end": 1178,
+          "excerpt": "hearings",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-108"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1815,
+          "end": 1823,
+          "excerpt": "hearings",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2650,
+          "end": 2666,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

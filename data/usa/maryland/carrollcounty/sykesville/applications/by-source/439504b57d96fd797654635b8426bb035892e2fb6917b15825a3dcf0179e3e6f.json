@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-07-07",
+    "source_document_sha256": "439504b57d96fd797654635b8426bb035892e2fb6917b15825a3dcf0179e3e6f"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Review and vote on approval of the draft Water Resource Element to be sent to Maryland",
+      "fields": {
+        "date_received": "2025-07-07",
+        "next_hearing_date": "2025-07-07"
+      },
+      "retract": []
+    }
+  ]
+}

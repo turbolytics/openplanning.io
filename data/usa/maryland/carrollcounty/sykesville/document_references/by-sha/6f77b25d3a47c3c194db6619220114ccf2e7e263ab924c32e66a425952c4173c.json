@@ -1,0 +1,168 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "6f77b25d3a47c3c194db6619220114ccf2e7e263ab924c32e66a425952c4173c",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 4642,
+          "end": 4665,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "6933",
+            "street_name": "WARFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7454"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 9714,
+          "end": 9731,
+          "excerpt": "6933 WARFIELD AVE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "6933",
+            "street_name": "WARFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7454"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 11186,
+          "end": 11203,
+          "excerpt": "6933 WARFIELD AVE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 22914,
+          "end": 22916,
+          "excerpt": "BL",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 26321,
+          "end": 26344,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 31800,
+          "end": 31823,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 39508,
+          "end": 39510,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 43816,
+          "end": 43839,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 50461,
+          "end": 50484,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7448",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 58825,
+          "end": 58848,
+          "excerpt": "7448 SPRINGFIELD AVENUE",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

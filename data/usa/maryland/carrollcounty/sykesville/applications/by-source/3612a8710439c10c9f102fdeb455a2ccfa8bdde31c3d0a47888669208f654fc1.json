@@ -1,0 +1,26 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-04-29",
+    "source_document_sha256": "3612a8710439c10c9f102fdeb455a2ccfa8bdde31c3d0a47888669208f654fc1"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "file_number": "2025-04",
+      "title": "Appeal of Town Manager\u2019s decision and determination of the required process for a",
+      "fields": {
+        "date_received": "2026-02-24",
+        "next_hearing_date": "2026-02-24",
+        "applicant": "Thrive at Warfield"
+      },
+      "retract": []
+    }
+  ]
+}

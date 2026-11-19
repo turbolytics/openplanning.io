@@ -1,0 +1,131 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Staff Report",
+      "sha256": "1b1917345bf3ee9044a6d25c8e7109051adb5d85229868c33131c16439d4535a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4755/1-Warfield-Variance-Staff-Report-10292025",
+      "raw_key": "documents/sykesville/by-sha/1b1917345bf3ee9044a6d25c8e7109051adb5d85229868c33131c16439d4535a.pdf",
+      "original_filename": "1 Warfield Variance Staff Report 10292025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for BZA Case #2025-03: Warfield Companies variance request to reduce PEC land use percentage minimums for office/industrial and retail/service categories. Staff recommends denial citing lack of hardship and conflict with PEC district employment objectives."
+    },
+    {
+      "name": "Process and Opening Statement",
+      "sha256": "bba68954afae1edcd895d9f66c2b9dd6d82bcafca0e4a2f28a6e5668b0774385",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4756/2025-03-Process-and-opening-statement",
+      "raw_key": "documents/sykesville/by-sha/bba68954afae1edcd895d9f66c2b9dd6d82bcafca0e4a2f28a6e5668b0774385.pdf",
+      "original_filename": "2025 03 Process and opening statement",
+      "document_type": "OTHER",
+      "synopsis": "Process and opening statement for BZA Case #2025-03 (Warfield variance request), outlining procedural rules for the October 29, 2025 hearing."
+    },
+    {
+      "name": "Application",
+      "sha256": "e1f517c041b0a93516f74157ce13775f5d17b967fee10dfb9479fa4262095831",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4757/BZA-Case-2025-03-Cover-Letter-and-Application",
+      "raw_key": "documents/sykesville/by-sha/e1f517c041b0a93516f74157ce13775f5d17b967fee10dfb9479fa4262095831.pdf",
+      "original_filename": "BZA Case 2025 03 Cover Letter and Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "BZA application filed by Warfield Companies for Case #2025-03, requesting variance from PEC land use percentage requirements in \u00a7180-139. Property is Warfield at Historic Sykesville, ~90.57 acres, PEC zone, Tax Map 200, Block 5."
+    },
+    {
+      "name": "Warfield Concept Plan with Variance",
+      "sha256": "e45dcb5790f9f9926266a080861580eab9922afbf52d850958fdbc23dbac5eb3",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4754/BZA-Variance-Warfield-Concept-Plan-9-2-2025-1",
+      "raw_key": "documents/sykesville/by-sha/e45dcb5790f9f9926266a080861580eab9922afbf52d850958fdbc23dbac5eb3.pdf",
+      "original_filename": "BZA Variance Warfield Concept Plan 9 2 2025 1",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Warfield concept plan dated September 2, 2025, submitted with the BZA variance request (Case #2025-03) showing proposed land use layout under the requested reduced PEC percentages."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "0cfa29b90e2b616f73bf8bd56c81aedd88187d198be992946391f98fbd9484bd",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4751/1-PC-Appeal-Staff-Report-10292025",
+      "raw_key": "documents/sykesville/by-sha/0cfa29b90e2b616f73bf8bd56c81aedd88187d198be992946391f98fbd9484bd.pdf",
+      "original_filename": "1 PC Appeal Staff Report 10292025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for BZA Case #2025-02: appeal of the Planning Commission's July 7, 2025 unanimous denial of the Warfield Concept Plan for re-subdivision. Staff recommends denial of appeal; PC acted within authority citing \u00a7180-139 land use percentage violations."
+    },
+    {
+      "name": "Process and Opening Statement",
+      "sha256": "b905d8c1b77a60228cba1d8829edc9ae5c2f501d40091b236fbd5508bc4a7bae",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4752/2025-02-Process-and-opening-statement",
+      "raw_key": "documents/sykesville/by-sha/b905d8c1b77a60228cba1d8829edc9ae5c2f501d40091b236fbd5508bc4a7bae.pdf",
+      "original_filename": "2025 02 Process and opening statement",
+      "document_type": "OTHER",
+      "synopsis": "Process and opening statement for BZA Case #2025-02 (Warfield PC appeal), outlining procedural rules for the October 29, 2025 hearing."
+    },
+    {
+      "name": "Application",
+      "sha256": "d6d51330e3222820a3bb770af77ef82208f0d3caed8c56fa2c4e677d16b58ca3",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4753/BZA-Case-2025-02-Cover-Letter-and-Application",
+      "raw_key": "documents/sykesville/by-sha/d6d51330e3222820a3bb770af77ef82208f0d3caed8c56fa2c4e677d16b58ca3.pdf",
+      "original_filename": "BZA Case 2025 02 Cover Letter and Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "BZA application by Warfield Companies for Case #2025-02, appealing the Planning Commission's July 7, 2025 denial of the Warfield Concept Plan for re-subdivision of Warfield Commerce and Cultural Center as arbitrary, capricious, and legally erroneous."
+    },
+    {
+      "name": "Planning Commission Letter to Applicant re: Denial of Concept Plan",
+      "sha256": "948d2820f66c4560c9f796c60e3aedf541996c33960d819994fff8bede0f5ff5",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4750/Letter-to-applicant--Denial-of-Concept-Plan",
+      "raw_key": "documents/sykesville/by-sha/948d2820f66c4560c9f796c60e3aedf541996c33960d819994fff8bede0f5ff5.pdf",
+      "original_filename": "Letter to applicant  Denial of Concept Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "August 7, 2025 letter from Planning Commission Chair Phil Singleton to Warfield Companies confirming the PC's July 7, 2025 denial of the Warfield Concept Plan for re-subdivision and the bases for that decision."
+    },
+    {
+      "name": "Letter from Town Lawyer re: Jurisdiction",
+      "sha256": "127177d0233194989498264f76a7d31c6cdde1caec9c60d8e2be7f196a8818c4",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4762/2025-1021-Letter-to-BZA-_-jurisdiction-over-applications",
+      "raw_key": "documents/sykesville/by-sha/127177d0233194989498264f76a7d31c6cdde1caec9c60d8e2be7f196a8818c4.pdf",
+      "original_filename": "2025 1021 Letter to BZA   jurisdiction over applications",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "October 21, 2025 letter from Town Attorney Elissa Levan (Levan Ruff, LLC) advising the BZA that it lacks jurisdiction over Cases #2025-02 (PC appeal) and #2025-04 (Town Manager appeal). BZA may only hear appeals of administrative officials, not PC decisions or ministerial TM acts."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "3612a8710439c10c9f102fdeb455a2ccfa8bdde31c3d0a47888669208f654fc1",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4759/1-TM-Appeal-Staff-Report-10292025",
+      "raw_key": "documents/sykesville/by-sha/3612a8710439c10c9f102fdeb455a2ccfa8bdde31c3d0a47888669208f654fc1.pdf",
+      "original_filename": "1 TM Appeal Staff Report 10292025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for BZA Case #2025-04: appeal of the Town Manager's August 28, 2025 determination that Warfield's Parcel B site development plan requires a full three-step PEC amendment process. Staff recommends denial; \u00a7180-144(B) leaves no discretion."
+    },
+    {
+      "name": "Process and Opening Statement",
+      "sha256": "0928d37c49c0e7a772473bb9057ff36a430b3f7df67937f3ccb05733a8e10589",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4760/2025-04-Process-and-opening-statement",
+      "document_type": "OTHER",
+      "synopsis": "Process and opening statement for BZA Case #2025-04 (Warfield Town Manager appeal), outlining procedural rules for the October 29, 2025 hearing."
+    },
+    {
+      "name": "Application",
+      "sha256": "664f76de23e781171f930526c041fb2e9477e8cc75c19f6e1595939acf97946f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4761/BZA-Case-2025-04-Cover-Letter-and-Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "BZA application by Warfield Companies for Case #2025-04, appealing the Town Manager's August 28, 2025 letter requiring the full PEC three-step approval process for the Parcel B site development plan."
+    },
+    {
+      "name": "Letter from Town Manager to Applicant",
+      "sha256": "2734fa43b47d90b4ae19b5107682d861c9f24f596c99c55fe85e8b0706a66048",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4758/Letter-from-Staff-to-Applicant",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "August 28, 2025 letter from Town Manager to Warfield Companies advising that any amendment to the Warfield PEC plan must go through the full three-step process (Concept, Preliminary, Final) per \u00a7180-144(B)."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "daea6c89a82e81fb47e3a55f4c013efd976df5fca3535b42b4b2b455e20a3683",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_10292025-205",
+      "raw_key": "documents/sykesville/by-sha/daea6c89a82e81fb47e3a55f4c013efd976df5fca3535b42b4b2b455e20a3683.pdf",
+      "original_filename": "10292025 205",
+      "document_type": "AGENDA",
+      "synopsis": "Board of Zoning Appeals agenda for October 29, 2025. Three Warfield cases: variance request (2025-03) to reduce PEC land use minimums, appeal of PC concept plan denial (2025-02), and appeal of Town Manager process determination (2025-04). Staff recommends denial of all three."
+    }
+  ]
+}

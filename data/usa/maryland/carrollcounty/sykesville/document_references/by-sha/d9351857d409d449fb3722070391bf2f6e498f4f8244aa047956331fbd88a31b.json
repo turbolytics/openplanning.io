@@ -1,0 +1,79 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "d9351857d409d449fb3722070391bf2f6e498f4f8244aa047956331fbd88a31b",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 0,
+          "end": 18,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1256,
+          "end": 1272,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 1346,
+          "end": 1354,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1506,
+          "end": 1518,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2733,
+          "end": 2745,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

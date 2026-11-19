@@ -1,0 +1,47 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2026-03-02",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House Conference Room",
+      "minutes_approved_from": {
+        "jurisdiction_abbreviation": "PC",
+        "date": "2026-02-02"
+      },
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES"
+        },
+        {
+          "order": 2,
+          "title": "Approval of Minutes - February 2, 2026",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 3,
+          "title": "Consider/Discuss/Act on a Site Plan for 7488 Springfield Avenue",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Site Plan - 7448 Springfield Avenue"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

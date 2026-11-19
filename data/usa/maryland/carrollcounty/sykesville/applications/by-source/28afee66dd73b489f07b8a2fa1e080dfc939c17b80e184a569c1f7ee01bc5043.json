@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-03-19",
+    "source_document_sha256": "28afee66dd73b489f07b8a2fa1e080dfc939c17b80e184a569c1f7ee01bc5043"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "title": "Consider/Discuss/Act on proposed Rules of Procedure",
+      "fields": {
+        "date_received": "2025-03-19",
+        "next_hearing_date": "2025-03-19"
+      },
+      "retract": []
+    }
+  ]
+}

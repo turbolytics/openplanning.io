@@ -1,0 +1,21 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Agenda",
+      "sha256": "772286668d283db58c926838ae6efd8111dd45d9b2b90813e10e866d487d46f4",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_06172025-184",
+      "raw_key": "documents/sykesville/by-sha/772286668d283db58c926838ae6efd8111dd45d9b2b90813e10e866d487d46f4.pdf",
+      "original_filename": "06172025 184",
+      "document_type": "AGENDA",
+      "synopsis": "June 17, 2025 Planning Commission Workshop agenda \u2014 discussion of HB538.",
+      "description": "Single-item workshop agenda for the Planning Commission to discuss House Bill 538 (Housing Expansion and Affordability Act of 2024) and its implications for the Warfield Development and the PEC district. No formal business items or votes."
+    }
+  ]
+}

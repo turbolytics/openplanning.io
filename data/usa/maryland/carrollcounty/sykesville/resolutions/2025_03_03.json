@@ -1,0 +1,26 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Conditional Use Request for Assisted Living - Warfield Parcel B"
+      },
+      "body": "Planning Commission",
+      "date": "2025-03-03",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Provide an updated traffic study that includes the future development of the Warfield Complex and the Enclave at Parkside.",
+        "Provide average annual emergency service calls to a similarly sized facility.",
+        "Strict adherence to the 'Warfield Commercial Center: New Construction Design Guidelines and Standards for Signs' (2017 Edition)."
+      ]
+    }
+  ]
+}

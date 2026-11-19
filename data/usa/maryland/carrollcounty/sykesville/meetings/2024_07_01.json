@@ -1,0 +1,47 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-07-01",
+      "time": "19:00",
+      "location": "Town House Conference Room, 7547 Main Street",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - May 6, 2024, Minutes",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Carroll County Updates"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Ongoing Projects Review and Updates",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Ongoing Projects Review and Updates"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

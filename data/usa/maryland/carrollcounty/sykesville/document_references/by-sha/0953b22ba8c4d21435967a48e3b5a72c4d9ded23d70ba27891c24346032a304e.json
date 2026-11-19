@@ -1,0 +1,77 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "0953b22ba8c4d21435967a48e3b5a72c4d9ded23d70ba27891c24346032a304e",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 0,
+          "end": 18,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Michael Baker International"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 475,
+          "end": 502,
+          "excerpt": "Michael Baker International",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "B.F. Shriver Cannery Reuse Master Plan"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 521,
+          "end": 559,
+          "excerpt": "B.F. Shriver Cannery Reuse Master Plan",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-IV"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1093,
+          "end": 1111,
+          "excerpt": "General Provisions",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "B.F. Shriver Cannery Reuse Master Plan"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project_title",
+          "start": 0,
+          "end": 38,
+          "excerpt": "B.F. Shriver Cannery Reuse Master Plan",
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}

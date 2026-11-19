@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-11-19",
+    "source_document_sha256": "489c1dceb177ea33e879e982ff9b4aaa461b6fd35af04272c661ba8585e639b0"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "file_number": "2025-05",
+      "title": "Conditional Use Request for Warehouse at 7452 Springfield Ave",
+      "fields": {
+        "date_received": "2025-11-19",
+        "next_hearing_date": "2025-11-19",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

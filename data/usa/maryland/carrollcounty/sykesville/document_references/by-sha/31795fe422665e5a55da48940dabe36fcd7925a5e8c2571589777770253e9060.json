@@ -1,0 +1,28 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "31795fe422665e5a55da48940dabe36fcd7925a5e8c2571589777770253e9060",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 12489,
+          "end": 12497,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

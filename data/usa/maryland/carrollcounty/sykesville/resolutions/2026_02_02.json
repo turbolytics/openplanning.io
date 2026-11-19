@@ -1,0 +1,35 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "2025 MDP Annual Report submittal"
+      },
+      "body": "Planning Commission",
+      "date": "2026-02-02",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Election of 2026 Chair and Vice Chair"
+      },
+      "body": "Planning Commission",
+      "date": "2026-02-02",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Commissioner Mican elected as 2026 Chairperson.",
+        "Commissioner Singleton elected as 2026 Vice Chairperson."
+      ]
+    }
+  ]
+}

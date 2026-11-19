@@ -1,0 +1,54 @@
+{
+  "version": "parcel/v1",
+  "source": {
+    "provider": "sykesville-seed",
+    "dataset": "supplementary",
+    "refreshed_at": "2026-05-03"
+  },
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "parcels": [
+    {
+      "parcel_id": "0078-0017",
+      "city": "Sykesville",
+      "zip_code": "21784",
+      "map_number": "0078",
+      "acreage": 23.68,
+      "zoning_code": "PEC",
+      "street_number": "",
+      "street_name": "Enclave at Parkside",
+      "street_suffix": ""
+    },
+    {
+      "parcel_id": "0689",
+      "city": "Sykesville",
+      "zip_code": "21784",
+      "zoning_code": "PEC",
+      "street_number": "",
+      "street_name": "Warfield Parcel B",
+      "street_suffix": ""
+    },
+    {
+      "parcel_id": "4454",
+      "city": "Sykesville",
+      "zip_code": "21784",
+      "zoning_code": "C",
+      "street_number": "",
+      "street_name": "Schoolhouse Overlook",
+      "street_suffix": ""
+    },
+    {
+      "parcel_id": "4452",
+      "city": "Sykesville",
+      "zip_code": "21784",
+      "zoning_code": "R-10000",
+      "street_number": "",
+      "street_name": "Schoolhouse Road Apartments",
+      "street_suffix": ""
+    }
+  ]
+}

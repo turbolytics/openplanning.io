@@ -1,0 +1,88 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - April 1, 2024",
+      "document_type": "AGENDA",
+      "source_url": "https://www.townofsykesville.org/AgendaCenter/ViewFile/Agenda/_04012024-135",
+      "sha256": "bfc4d5ecb30c129eaeb24356d68d1e1d4a55d18daa49a92f31dcb964c395122f",
+      "raw_key": "documents/sykesville/by-sha/bfc4d5ecb30c129eaeb24356d68d1e1d4a55d18daa49a92f31dcb964c395122f.pdf",
+      "original_filename": "Planning Commission Agenda - April 1, 2024"
+    },
+    {
+      "name": "Planning Commission Minutes February 5 2024",
+      "sha256": "5657fa5352f422e3775a77b55751bf02b7d7ac688fcbccb895804800e344a256",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3907/Planning-Commission---Minutes---February-5-2024",
+      "raw_key": "documents/sykesville/by-sha/5657fa5352f422e3775a77b55751bf02b7d7ac688fcbccb895804800e344a256.pdf",
+      "original_filename": "Minutes - February 5, 2024",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 5, 2024 Sykesville Planning Commission meeting. The Commission closed the Enclave at Parkside public hearing, reviewed developer responses to staff comments, declined to grant conditional approval, and approved the 2023 Annual Report.",
+      "description": "January 2 minutes approved unanimously. Business: (1) Enclave at Parkside \u2014 public hearing closed unanimously; developer addressed staff comments (5 ft end unit setback retained, building separations kept as proposed, Note 33 to follow code); developer requested conditional approval but Commission was not ready to act. (2) 2023 Annual Report approved unanimously. Town updates: Joy Property B-L zone text amendment approved by Mayor and Town Council; College Avenue stop work order; Zoning Rewrite progressing. Adjourned 7:40 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "d618e6f154444704870591416a87f4bb87e7005096977b301593230f3e3bc004",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3908/Staff-Report---County",
+      "raw_key": "documents/sykesville/by-sha/d618e6f154444704870591416a87f4bb87e7005096977b301593230f3e3bc004.pdf",
+      "original_filename": "County Updates - Staff Report (April 1, 2024)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for the April 1, 2024 PC meeting covering Water and Sewer, Housing Study, and 2023 Annual Report updates.",
+      "description": "County updates: (1) Water and Sewer: Spring Amendment cycle finalizing \u2014 6 amendments in process, County PC certifying/forwarding to BCC at 4/16 meeting; BCC expected to adopt in May and forward to MDE. (2) Housing Study: final setup for website, survey, and community needs assessment meetings in April-May; Mosaic Community Planning facilitating; study completion targeted for fall. (3) 2023 Annual Report: compiling county and municipal information, due to MDP by July 1."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "5b3de0ca3697c97c7ed91be86bbb3a4477b1ef76344f72a31b2844b032cd77a8",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3911/Staff-Report-7503-Village-Rd",
+      "raw_key": "documents/sykesville/by-sha/5b3de0ca3697c97c7ed91be86bbb3a4477b1ef76344f72a31b2844b032cd77a8.pdf",
+      "original_filename": "Staff Report - 7503 Village Rd Site Plan",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the April 1, 2024 Planning Commission site plan review for 7503 Village Rd (Parcel 4406-2, B-L), converting a convenience store to a barber shop. Staff recommends approval with a parking size modification for 8 sub-standard spaces.",
+      "description": "The applicant proposes to convert a 2,000 sq ft convenience store to a barber shop at 7503 Village Rd. The B-L zone allows barber shops as a principal permitted use; \u00a7180-95 requires Planning Commission site plan approval. The site has operated with the same layout since the early 1980s. The site plan shows 13 spaces (4 standard 9x20, 1 handicap, 8 sub-standard 9x17.5 along the perimeter). No minimum parking is required for the proposed use. Staff recommends approval plus authorization of a parking size modification for the 8 sub-standard spaces, noting the Town Code permits the Planning Commission to waive parking standards in the B-L zone where adequate parking exists."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "f636515202c2603daaf6c924781d0b8b6d288e7dd455065f60825117e0ba8bc8",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3910/Robs-Barber-Shop-Site-Plan",
+      "raw_key": "documents/sykesville/by-sha/f636515202c2603daaf6c924781d0b8b6d288e7dd455065f60825117e0ba8bc8.pdf",
+      "original_filename": "Rob's Barber Shop - Site Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Exterior site plan for the proposed barber shop at 7503 Village Rd, showing the existing parking layout, building footprint, and proposed parking restriping.",
+      "description": "Site plan drawing for 7503 Village Rd showing the 2,000 sq ft building, 13 parking spaces (4 standard 9x20, 1 handicap, 8 sub-standard 9x17.5 along the perimeter), and proposed restriping of the front spaces to provide a handicap accessible space. No changes to the exterior site layout are proposed beyond the parking restriping."
+    },
+    {
+      "name": "Interior Site Plan",
+      "sha256": "92d2a05061521acf3ac59bd2222e34810deddf99162fcb1923251b4a27265b9f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3909/Interior-Robs-Barber-Shop-Site-Plan",
+      "raw_key": "documents/sykesville/by-sha/92d2a05061521acf3ac59bd2222e34810deddf99162fcb1923251b4a27265b9f.pdf",
+      "original_filename": "Rob's Barber Shop - Interior Site Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Interior layout plan for the proposed barber shop conversion at 7503 Village Rd, showing the proposed interior arrangement of the 2,000 sq ft space.",
+      "description": "Interior floor plan for the barber shop proposed at 7503 Village Rd, showing the conversion of the existing convenience store space. All major modifications are interior; the exterior building footprint and site layout remain unchanged."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "ad008e493184db0980fb0d1f7cac425b033eef37d514e2854f90da06677983f9",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_04012024-117",
+      "raw_key": "documents/sykesville/by-sha/ad008e493184db0980fb0d1f7cac425b033eef37d514e2854f90da06677983f9.pdf",
+      "original_filename": "04012024 117",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for April 1, 2024. Business item: site plan review for 7503 Village Rd (Rob's Barber Shop), converting a convenience store to a barber shop in the B-L zone.",
+      "description": "Agenda for the April 1, 2024 Sykesville Planning Commission meeting at Town House. Items: February 5, 2024 minutes approval, Carroll County updates, site plan review for 7503 Village Rd barber shop conversion (Parcel 4406-2, B-L), and Town updates."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-04-01",
+      "sha256": "dc3f248544f9ae523bd14bd38f2f910d89ac8eb3fbe0053e6552eee36ce7a477",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_04012024-117",
+      "raw_key": "documents/sykesville/by-sha/dc3f248544f9ae523bd14bd38f2f910d89ac8eb3fbe0053e6552eee36ce7a477.pdf",
+      "original_filename": "04012024 117",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the April 1, 2024 Sykesville Planning Commission meeting. Site plan for 7503 Village Road (conversion from convenience store to barber shop) approved with parking modification condition. Town updates: Enclave at Parkside awaiting stormwater approval; Joy Property BZA approved conditional use for automobile service garage on March 27."
+    }
+  ]
+}

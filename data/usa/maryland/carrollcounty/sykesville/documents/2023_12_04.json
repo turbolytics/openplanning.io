@@ -1,0 +1,79 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - December 4, 2023",
+      "sha256": "f680c7402c553e55656b38cf1105cffb2aa1ad3e710108606d0e90d72650525d",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_12042023-99",
+      "raw_key": "documents/sykesville/by-sha/f680c7402c553e55656b38cf1105cffb2aa1ad3e710108606d0e90d72650525d.pdf",
+      "original_filename": "12042023 99",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the December 4, 2023 Sykesville Planning Commission meeting. The Commission voted to recommend against the B-L to B-G rezone for 7306 Springfield Ave. and instead recommended a B-L zone text amendment to allow automobile service garages as a conditional use.",
+      "description": "The December 4, 2023 meeting was presided over by Co-chair Smith (Chair Singleton absent). November 6 minutes approved unanimously. Business: (1) Rezone Petition for 7306 Springfield Ave. (Joy Property) \u2014 after further discussion with the applicant's counsel (who proposed a 3-bay threshold for permitted vs. conditional use), the Commission voted unanimously to recommend against the B-L to B-G rezone and instead recommend that the Mayor and Town Council modify the B-L zone to allow automobile service garages as a conditional use. (2) 2024 Meeting Schedule approved (Enslow abstained; all others in favor). Town updates: Enclave at Parkside and Schoolhouse Overlook still under county review. Adjourned 7:45 PM."
+    },
+    {
+      "name": "Planning Commission Minutes November 6 2023",
+      "sha256": "3d2413e5b67b8f9c9a7965df6f85da8524e16a042a27607ca6c1156345b711d3",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3696/Planning-Commission---Minutes---November-6-2023",
+      "raw_key": "documents/sykesville/by-sha/3d2413e5b67b8f9c9a7965df6f85da8524e16a042a27607ca6c1156345b711d3.pdf",
+      "original_filename": "Minutes - November 6, 2023",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the November 6, 2023 Sykesville Planning Commission meeting.",
+      "description": "Records the PC's discussion of the 7306 Springfield Ave. rezone petition, in which the Commission was more favorable toward modifying the B-L zone to add service garages as a conditional use rather than rezoning. The Commission asked the applicant to return in December for further discussion and directed staff to prepare additional information. Includes approval of August 7, 2023 minutes and town updates on Main Street repaving and the Rezoning Committee."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "14f00c77ad1e9b2729cc3e34fe50ea4bd6ef488385ea3aa401c9002ca77a5086",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3700/County---Staff-Updates",
+      "raw_key": "documents/sykesville/by-sha/14f00c77ad1e9b2729cc3e34fe50ea4bd6ef488385ea3aa401c9002ca77a5086.pdf",
+      "original_filename": "County Updates - Staff Report (December 4, 2023)",
+      "document_type": "OTHER",
+      "synopsis": "Carroll County planning and transportation staff updates presented to the Sykesville Planning Commission on December 4, 2023.",
+      "description": "County staff updates covering ongoing planning and transportation initiatives in Carroll County relevant to Sykesville, including references to the Carroll County Transportation Master Plan and the Carroll County Economic Development Land Use Study."
+    },
+    {
+      "name": "Staff Report & Supporting Documents",
+      "sha256": "66aab4abe2cab96da959c105527027970dfd07e3b195488c845a43f6fb768d87",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3701/Staff-Report-and-Supporting-Docs-",
+      "raw_key": "documents/sykesville/by-sha/66aab4abe2cab96da959c105527027970dfd07e3b195488c845a43f6fb768d87.pdf",
+      "original_filename": "Staff Report - Rezone Petition 7306 Springfield Ave",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the December 4, 2023 Planning Commission meeting on the rezone petition for 7306 Springfield Ave. (Joy Property), requesting a change from B-L to B-G to permit an automobile service garage.",
+      "description": "Presents the background, analysis, and three options for PC action on the rezone petition: (1) deny the petition, (2) recommend approval of rezone from B-L to B-G, or (3) recommend a B-L text amendment adding service garages as a conditional use. The report analyzes the applicant's arguments regarding original zoning error, neighborhood character change, and Comprehensive Plan consistency under Code \u00a7180-116. Staff does not make a recommendation and asks the PC for direction on how to draft the formal report. Includes supporting documents showing B-L and B-G use tables."
+    },
+    {
+      "name": "Zoning Petition",
+      "sha256": "9518fa4e4ce6e37735fbf1a47213ede5a3544faa3807477afcd5c3c902c7211c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3663/Rezoning-Petition---7306-Springfield-Ave",
+      "raw_key": "documents/sykesville/by-sha/9518fa4e4ce6e37735fbf1a47213ede5a3544faa3807477afcd5c3c902c7211c.pdf",
+      "original_filename": "Rezoning Petition - 7306 Springfield Ave",
+      "document_type": "OTHER",
+      "synopsis": "Formal rezoning petition submitted by the owners of 7306 Springfield Ave. requesting a change from Business Local (B-L) to Business General (B-G) zoning.",
+      "description": "The petition makes three arguments supporting the rezone: (1) an error or mistake in the original zoning designation, (2) changes in the character of the surrounding neighborhood including new residential development at Warfield and intersection improvements at Springfield Ave. and Rt. 32, and (3) consistency with the Town's Comprehensive Plan for the Springfield Ave. and Spout Hill gateway area."
+    },
+    {
+      "name": "2024 Meeting Schedule",
+      "sha256": "db7c23848cef274b6b0021e85053ace30c643bfcc5b976ec1c7347f4883549a7",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3697/Planning-Commission---2024-Schedule",
+      "raw_key": "documents/sykesville/by-sha/db7c23848cef274b6b0021e85053ace30c643bfcc5b976ec1c7347f4883549a7.pdf",
+      "original_filename": "Planning Commission - 2024 Meeting Schedule",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Planning Commission meeting schedule for calendar year 2024.",
+      "description": "Lists the proposed monthly meeting dates for the Sykesville Planning Commission in 2024, submitted for approval at the December 4, 2023 meeting."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "706fe3cd602b414c16eb587f7633707c681680a292900f6ffc2827220bec0d03",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_12042023-99",
+      "raw_key": "documents/sykesville/by-sha/706fe3cd602b414c16eb587f7633707c681680a292900f6ffc2827220bec0d03.pdf",
+      "original_filename": "12042023 99",
+      "document_type": "AGENDA"
+    }
+  ]
+}

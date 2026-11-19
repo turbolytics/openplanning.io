@@ -1,0 +1,81 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Staff Report",
+      "sha256": "3612a8710439c10c9f102fdeb455a2ccfa8bdde31c3d0a47888669208f654fc1",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4759/1-TM-Appeal-Staff-Report-10292025",
+      "raw_key": "documents/sykesville/by-sha/3612a8710439c10c9f102fdeb455a2ccfa8bdde31c3d0a47888669208f654fc1.pdf",
+      "original_filename": "1 TM Appeal Staff Report 10292025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending denial of Thrive at Warfield's appeal of the Town Manager's process determination for Parcel B site development (BZA Case 2025-04).",
+      "description": "BZA staff report analyzing the six grounds of appeal raised by Thrive at Warfield. Staff finds that Town Code \u00a7108-144(B) requires any PEC plan amendment to proceed through the three-step process (Concept, Preliminary, Final), that the Town Manager acted within code authority, and recommends denial. Recommended motion is to deny the appeal and find the Town Manager acted within authority under the PEC District approval process."
+    },
+    {
+      "name": "Application",
+      "sha256": "664f76de23e781171f930526c041fb2e9477e8cc75c19f6e1595939acf97946f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4761/BZA-Case-2025-04-Cover-Letter-and-Application",
+      "raw_key": "documents/sykesville/by-sha/664f76de23e781171f930526c041fb2e9477e8cc75c19f6e1595939acf97946f.pdf",
+      "original_filename": "BZA Case 2025 04 Cover Letter and Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Cover letter and BZA application filed September 24, 2025 by David K. Bowersox on behalf of Thrive at Warfield, appealing the Town Manager's August 28, 2025 site plan process determination for Parcel B.",
+      "description": "Application package including cover letter from Hoffman, Comfort, Offutt, Scott & Halstad LLP, BZA Notice of Appeal form, certified list of contiguous property owners, and parcel/building ownership information. Applicant is Thrive at Warfield (contract purchaser); property is Parcel B (~3.42 ac), Tax Map 200, Block 5, PEC District; attorney is David K. Bowersox. Six grounds of appeal are enumerated, asserting the site plan should process under the Development Pattern Book without revisiting the Preliminary PEC Plan."
+    },
+    {
+      "name": "Town Memorandum",
+      "sha256": "61e4a256ad019d08c650d9d8eafac48ec1e533f78389dbf4dd7c572bc25243ed",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4907/Town-Lawyer-Closing-Memorandum-021626-002",
+      "raw_key": "documents/sykesville/by-sha/61e4a256ad019d08c650d9d8eafac48ec1e533f78389dbf4dd7c572bc25243ed.pdf",
+      "original_filename": "Town Lawyer Closing Memorandum 021626 002",
+      "document_type": "OTHER",
+      "synopsis": "Town counsel's closing memorandum (February 16, 2026) submitted for the continuation hearing on BZA Case 2025-04.",
+      "description": "Closing legal memorandum from Town counsel addressing the legal standards for the administrative appeal and responding to arguments raised in the applicant's post-hearing submission. Submitted for the February 24, 2026 continuation hearing."
+    },
+    {
+      "name": "Town Appendix",
+      "sha256": "9b46b2ea3bc99bd044bf22ce3cf5fd86a57853d99bd59ea72ff7a9e3e319138f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4905/Town-Lawyer-Appendix-Document",
+      "raw_key": "documents/sykesville/by-sha/9b46b2ea3bc99bd044bf22ce3cf5fd86a57853d99bd59ea72ff7a9e3e319138f.pdf",
+      "original_filename": "Town Lawyer Appendix Document",
+      "document_type": "OTHER",
+      "synopsis": "Appendix to Town counsel's closing memorandum, containing supporting documents and exhibits for BZA Case 2025-04.",
+      "description": "Compilation of supporting documents submitted by Town counsel as an appendix to their closing memorandum for the February 24, 2026 continuation of BZA Case 2025-04."
+    },
+    {
+      "name": "Applicant Memorandum",
+      "sha256": "45ecd5c7a3b2fd29b4e9b4d5be5012839f05e2f3569c42dd0a72f24cd1fde1e7",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4906/2162026Applicant-Post-Hearing-Memorandum",
+      "raw_key": "documents/sykesville/by-sha/45ecd5c7a3b2fd29b4e9b4d5be5012839f05e2f3569c42dd0a72f24cd1fde1e7.pdf",
+      "original_filename": "2162026Applicant Post Hearing Memorandum",
+      "document_type": "OTHER",
+      "synopsis": "Applicant's post-hearing memorandum (February 16, 2026) filed by Thrive at Warfield following the initial BZA hearing on Case 2025-04.",
+      "description": "Post-hearing memorandum submitted by Thrive at Warfield providing additional argument in support of their appeal that the site plan for Parcel B should be processed directly under the approved Development Pattern Book without requiring updated PEC Concept and Preliminary Plans."
+    },
+    {
+      "name": "Applicant Appendix",
+      "sha256": "025ae4ab337a7e7e09b64abdc32ee2e980955964d59b83b0fa2defcecf27e3b5",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4904/Applicant-Appendix-Document",
+      "raw_key": "documents/sykesville/by-sha/025ae4ab337a7e7e09b64abdc32ee2e980955964d59b83b0fa2defcecf27e3b5.pdf",
+      "original_filename": "Applicant Appendix Document",
+      "document_type": "OTHER",
+      "synopsis": "Appendix to Thrive at Warfield's post-hearing memorandum, containing supporting exhibits for BZA Case 2025-04.",
+      "description": "Compilation of supporting documents submitted by Thrive at Warfield as an appendix to their post-hearing memorandum for the February 24, 2026 continuation of BZA Case 2025-04."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "957a942bb74ec1a0c44d9ccfd4aee703c34be564db48c26fe84836e9946cd50d",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_02242026-224",
+      "raw_key": "documents/sykesville/by-sha/957a942bb74ec1a0c44d9ccfd4aee703c34be564db48c26fe84836e9946cd50d.pdf",
+      "original_filename": "Planning Commission Agenda - February 2, 2026",
+      "document_type": "AGENDA",
+      "synopsis": "Board of Zoning Appeals agenda for February 24, 2026 continuation hearing on Case 2025-04.",
+      "description": "BZA meeting agenda for the continuation of Case #2025-04 (Thrive at Warfield appeal of Town Manager's determination), held at 7547 Main Street - Town House at 6:00 PM."
+    }
+  ]
+}

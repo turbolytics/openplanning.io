@@ -1,0 +1,112 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "2041756b11f3bef855a0c1a982c76d9957be677e2d2764c3ebb08a6ef00e3782",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Cannery Building"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 77,
+          "end": 93,
+          "excerpt": "Cannery Building",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Michael Baker International"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 107,
+          "end": 134,
+          "excerpt": "Michael Baker International",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 156,
+          "end": 174,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Cannery Building"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 1777,
+          "end": 1793,
+          "excerpt": "Cannery Building",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3089,
+          "end": 3107,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Michael Baker International"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 4106,
+          "end": 4133,
+          "excerpt": "Michael Baker International",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Michael Baker International"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 4569,
+          "end": 4596,
+          "excerpt": "Michael Baker International",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Michael Baker International"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 24932,
+          "end": 24959,
+          "excerpt": "Michael Baker International",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/document/v1",
+  "title": "OpenPlanning Document Schema v1",
+  "description": "Loads documents.Document records into a municipality. Natural key is (municipality, sha256). Content-addressable: same bytes yield the same raw_key in every environment, so cross-env portability is a single R2 prefix sync of documents/{subdomain}/by-sha/.",
+  "type": "object",
+  "required": ["version", "municipality", "documents"],
+  "properties": {
+    "version": {
+      "const": "document/v1",
+      "description": "Schema version identifier."
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "extracted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/document" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "parcel_ref": {
+      "$ref": "openplanning/specs/parcel/v1#/$defs/parcel_ref",
+      "description": "See parcel/v1#/$defs/parcel_ref for the canonical definition. Structured natural-key reference: {street_number?, street_name, street_suffix?, city, state}."
+    },
+    "application_ref": {
+      "type": "object",
+      "description": "Reference to an Application within the municipality. Resolved within the named jurisdiction by application_number, then file_number, then title.",
+      "required": ["jurisdiction_abbreviation"],
+      "properties": {
+        "jurisdiction_abbreviation": { "type": "string" },
+        "application_number": { "type": "string" },
+        "file_number": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    },
+    "document": {
+      "type": "object",
+      "description": "A single document. Identity is (municipality, sha256). source_url is provenance; raw_key is storage and is conventionally documents/{subdomain}/by-sha/{sha256}.{ext} so it is derivable from sha256. M2M edges (parcels, applications) are additive ,  each load appends links, never removes them. Re-loading the same fixture is idempotent.",
+      "required": ["name", "sha256"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable name for the document."
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "SHA-256 hex digest of file contents. Globally unique per byte sequence."
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Canonical public URL the document was fetched from. Provenance, not storage. Blank when the document originated as an upload with no public URL."
+        },
+        "raw_key": {
+          "type": "string",
+          "description": "R2 storage key. Conventionally documents/{subdomain}/by-sha/{sha256}.{ext}. Apply checks for the bytes at this key in the target environment's R2 bucket."
+        },
+        "original_filename": {
+          "type": "string"
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "STAFF_REPORT",
+            "MINUTES",
+            "AGENDA",
+            "APPLICATION",
+            "APPLICATION_MATERIAL",
+            "SITE_PLAN",
+            "TRAFFIC_STUDY",
+            "IMPACT_REPORT",
+            "LEGAL",
+            "OTHER"
+          ],
+          "description": "Document type. Resolved to DocumentCategory by slug."
+        },
+        "discovered_from": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "sha256 of the parent document in the discovery tree. Resolved to a Document FK via (municipality, sha256). Single-parent only: if reachable from multiple parents, the first one seen during discovery wins. Nullable: root documents have no parent."
+        },
+        "synopsis": {
+          "type": "string",
+          "description": "AI-generated short summary (one or two sentences) for cards and previews."
+        },
+        "description": {
+          "type": "string",
+          "description": "AI-generated longer description for the document detail page."
+        },
+        "parcels": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/parcel_ref" },
+          "description": "Parcels this document is *about* as subject matter (plats, surveys, traffic studies, site plans). Distinct from DocumentReference (NER mentions in text) and from Application.documents (workflow attachment). Edges are added, never replaced ,  multiple fixtures can each contribute parcel links to the same document over time."
+        },
+        "applications": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/application_ref" },
+          "description": "Applications this document is part of as a submission/review artifact. Edges are added, never replaced. Equivalent to setting application/v1.documents from the document side; useful when authoring per-meeting document fixtures."
+        }
+      }
+    }
+  }
+}

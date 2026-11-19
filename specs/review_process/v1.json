@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/review_process/v1",
+  "title": "OpenPlanning Review Process Schema v1",
+  "description": "Defines review processes (state-machine workflows) administered by jurisdictions. Each process has a graph of nodes and edges representing the approval workflow.",
+  "type": "object",
+  "required": ["version", "municipality", "review_processes"],
+  "properties": {
+    "version": {
+      "const": "review_process/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these review processes belong to."
+    },
+    "review_processes": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/review_process" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "jurisdiction_ref": {
+      "type": "object",
+      "required": ["abbreviation"],
+      "properties": {
+        "abbreviation": { "type": "string" },
+        "municipality": { "$ref": "#/$defs/municipality_ref" }
+      }
+    },
+    "review_process": {
+      "type": "object",
+      "required": ["jurisdiction", "name", "graph"],
+      "properties": {
+        "jurisdiction": {
+          "$ref": "#/$defs/jurisdiction_ref",
+          "description": "Jurisdiction that administers this process."
+        },
+        "name": {
+          "type": "string",
+          "description": "Process name, unique within jurisdiction. Natural key."
+        },
+        "public_title": {
+          "type": "string",
+          "description": "Applicant-facing label."
+        },
+        "description": { "type": "string" },
+        "is_active": {
+          "type": "boolean",
+          "default": true
+        },
+        "graph": {
+          "type": "object",
+          "description": "State machine definition with nodes and edges.",
+          "required": ["nodes", "edges"],
+          "properties": {
+            "nodes": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "label": { "type": "string" },
+                  "is_initial": { "type": "boolean" },
+                  "description": { "type": "string" }
+                }
+              }
+            },
+            "edges": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["from", "outcome"],
+                "properties": {
+                  "from": { "type": "string" },
+                  "to": { "type": "string" },
+                  "outcome": { "type": "string" },
+                  "label": { "type": "string" },
+                  "terminal": { "type": "boolean" }
+                }
+              }
+            }
+          }
+        },
+        "notice_requirements": {
+          "type": "object",
+          "description": "Hearing/notice requirements as key-value pairs."
+        },
+        "application_requirements": {
+          "type": "object",
+          "description": "Filing/application requirements as key-value pairs."
+        }
+      }
+    }
+  }
+}

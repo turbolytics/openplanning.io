@@ -1,0 +1,31 @@
+{
+  "version": "jurisdiction/v1",
+  "source": {
+    "title": "Maryland state agencies involved in development review",
+    "retrieved_at": "2026-04-15"
+  },
+  "jurisdictions": [
+    {
+      "id": "a1b2c3d4-4444-4000-8000-000000000004",
+      "name": "Maryland Department of the Environment",
+      "abbreviation": "MDE",
+      "jurisdiction_type": "EXTERNAL_AGENCY",
+      "authority_type": "STATE",
+      "state": "MD",
+      "description": "Stormwater management approvals for larger commercial projects. Wetland and waterway permits.",
+      "website": "https://mde.maryland.gov",
+      "order": 20
+    },
+    {
+      "id": "a1b2c3d4-5555-4000-8000-000000000005",
+      "name": "Maryland State Highway Administration",
+      "abbreviation": "SHA",
+      "jurisdiction_type": "EXTERNAL_AGENCY",
+      "authority_type": "STATE",
+      "state": "MD",
+      "description": "Access permits for projects with driveway or road access onto state-maintained roads.",
+      "website": "https://roads.maryland.gov",
+      "order": 21
+    }
+  ]
+}

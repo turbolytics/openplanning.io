@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-05-05",
+    "source_document_sha256": "3c8f0ca4f0f50422d986a0b8e7b2d3c11c53a1a97baa5858b1209c6c44884f7b"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Updated Concept Plan- Warfield",
+      "fields": {
+        "description": "The property owners have submitted an updated concept plan for development of the Warfield Property.",
+        "date_received": "2025-05-05",
+        "next_hearing_date": "2025-05-05"
+      },
+      "retract": []
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "4edae2503094363584ce5c4b27a6c65b568a2bffceb9f8d8e2f25a7802d2adbc",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 11,
+          "end": 27,
+          "excerpt": "BOARD OF APPEALS",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 35,
+          "end": 53,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 93,
+          "end": 101,
+          "excerpt": "WARFIELD",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 216,
+          "end": 234,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 373,
+          "end": 376,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 5251,
+          "end": 5256,
+          "excerpt": "\u00a7 180",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-101"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 5623,
+          "end": 5632,
+          "excerpt": "\u00a7 180-101",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-16"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 5803,
+          "end": 5824,
+          "excerpt": "distance requirements",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-16"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 5838,
+          "end": 5846,
+          "excerpt": "\u00a7 180-16",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-109"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 6735,
+          "end": 6744,
+          "excerpt": "\u00a7 180-109",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 8620,
+          "end": 8636,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-122"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 14039,
+          "end": 14054,
+          "excerpt": "Section 180-122",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-105"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 14414,
+          "end": 14423,
+          "excerpt": "\u00a7 180-105",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-16"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 14548,
+          "end": 14569,
+          "excerpt": "distance requirements",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-16"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 14583,
+          "end": 14591,
+          "excerpt": "\u00a7 180-16",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-113"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 16716,
+          "end": 16728,
+          "excerpt": "other relief",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 22717,
+          "end": 22720,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 22723,
+          "end": 22757,
+          "excerpt": "Planned Employment Center District",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-105"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 25604,
+          "end": 25613,
+          "excerpt": "\u00a7 180-105",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-105"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 25615,
+          "end": 25630,
+          "excerpt": "Section 180-105",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 27440,
+          "end": 27443,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 27510,
+          "end": 27513,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 28450,
+          "end": 28453,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 28987,
+          "end": 28990,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 29478,
+          "end": 29486,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVII"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30067,
+          "end": 30083,
+          "excerpt": "Board of Appeals",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - February 5, 2024",
+      "document_type": "AGENDA",
+      "source_url": "https://www.townofsykesville.org/AgendaCenter/ViewFile/Agenda/_02052024-120",
+      "sha256": "eadeaeb2fac86c84e7b6cf2d5ce2a87154957ba8554dbb931e2690915b5ff96c",
+      "raw_key": "documents/sykesville/by-sha/eadeaeb2fac86c84e7b6cf2d5ce2a87154957ba8554dbb931e2690915b5ff96c.pdf",
+      "original_filename": "Planning Commission Agenda - February 5, 2024"
+    },
+    {
+      "name": "Planning Commission Minutes - February 5, 2024",
+      "sha256": "31f43d1eda2b218d6002ac4563b26fb354a8a3bb1fbdf23641eb993518f59985",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_02052024-108",
+      "raw_key": "documents/sykesville/by-sha/31f43d1eda2b218d6002ac4563b26fb354a8a3bb1fbdf23641eb993518f59985.pdf",
+      "original_filename": "02052024 108",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 5, 2024 Sykesville Planning Commission meeting. The Commission closed the Enclave at Parkside public hearing, heard the developer's responses to staff comments, was not prepared to grant conditional approval, and approved the 2023 Annual Report.",
+      "description": "January 2 minutes approved unanimously. Business: (1) Enclave at Parkside \u2014 public hearing closed unanimously; developer addressed staff comments (5 ft end unit setback retained, building separations kept as proposed, Note 33 to follow code); developer requested conditional approval but Commission was not ready to act. (2) 2023 Annual Report approved unanimously for county submittal. Town updates: Mayor and Town Council approved the B-L zone text amendment adding Service Garage as a conditional use (Joy Property petition resolved at Council level); College Avenue parcel issued stop work order by Carroll County for unpermitted grading; Zoning Rewrite progressing with character area discussions. Adjourned 7:40 PM."
+    },
+    {
+      "name": "Planning Commission Minutes January 2 2024",
+      "sha256": "d788b7f95cda4a964d8e3dd15cbbf58780f282973401fdd88f90ea8d8c651440",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3796/Planning-Commission---Minutes---January-2-2024",
+      "raw_key": "documents/sykesville/by-sha/d788b7f95cda4a964d8e3dd15cbbf58780f282973401fdd88f90ea8d8c651440.pdf",
+      "original_filename": "Minutes - January 2, 2024",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the January 2, 2024 Sykesville Planning Commission meeting. The Commission ratified the formal recommendation letter on the Joy Property rezone petition and reappointed Phil Singleton and Brandon Smith as Chair and Co-chair.",
+      "description": "Short meeting (adjourned 7:07 PM). December 4 minutes approved (Singleton abstained). Business: ratification of the legal advisor's recommendation letter on the Joy Property rezone petition \u2014 Commission voted unanimously to approve the letter suggesting B-L zone text amendment to add Service Garage as a conditional use. Phil Singleton appointed Chair, Brandon Smith Co-chair, both unanimous."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "53948a7b8d8f898a75c5807258945177837c0b93b334787c394c230252b4a117",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3801/County-Updates-Staff-Report",
+      "raw_key": "documents/sykesville/by-sha/53948a7b8d8f898a75c5807258945177837c0b93b334787c394c230252b4a117.pdf",
+      "original_filename": "County Updates - Staff Report (Feb 5, 2024)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for the February 5, 2024 PC meeting covering Water and Sewer, 2023 Annual Report, and Housing Study updates.",
+      "description": "County updates: (1) Water and Sewer: accepting applications for the 2024 Spring Amendment. (2) 2023 Annual Report: county requesting town Planning Commission worksheets and supporting data with certification letters by March 15 for the MDP submission due July 1. (3) Housing Study: underway to analyze housing needs and support grant funding; county will reach out for municipal involvement."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "e65f80c56c35f8ed9d4ba74e2a60611f8888b0ffdda4c8aa36b25dc349a1e5aa",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3805/Staff-Report-Enclave-Prelim-Plan-and-Pattern-Book-Review",
+      "raw_key": "documents/sykesville/by-sha/e65f80c56c35f8ed9d4ba74e2a60611f8888b0ffdda4c8aa36b25dc349a1e5aa.pdf",
+      "original_filename": "Staff Report - Enclave Preliminary Plan and Pattern Book Review",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the February 5, 2024 Planning Commission review of the updated Enclave at Parkside preliminary plan (P-23-0026, Map/Parcel 0078/0017). Public hearing to be closed; plan not yet ready for formal approval. Staff identified several clarifications needed on plan notes and pedestrian connectivity.",
+      "description": "The Enclave at Parkside (Elm Street Communities) has received county agency approvals from all required agencies except Stormwater Management and Development Review (expected imminently). Staff review of the updated preliminary plan identified issues: Note 10 should indicate future commercial development; Note 19 has a 'minimum' vs. 'maximum' building height error and is missing end unit side yard setbacks and building separation distances; Note 33 needs clarity; Note 42 must be updated to 25 mph per \u00a7165-18. Staff also requested improved pedestrian crosswalks and restoration of the original trail connection to Carrie Dorsey Park. PEC land use percentages (office/retail/residential/open space) all meet zoning requirements. The plan is not yet ready for approval; applicant will return after all feedback and county approvals are incorporated."
+    },
+    {
+      "name": "Pattern Book",
+      "sha256": "f7c4bdcfd931e8a14df1e40d8b82de40d329a80bd32c61d99de94008067e5f67",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3804/The-Enclave-at-Parkside---Pattern-Book-5-22-2023",
+      "raw_key": "documents/sykesville/by-sha/f7c4bdcfd931e8a14df1e40d8b82de40d329a80bd32c61d99de94008067e5f67.pdf",
+      "original_filename": "The Enclave at Parkside - Pattern Book (May 2023)",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Pattern Book (May 22, 2023) for The Enclave at Parkside, establishing architectural, landscape, signage, and management standards for the 47-unit PEC townhome subdivision by Elm Street Development.",
+      "description": "Governs design standards for all residential and future non-residential buildings at The Enclave at Parkside. Key standards: 24-foot-wide single-family attached townhomes following Parkside design precedents, minimum setbacks (10 ft front, 20 ft rear), parking per \u00a7180-88, native landscaping, brick-primary facades (60% minimum), and TND pedestrian design principles. Open space: 7.67 acres provided vs. 5.92 acres required. Phasing: residential construction targeted to begin spring 2025."
+    },
+    {
+      "name": "Preliminary Plan",
+      "sha256": "71776f670a02bcee57d2950667ef4229d0ccc013a1f0ac676af9518dac3aa550",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3803/Preliminary-Plan-Updated-February-2024",
+      "raw_key": "documents/sykesville/by-sha/71776f670a02bcee57d2950667ef4229d0ccc013a1f0ac676af9518dac3aa550.pdf",
+      "original_filename": "Enclave at Parkside - Preliminary Plan (Updated February 2024)",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Updated preliminary plan drawings (February 2024) for The Enclave at Parkside, a 47-unit townhome subdivision on Map/Parcel 0078/0017 in the PEC zone, submitted by Elm Street Communities.",
+      "description": "Revised preliminary plan submitted to address county agency comments. Shows 47 residential townhome units on approximately 7 acres, 7.67 acres open space, non-residential parcels reserved for future commercial development along Route 32. Access via Town Park Drive and Village Green Way connections through the existing Parkside community. Several plan note clarifications pending staff feedback from the February 5, 2024 Planning Commission meeting."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "cdc3754483b03aa6956ae325f58c02f2cfe9c773c6dad1bb419d0c8638dda7e4",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3799/Staff-Report-Annual-Report-2023-1",
+      "raw_key": "documents/sykesville/by-sha/cdc3754483b03aa6956ae325f58c02f2cfe9c773c6dad1bb419d0c8638dda7e4.pdf",
+      "original_filename": "Staff Report - 2023 Annual Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the February 5, 2024 Planning Commission review of the 2023 Annual Report for submission to the Carroll County Department of Planning and Maryland Department of Planning (MDP).",
+      "description": "Carroll County requests that municipalities submit Planning Commission-approved worksheets and certification letters by March 15, 2024 for inclusion in the countywide Annual Report due to MDP by July 1, 2024. MDP uses this data for statewide planning policy and funding decisions. The Planning Commission Chair will sign the certification letter upon approval."
+    },
+    {
+      "name": "2023 Annual Report",
+      "sha256": "33bdd1b290b90ed88375e724cb65b60ef4f50e06c8030c3ec16e0496d0ec814f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3802/Sykesville-Annual-Report-2023",
+      "raw_key": "documents/sykesville/by-sha/33bdd1b290b90ed88375e724cb65b60ef4f50e06c8030c3ec16e0496d0ec814f.pdf",
+      "original_filename": "Sykesville 2023 Annual Report",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Sykesville 2023 Annual Report submitted to Maryland Department of Planning via Carroll County, documenting planning activities, subdivision and site plan approvals, zoning changes, and facilities changes for the calendar year 2023.",
+      "description": "Standardized MDP Annual Report form covering: comprehensive plan amendments, residential and non-residential subdivision approvals, zoning map and text amendments, annexations, transportation facility changes, APFO restrictions, park changes, and Priority Funding Area amendments. To be approved by the Sykesville Planning Commission and included in the Carroll County countywide submittal."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "a4e66bb3e2708b803433d484e51f3b0f64a2203c6b1459e48458804e95b9e6d9",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_02052024-108",
+      "raw_key": "documents/sykesville/by-sha/a4e66bb3e2708b803433d484e51f3b0f64a2203c6b1459e48458804e95b9e6d9.pdf",
+      "original_filename": "02052024 108",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for February 5, 2024. Business items: Enclave at Parkside public hearing closure and preliminary plan update (P-23-0026), and 2023 Annual Report approval for county submittal.",
+      "description": "Agenda for the February 5, 2024 Sykesville Planning Commission meeting at Town House. Items: January 2, 2024 minutes approval, Carroll County updates, Enclave at Parkside preliminary plan and pattern book review (close public hearing; not yet ready for approval), 2023 Annual Report review and approval for MDP submission, and Town updates."
+    }
+  ]
+}

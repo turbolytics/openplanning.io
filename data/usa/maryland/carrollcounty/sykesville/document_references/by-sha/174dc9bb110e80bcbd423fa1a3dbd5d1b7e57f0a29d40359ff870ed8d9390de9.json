@@ -1,0 +1,104 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "174dc9bb110e80bcbd423fa1a3dbd5d1b7e57f0a29d40359ff870ed8d9390de9",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 227,
+          "end": 230,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "application",
+          "target_key": {
+            "file_number": "P-23-0026"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "application",
+          "start": 245,
+          "end": 254,
+          "excerpt": "P-23-0026",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Elm Street Communities"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 460,
+          "end": 482,
+          "excerpt": "Elm Street Communities",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVI"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1489,
+          "end": 1503,
+          "excerpt": "Administration",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-II"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2058,
+          "end": 2069,
+          "excerpt": "application",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVI"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4772,
+          "end": 4786,
+          "excerpt": "Administration",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-122"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4980,
+          "end": 4989,
+          "excerpt": "Generally",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

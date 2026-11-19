@@ -1,0 +1,26 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2023-08-07",
+    "source_document_sha256": "5577dde11b241c720be3f97578fc79df6896de64eada2c204e008ddbf5cfa1bd"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "file_number": "P-23-0026",
+      "title": "Update and Public Hearing- The Enclave at Parkside Preliminary Plan and Pattern Book",
+      "fields": {
+        "date_received": "2023-08-07",
+        "next_hearing_date": "2023-08-07",
+        "applicant": "Elm Street Communities"
+      },
+      "retract": []
+    }
+  ]
+}

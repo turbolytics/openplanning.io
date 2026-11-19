@@ -1,0 +1,183 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "3b895ec5a33337f0a5423cf2b7fbb951006ab7bb9d9908ac07ebff63456f2231",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 1167,
+          "end": 1175,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 5221,
+          "end": 5229,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 5294,
+          "end": 5302,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 6127,
+          "end": 6135,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 6772,
+          "end": 6780,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 6929,
+          "end": 6937,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "sha256": "3d3de2272ed2894d43a7a4c83a63280f1f96f5fa0c590aa9fd897d048fdcb637",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 398,
+          "end": 406,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 977,
+          "end": 985,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "sha256": "d858986611bf06cc05aa9b8248be4ea953040a66dafb33d7bcba6d6b64797a6f",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2678,
+          "end": 2686,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 24969,
+          "end": 24977,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    },
+    {
+      "sha256": "45ba7e9f4cf48be92d18d329d6c667871601a6187f4b150b09828de4c48f40d1",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "732",
+            "street_name": "OKLAHOMA",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7333"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 351,
+          "end": 367,
+          "excerpt": "732 Oklahoma Ave",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "732",
+            "street_name": "OKLAHOMA",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7333"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1947,
+          "end": 1963,
+          "excerpt": "732 Oklahoma Ave",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

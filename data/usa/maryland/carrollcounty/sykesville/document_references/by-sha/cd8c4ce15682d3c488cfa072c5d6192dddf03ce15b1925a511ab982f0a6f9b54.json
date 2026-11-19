@@ -1,0 +1,53 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "cd8c4ce15682d3c488cfa072c5d6192dddf03ce15b1925a511ab982f0a6f9b54",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 169,
+          "end": 172,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1152,
+          "end": 1155,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-144"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1186,
+          "end": 1202,
+          "excerpt": "approval process",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

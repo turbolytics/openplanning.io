@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/legal_document/v1",
+  "title": "OpenPlanning Legal Document Schema v1",
+  "description": "Defines a legal document (zoning code, comprehensive plan, rules of procedure, etc.) with optional structured block tree. Combines document metadata with recursive content blocks for a fully self-contained, loadable spec.",
+  "type": "object",
+  "required": ["version", "municipality", "jurisdiction", "document"],
+  "properties": {
+    "version": {
+      "const": "legal_document/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" },
+        "extracted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality this document applies to."
+    },
+    "jurisdiction": {
+      "type": "object",
+      "required": ["abbreviation"],
+      "description": "Jurisdiction that administers this document.",
+      "properties": {
+        "abbreviation": { "type": "string" },
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string" },
+        "county": { "type": "string" },
+        "municipality": { "$ref": "#/$defs/municipality_ref" }
+      }
+    },
+    "document": {
+      "$ref": "#/$defs/document"
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "document": {
+      "type": "object",
+      "required": ["name", "document_type"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Document name, e.g. 'Chapter 180 - Zoning'."
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "RULES_OF_PROCEDURE",
+            "COMPREHENSIVE_PLAN",
+            "ZONING_CODE",
+            "DESIGN_GUIDELINES",
+            "SUBDIVISION_REGULATIONS",
+            "PATTERN_BOOK",
+            "HISTORIC_STANDARDS",
+            "OTHER"
+          ]
+        },
+        "description": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" },
+        "version": { "type": "string" },
+        "effective_date": { "type": "string", "format": "date" },
+        "order": { "type": "integer", "default": 0 },
+        "chapters": {
+          "type": "array",
+          "description": "Top-level content blocks (chapters). Omit for documents without structured content.",
+          "items": { "$ref": "#/$defs/block" }
+        }
+      }
+    },
+    "block": {
+      "type": "object",
+      "required": ["section_number"],
+      "properties": {
+        "section_number": {
+          "type": "string",
+          "description": "Section identifier, e.g. '180-3', 'Art-I'."
+        },
+        "title": { "type": "string" },
+        "block_type": {
+          "type": "string",
+          "enum": ["CHAPTER", "ARTICLE", "SECTION", "SUBSECTION", "PARAGRAPH", "SUBPARAGRAPH", "TABLE", "LIST"],
+          "default": "SECTION"
+        },
+        "body": {
+          "type": "string",
+          "description": "Full text content of this block."
+        },
+        "amendments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date_text": { "type": "string" },
+              "ordinance": { "type": "string" }
+            }
+          }
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["target"],
+                "properties": {
+                  "text": { "type": "string", "description": "Label for the referenced material, e.g. 'Floodplain management'." },
+                  "target": { "type": "string", "description": "Citation of the referenced section or chapter, e.g. 'Ch. 89'." }
+                }
+              }
+            ]
+          },
+          "description": "Cross-references to other sections, as a citation string or a {text, target} object."
+        },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/block" }
+        }
+      }
+    }
+  }
+}

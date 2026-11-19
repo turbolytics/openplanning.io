@@ -1,0 +1,24 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan- 7503 Village Rd"
+      },
+      "body": "Planning Commission",
+      "date": "2024-04-01",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "Modification of the minimum parking space size requirements to accommodate the nine feet by 17.5-foot parking spaces shown along the perimeter of the parking lot"
+      ]
+    }
+  ]
+}

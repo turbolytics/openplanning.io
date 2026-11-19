@@ -1,0 +1,26 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-03-27",
+    "source_document_sha256": "57def4b7c53d5288f03faf17b83e10e93446c93298507cfbc2ad2f9462687f1e"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan Review - 7306 Springfield Ave.",
+      "fields": {
+        "description": "The applicant is presenting a site plan for 7306 Springfield Ave., showing the proposed layout and associated off-site parking for an automobile service garage in the existing building. All conditional uses approved by the Board of Zoning Appeals are subject to a site plan review by the Planning Commission per Town Code \u00a7180-95 (A) 6.",
+        "date_received": "2024-10-07",
+        "next_hearing_date": "2024-10-07",
+        "applicant": "Joy Property"
+      },
+      "retract": []
+    }
+  ]
+}

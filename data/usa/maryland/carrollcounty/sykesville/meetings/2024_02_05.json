@@ -1,0 +1,60 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-02-05",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "minutes_approved_from": {
+        "jurisdiction_abbreviation": "PC",
+        "date": "2024-01-02"
+      },
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - January 2, 2024",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Carroll County Updates"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Enclave at Parkside - Close Public Hearing and Preliminay Plan Update",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "file_number": "P-23-0026"
+          }
+        },
+        {
+          "order": 4,
+          "title": "2023 Annual Report",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Review and approve Annual Report submittal to the county."
+          }
+        },
+        {
+          "order": 5,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - February 2, 2026",
+      "document_type": "AGENDA",
+      "source_url": "https://townofsykesville.org/AgendaCenter/ViewFile/Agenda/_02022026-224",
+      "sha256": "957a942bb74ec1a0c44d9ccfd4aee703c34be564db48c26fe84836e9946cd50d",
+      "raw_key": "documents/sykesville/by-sha/957a942bb74ec1a0c44d9ccfd4aee703c34be564db48c26fe84836e9946cd50d.pdf",
+      "original_filename": "Planning Commission Agenda - February 2, 2026"
+    },
+    {
+      "name": "December 1 Minutes",
+      "sha256": "a49252edffe549de44f73a6be790d2b50d5764cfb1328a67ce87ca2da31564c6",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4865/December-1-Minutes",
+      "raw_key": "documents/sykesville/by-sha/a49252edffe549de44f73a6be790d2b50d5764cfb1328a67ce87ca2da31564c6.pdf",
+      "original_filename": "Minutes - December 1, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the December 1, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the December 1, 2025 regular Planning Commission meeting. Commissioner Mican absent. October 6, 2025 minutes approved unanimously. Business decisions: (1) 2026 Meeting Schedule APPROVED unanimously; (2) 2026 Chair/Vice Chair discussion only, no vote at this meeting (Singleton announced intent to step down as Chair). Town updates: BZA hearing Oct 29 for Warfield land use variance (no decision yet); 7452 Springfield Ave warehouse conditional use at BZA; two Warfield-related BZA hearings Dec 3; Sykesville Train Station received Maryland Historic Trust approval, construction expected February 2026; South End Streetscape next phase in county review; Cannery Building deconstruction in planning; Schoolhouse Road subdivision advancing. Meeting adjourned at 7:23 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "641f5ed541b282317a2e2bc856577e41259f21867344c0b70f3b7b37c54bd6e1",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4871/Staff-Report-Annaul-Report-25",
+      "raw_key": "documents/sykesville/by-sha/641f5ed541b282317a2e2bc856577e41259f21867344c0b70f3b7b37c54bd6e1.pdf",
+      "original_filename": "Staff Report - MDP Annual Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report requesting PC approval of the 2025 MDP Annual Report for submittal.",
+      "description": "Staff report for the 2025 Maryland Department of Planning Annual Report (required under Land Use Article \u00a71-207 and \u00a71-208). Carroll County compiles a countywide report; Sykesville satisfies its requirement by providing data to the county. PC is asked to review the annual report worksheet and approve it for submittal, after which the Chair signs the accompanying letter to MDP."
+    },
+    {
+      "name": "Annual Report Municipal Letter",
+      "sha256": "584a4c98c4b9c04b2fb8e08b3de534cb7fb51e6e4d79982b917e48b2a0519c72",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4870/2025---Municipal-Letter-to-MDP",
+      "raw_key": "documents/sykesville/by-sha/584a4c98c4b9c04b2fb8e08b3de534cb7fb51e6e4d79982b917e48b2a0519c72.pdf",
+      "original_filename": "Annual Report Municipal Letter",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "PC Chair's letter to Maryland Department of Planning confirming 2025 Annual Report approval.",
+      "description": "Transmittal letter dated February 2, 2026 from the Sykesville Planning Commission Chair to MDP confirming approval of the 2025 Annual Report data for inclusion in the Carroll County 2025 Annual Report, pursuant to Land Use Article \u00a71-207 and \u00a71-208."
+    },
+    {
+      "name": "Annual Report Worksheet",
+      "sha256": "65760ef58026fed062aaae234c9fbf9c81f6f7af9011ee9c0ca711eb1e68ff1e",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4869/Sykesville_AnnualReport2025_Worksheet-1",
+      "raw_key": "documents/sykesville/by-sha/65760ef58026fed062aaae234c9fbf9c81f6f7af9011ee9c0ca711eb1e68ff1e.pdf",
+      "original_filename": "Annual Report Worksheet",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Sykesville 2025 Annual Report worksheet submitted to Maryland Department of Planning.",
+      "description": "Annual Report 2025 worksheet for the Town of Sykesville. Non-residential site plans approved: S-24-0033 (Schoolhouse Road Apartments Accessory Building, community building, 0.20 ac, ~1,300 SF, R-10000 zone, map 201, grid 8, parcel 4452) and SF-25-0047 (Lib's Grill at the Station, commercial, 0.10 ac, ~3,900 SF, Local Business zone, map 201, grid 10, parcel 479). Roads: Schoolhouse Road transferred from private to municipal ownership. No comprehensive plan amendments or annexations in 2025."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "d727bb6f6f1b18d834f2c052cde1ee4613d9367a063a320fb3aa67065a52f6f2",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4867/Staff-Report-WRE-Public-Hearing",
+      "raw_key": "documents/sykesville/by-sha/d727bb6f6f1b18d834f2c052cde1ee4613d9367a063a320fb3aa67065a52f6f2.pdf",
+      "original_filename": "Staff Report - Water Resource Element Public Hearing",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the February 2, 2026 public hearing on the 2024 Water Resource Element draft.",
+      "description": "Staff report for the WRE public hearing. The draft WRE was sent to MDE following the July 7, 2025 PC approval; public comment from municipalities is accepted concurrently. The public hearing was advertised in the Carroll County Times on January 18. No PC action required at this hearing. Following the hearing and any edits, the WRE will be brought back for PC approval and recommendation to the Mayor and Town Council."
+    },
+    {
+      "name": "Water Resource Element Summary",
+      "sha256": "8ad82cfb190b18aefadfa5fd297aaed8c2b7be5b0c2ba2b4f886578d3f12250b",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4866/WRE-2024-PC-Summary",
+      "raw_key": "documents/sykesville/by-sha/8ad82cfb190b18aefadfa5fd297aaed8c2b7be5b0c2ba2b4f886578d3f12250b.pdf",
+      "original_filename": "Water Resource Element Summary",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Summary presentation of the 2024 Carroll County Water Resource Element for planning commissions.",
+      "description": "Summary document (as of June 9, 2025) for the 2024 WRE. Covers the WRE purpose, connection to the comprehensive plan, collaborative county-municipal approach, water/wastewater capacity projections, stormwater TMDL progress, climate change and emerging contaminants considerations, and key action items for water supply, wastewater, and stormwater."
+    },
+    {
+      "name": "Key Action Items",
+      "sha256": "1d6d04a9eff8ac49bfd9273c6e707927e897cc6d2f8d5b83bf5d95949d0c304f",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4868/WRE-2024-PC-Action-Items---Sykesville-1",
+      "raw_key": "documents/sykesville/by-sha/1d6d04a9eff8ac49bfd9273c6e707927e897cc6d2f8d5b83bf5d95949d0c304f.pdf",
+      "original_filename": "Water Resource Element - Key Action Items",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "WRE 2024 key action items specific to the Town of Sykesville.",
+      "description": "Action items from the 2024 Water Resource Element specific to Sykesville covering stormwater management responsibilities under the joint NPDES MS4 permit with Carroll County, green infrastructure incorporation into downtown infill and town projects, and stormwater code updates."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "63efb0c45a8133d50642aedbc916504175b9e888553433f229af7adf209830ab",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_02022026-218",
+      "raw_key": "documents/sykesville/by-sha/63efb0c45a8133d50642aedbc916504175b9e888553433f229af7adf209830ab.pdf",
+      "original_filename": "02022026 218",
+      "document_type": "AGENDA",
+      "synopsis": "February 2, 2026 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the February 2, 2026 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: county updates; approval of December 1, 2025 minutes; 2025 MDP Annual Report approval; public hearing on the 2024 Water Resource Element draft; election of 2026 Chair and Vice Chair; and town updates."
+    },
+    {
+      "name": "Planning Commission Minutes - 2026-02-02",
+      "sha256": "b4af9cc9e6f1c47417d09577054ee787595e5eda705e7f949c7815c6fc0e4044",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_02022026-218",
+      "raw_key": "documents/sykesville/by-sha/b4af9cc9e6f1c47417d09577054ee787595e5eda705e7f949c7815c6fc0e4044.pdf",
+      "original_filename": "Minutes - February 2, 2026",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 2, 2026 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the February 2, 2026 regular Planning Commission meeting. Full attendance; no absences. December 1, 2025 minutes approved unanimously. Decisions: (1) 2025 MDP Annual Report APPROVED unanimously for signing and submission to Carroll County; (2) WRE public hearing opened and closed unanimously with no public comments; (3) 2026 Chair/Vice Chair election -- Commissioner Mican elected Chairperson, Commissioner Singleton elected Vice Chairperson, carried unanimously. Town updates: Brandon Smith appointed to Town Council and named PC liaison; vacancy on Planning Commission; Enclave subdivision near final county approvals; South End Streetscape work started; Lib's Grill received Maryland Historical Trust approvals; BZA hearing Feb 4 on Warfield appeals. Meeting adjourned at 7:23 PM."
+    }
+  ]
+}

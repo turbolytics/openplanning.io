@@ -1,0 +1,71 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - November 6, 2023",
+      "sha256": "4c4b5c675291cbe5fcc68a712d87fcad46005b128c98cd1b9619e2aeb0f92eb3",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_11062023-84",
+      "raw_key": "documents/sykesville/by-sha/4c4b5c675291cbe5fcc68a712d87fcad46005b128c98cd1b9619e2aeb0f92eb3.pdf",
+      "original_filename": "11062023 84",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the November 6, 2023 Sykesville Planning Commission meeting. The Commission discussed the rezone petition for 7306 Springfield Ave. (Joy Property) and continued the matter to December, expressing preference for a B-L zone modification over a full rezone to B-G.",
+      "description": "The November 6, 2023 meeting approved August 7 minutes and heard a lengthy discussion on the rezone petition for 7306 Springfield Ave. (Joy Property), requesting a change from B-L to B-G for an automobile service garage. After discussion with the applicant and their counsel, the Planning Commission was not ready to make a recommendation and continued the matter to December. The Commission indicated preference for modifying the B-L zone to allow automobile service garages as a conditional use rather than rezoning the property to B-G, and asked staff to provide additional information for the December meeting. Town updates: Main Street repaving complete; Springfield Avenue stormwater work ongoing; Rezoning Committee meets monthly; Schoolhouse Overlook and Enclave developments both under county review. Adjourned 8:20 PM."
+    },
+    {
+      "name": "Planning Commission Minutes August 7 2023",
+      "sha256": "7f1f7e2abf6177c5bd19dd5274c24450690b7de25b3ee0784f6921fb25243fe2",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3661/Planning-Commission---Minutes---August-7-2023",
+      "raw_key": "documents/sykesville/by-sha/7f1f7e2abf6177c5bd19dd5274c24450690b7de25b3ee0784f6921fb25243fe2.pdf",
+      "original_filename": "Minutes - August 7, 2023",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the August 7, 2023 Planning Commission meeting. Public hearing opened for Enclave at Parkside (no public comments); APF recommendation letter ratified and transmitted to Town Council.",
+      "description": "The August 7 meeting was held virtually due to a Carroll County tornado watch. Business: (1) Public Hearing for Enclave at Parkside Preliminary Plan and Pattern Book \u2014 opened, no public comments, extended 30 days. (2) Certification of Adequacy of Public Facilities for Enclave at Parkside \u2014 Planning Commission ratified the formal recommendation letter and directed transmittal to the Clerk of the Town Council. Town updates: zoning code rewrite discussions underway with Carroll County; School House Road property still addressing agency comments."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "a25635d445f1902836733d636af4b07bbab0ed7f97b72c548f62b270df5f95c1",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3662/County-Staff-Report",
+      "raw_key": "documents/sykesville/by-sha/a25635d445f1902836733d636af4b07bbab0ed7f97b72c548f62b270df5f95c1.pdf",
+      "original_filename": "County Updates - Staff Report (November 6, 2023)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for the November 6, 2023 PC meeting covering Water and Sewer Master Plan, Transportation Master Plan, Economic Development Study, and Housing Study updates.",
+      "description": "County updates: (1) 2023 Water and Sewer Master Plan approved by MDE September 22. (2) Transportation Master Plan final draft pending acceptance by Planning and Zoning Commission November 14. (3) Economic Development and Land Use Study draft to be presented to Planning and Zoning Commission November 1 and to the Board of County Commissioners November 29. (4) Housing Study \u2014 staff preparing recommendation to award consulting contract for housing opportunity analysis."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "450d9eea7e8453fca9cacbf04b2c083679281bf9442257742215f433867c4f12",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3665/Staff-Report---Rezone-Petition-Recomm-7306-Springfield-Ave",
+      "raw_key": "documents/sykesville/by-sha/450d9eea7e8453fca9cacbf04b2c083679281bf9442257742215f433867c4f12.pdf",
+      "original_filename": "Staff Report - Rezone Petition 7306 Springfield Ave (November)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the November 6, 2023 Planning Commission review of the rezone petition for 7306 Springfield Ave. (Joy Property), requesting a change from B-L to B-G to allow an automobile service garage.",
+      "description": "The Joy Property owners petitioned to rezone 7306 Springfield Ave. (Map/Parcel 0200/4087, B-L) to B-G for an automobile service garage. The property was historically a service station (conditional use in B-L), became nonconforming when gas pumps were removed, then lost nonconforming status after the garage ceased operations for six months. Staff analyzed the petition's arguments: original zoning error (partially supported), change in neighborhood character (increasing commercial activity on Springfield Ave., Warfield development, intersection improvements), and consistency with the Comprehensive Plan. Staff presented three options and asked the Planning Commission for direction before drafting a formal recommendation under \u00a7180-116."
+    },
+    {
+      "name": "Zoning Petition",
+      "sha256": "9518fa4e4ce6e37735fbf1a47213ede5a3544faa3807477afcd5c3c902c7211c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3663/Rezoning-Petition---7306-Springfield-Ave",
+      "raw_key": "documents/sykesville/by-sha/9518fa4e4ce6e37735fbf1a47213ede5a3544faa3807477afcd5c3c902c7211c.pdf",
+      "original_filename": "Rezoning Petition - 7306 Springfield Ave",
+      "document_type": "OTHER",
+      "synopsis": "Rezoning petition filed by the owners of 7306 Springfield Ave. (Joy Property) seeking reclassification from B-L to B-G to permit an automobile service garage.",
+      "description": "Formal petition submitted to the Town of Sykesville. The petition argues: (1) original B-L zoning was a mistake given the property's historic use as a service station; (2) surrounding development, road improvements, and rezonings constitute a change in neighborhood character; (3) rezoning is consistent with the Comprehensive Plan's vision for the Springfield Ave. and Spout Hill corridor as a northern gateway to Main Street."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "6cd9cb680b3c6d2d3250f02270003e90d124f1c511d9a4fdeaf5e8bf23ffaa84",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_11062023-84",
+      "raw_key": "documents/sykesville/by-sha/6cd9cb680b3c6d2d3250f02270003e90d124f1c511d9a4fdeaf5e8bf23ffaa84.pdf",
+      "original_filename": "11062023 84",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for November 6, 2023. Business item: rezone petition recommendation for 7306 Springfield Ave. (Joy Property), B-L to B-G for an automobile service garage.",
+      "description": "Agenda for the November 6, 2023 Sykesville Planning Commission meeting at Town House. Items: approval of August 7, 2023 minutes, Carroll County updates, rezone petition recommendation for 7306 Springfield Ave. (Joy Property), and Town updates."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/parcel/v1",
+  "title": "OpenPlanning Parcel Schema v1",
+  "description": "Loads parcel records for a municipality. Natural key is {municipality, parcel_id}. Supports Regrid GeoJSON field mapping. Geometry stored as GeoJSON Polygon.",
+  "type": "object",
+  "required": ["version", "municipality", "parcels"],
+  "properties": {
+    "version": {
+      "const": "parcel/v1",
+      "description": "Schema version identifier."
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "provider": { "type": "string", "description": "Data provider, e.g. 'regrid'." },
+        "dataset": { "type": "string", "description": "Dataset name, e.g. 'md_carroll'." },
+        "refreshed_at": { "type": "string", "format": "date", "description": "Date the source data was last refreshed." }
+      }
+    },
+    "parcels": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/parcel" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "parcel_ref": {
+      "type": "object",
+      "description": "Canonical natural-key reference to a Parcel within a municipality. Required: street_name, city, state. Optional: street_number, street_suffix (carry empty strings when not applicable; the keys must always be present). Resolution: case-insensitive exact match on street_name; when street_number or street_suffix are non-empty the match must agree on those too. The address fields mirror the Parcel model directly, so no parsing is performed. Other specs (application/v1, document/v1, project/v1, etc.) reference this definition via $ref.",
+      "required": ["street_name", "city", "state"],
+      "properties": {
+        "street_number": {
+          "type": "string",
+          "description": "House or building number (e.g. '7306'). Empty string for unaddressed parcels such as named subdivision lots."
+        },
+        "street_name": {
+          "type": "string",
+          "description": "Street name without number or suffix (e.g. 'Springfield'). For unaddressed parcels, the full descriptive name lives here (e.g. 'Enclave at Parkside', 'Warfield Parcel B')."
+        },
+        "street_suffix": {
+          "type": "string",
+          "description": "Street suffix (e.g. 'Ave', 'Rd', 'St'). Empty string when not applicable."
+        },
+        "city": { "type": "string" },
+        "state": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "Two-letter state abbreviation (e.g. 'MD')."
+        }
+      }
+    },
+    "parcel": {
+      "type": "object",
+      "properties": {
+        "parcel_id": { "type": ["string", "null"], "description": "State/county-assigned parcel identifier (parcelnumb). NULL when the source has no real identifier (e.g., right-of-way, unknown). Do NOT fabricate from internal IDs." },
+        "street_number": { "type": "string", "description": "House or building number. Empty string for unaddressed parcels." },
+        "street_prefix": { "type": "string", "description": "Directional prefix, e.g. 'N'." },
+        "street_name": { "type": "string", "description": "Street name without number or suffix. For unaddressed parcels, the descriptive name, e.g. 'Warfield Parcel B'." },
+        "street_suffix": { "type": "string", "description": "Street suffix, e.g. 'Ave'." },
+        "street_direction_suffix": { "type": "string", "description": "Directional suffix, e.g. 'NW'." },
+        "street_unit": { "type": "string", "description": "Unit or suite." },
+        "map_number": { "type": "string" },
+        "acreage": { "type": ["number", "null"] },
+        "owner": { "type": "string" },
+        "land_value": { "type": ["number", "null"] },
+        "improvement_value": { "type": ["number", "null"] },
+        "total_value": { "type": ["number", "null"] },
+        "latitude": { "type": ["string", "null"] },
+        "longitude": { "type": ["string", "null"] },
+        "use_code": { "type": "string" },
+        "use_description": { "type": "string" },
+        "legal_description": { "type": "string" },
+        "deed_book": { "type": "string" },
+        "deed_page": { "type": "string" },
+        "city": { "type": "string" },
+        "zip_code": { "type": "string" },
+        "lot": { "type": "string" },
+        "block": { "type": "string" },
+        "subdivision": { "type": "string" },
+        "zoning_code": { "type": "string", "description": "Zoning district code. Resolved to ZoningDistrict by code within jurisdiction." },
+        "source_url": { "type": "string", "format": "uri" },
+        "geometry": {
+          "type": ["object", "null"],
+          "description": "GeoJSON Polygon geometry."
+        }
+      }
+    }
+  }
+}

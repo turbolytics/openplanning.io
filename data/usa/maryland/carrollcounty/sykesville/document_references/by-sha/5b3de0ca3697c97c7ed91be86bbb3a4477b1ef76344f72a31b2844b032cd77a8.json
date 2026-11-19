@@ -1,0 +1,113 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "5b3de0ca3697c97c7ed91be86bbb3a4477b1ef76344f72a31b2844b032cd77a8",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7503",
+            "street_name": "VILLAGE",
+            "street_suffix": "RD",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7445"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 90,
+          "end": 105,
+          "excerpt": "7503 Village Rd",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 170,
+          "end": 173,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7503",
+            "street_name": "VILLAGE",
+            "street_suffix": "RD",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7445"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 253,
+          "end": 268,
+          "excerpt": "7503 Village Rd",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 511,
+          "end": 514,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-95"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 662,
+          "end": 669,
+          "excerpt": "\u00a7180-95",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 2720,
+          "end": 2723,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7503",
+            "street_name": "VILLAGE",
+            "street_suffix": "RD",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7445"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 3703,
+          "end": 3718,
+          "excerpt": "7503 Village Rd",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

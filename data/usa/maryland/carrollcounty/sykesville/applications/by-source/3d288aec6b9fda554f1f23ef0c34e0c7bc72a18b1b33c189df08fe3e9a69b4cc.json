@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-03-19",
+    "source_document_sha256": "3d288aec6b9fda554f1f23ef0c34e0c7bc72a18b1b33c189df08fe3e9a69b4cc"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "title": "Presentation - Board of Appeals Training",
+      "fields": {
+        "date_received": "2025-03-19",
+        "next_hearing_date": "2025-03-19"
+      },
+      "retract": []
+    }
+  ]
+}

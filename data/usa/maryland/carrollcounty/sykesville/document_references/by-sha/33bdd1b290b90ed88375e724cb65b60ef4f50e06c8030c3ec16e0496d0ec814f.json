@@ -1,0 +1,81 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "33bdd1b290b90ed88375e724cb65b60ef4f50e06c8030c3ec16e0496d0ec814f",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XIX"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 207,
+          "end": 217,
+          "excerpt": "amendments",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XIX"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1603,
+          "end": 1613,
+          "excerpt": "Amendments",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XIX"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1992,
+          "end": 2002,
+          "excerpt": "amendments",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XIX"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2151,
+          "end": 2161,
+          "excerpt": "amendments",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XIX"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2977,
+          "end": 2987,
+          "excerpt": "amendments",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

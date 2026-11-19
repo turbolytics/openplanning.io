@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/project/v1",
+  "title": "OpenPlanning Project Schema v1",
+  "description": "Defines a long-running Project (e.g. a master-planned development like 'Warfield') as a municipality-owned grouping of parcels, applications, and governing documents. Identity: optional `id` (uuid) is canonical; otherwise natural key is (municipality, slug) ,  slug is auto-derived from name when missing.",
+  "type": "object",
+  "required": ["version", "municipality", "projects"],
+  "properties": {
+    "version": {
+      "const": "project/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these projects belong to."
+    },
+    "projects": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/project" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "zoning_district_ref": {
+      "type": "object",
+      "required": ["jurisdiction_abbreviation", "code"],
+      "properties": {
+        "jurisdiction_abbreviation": {
+          "type": "string",
+          "description": "Jurisdiction that administers the district, e.g. 'PC'."
+        },
+        "code": {
+          "type": "string",
+          "description": "Zoning district code, e.g. 'PEC'."
+        }
+      }
+    },
+    "governing_document_ref": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Governing document name, resolved within the municipality. Matches legal.Document.name."
+        },
+        "jurisdiction_abbreviation": {
+          "type": "string",
+          "description": "Optional disambiguator if multiple jurisdictions in the same municipality have a doc with the same name."
+        }
+      }
+    },
+    "project": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID primary key. When set, this is the canonical identifier across environments."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable project name, e.g. 'Warfield'."
+        },
+        "slug": {
+          "type": "string",
+          "description": "URL slug. Auto-derived from name if omitted. Natural key with municipality."
+        },
+        "description": {
+          "type": "string",
+          "description": "Free-form description. Plain text or markdown."
+        },
+        "total_acres": {
+          "type": "number",
+          "description": "Total acreage. Stored as Decimal(8,2)."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["ACTIVE", "COMPLETED", "STALLED", "WITHDRAWN"],
+          "default": "ACTIVE"
+        },
+        "zoning_district": {
+          "$ref": "#/$defs/zoning_district_ref",
+          "description": "Primary zoning district. Resolved (jurisdiction, code) within the municipality."
+        },
+        "parcels": {
+          "type": "array",
+          "items": { "$ref": "openplanning/specs/parcel/v1#/$defs/parcel_ref" },
+          "description": "Parcels to attach via M2M, keyed by street address natural key. Preferred over parcel_ids ,  survives the seed-to-prod transition. Unresolvable refs are skipped with a warning."
+        },
+        "parcel_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Legacy: Parcel IDs to attach via M2M. Use `parcels` (address refs) instead. Unresolvable IDs are skipped with a warning."
+        },
+        "governing_documents": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/governing_document_ref" },
+          "description": "Governing docs (legal.Document) to attach via M2M, by name."
+        }
+      }
+    }
+  }
+}

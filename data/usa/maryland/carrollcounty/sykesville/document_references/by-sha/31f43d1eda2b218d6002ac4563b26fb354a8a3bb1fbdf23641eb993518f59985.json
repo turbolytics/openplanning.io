@@ -1,0 +1,105 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "31f43d1eda2b218d6002ac4563b26fb354a8a3bb1fbdf23641eb993518f59985",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1442,
+          "end": 1454,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1640,
+          "end": 1652,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1877,
+          "end": 1889,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2182,
+          "end": 2194,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2358,
+          "end": 2370,
+          "excerpt": "pattern book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Joy Property"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3037,
+          "end": 3049,
+          "excerpt": "Joy Property",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 3190,
+          "end": 3193,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

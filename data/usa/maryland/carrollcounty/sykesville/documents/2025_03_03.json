@@ -1,0 +1,81 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - 2025-02-03",
+      "sha256": "4a5e734953b3fc5e53fc94541a9aacd0ca21000138f95b8dd03adc0be2eb22e8",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4363/February-3-Minutes",
+      "raw_key": "documents/sykesville/by-sha/4a5e734953b3fc5e53fc94541a9aacd0ca21000138f95b8dd03adc0be2eb22e8.pdf",
+      "original_filename": "Minutes - February 3, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 3, 2025 Planning Commission meeting.",
+      "description": "Election of officers: Phil Singleton re-elected Chair, Brandon Smith elected Vice-Chair (unanimous). Dec 2 minutes approved. Business: Schoolhouse Road Apartments accessory building (S-24-0033) introduced (no vote). MDP 2024 Annual Report approved unanimously; Chair to sign certification letter to MDP. Town updates: South End Streetscape beginning, Sykesville Middle School addition pending County process, Warfield Parcel B assisted living submittal announced."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "494a33b340063068c0237007b11aee70be4ceba921dc67f609fe7df174f4c5e5",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4362/CountyUpdates_StaffReport",
+      "raw_key": "documents/sykesville/by-sha/494a33b340063068c0237007b11aee70be4ceba921dc67f609fe7df174f4c5e5.pdf",
+      "original_filename": "County Updates - Staff Report (March 3, 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County planning update for March 3, 2025 Planning Commission meeting.",
+      "description": "Carroll County Bureau of Comprehensive Planning update on the 2035 Carroll County Master Plan: Open Houses held in four of five Commissioner Districts; District 5 open house March 6 at Eldersburg Library. Municipal planning staffs scheduled to meet with County Planning Commission over coming months."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "9a76a294d1e55761ef3aebcb51dc72ecd45f6828b0697c62b25dec3f919941a5",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4365/Parcel-B-PC-Staff-Report-03032025-Final-",
+      "raw_key": "documents/sykesville/by-sha/9a76a294d1e55761ef3aebcb51dc72ecd45f6828b0697c62b25dec3f919941a5.pdf",
+      "original_filename": "Staff Report - Parcel B Conditional Use Request",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for conditional use request for an assisted living facility at Warfield Parcel B (Map 0078/Parcel 0689, PEC zone).",
+      "description": "Staff report analyzing Thrive at Warfield's request for conditional use approval of a 170-190 resident assisted living facility on 3.42-acre Parcel B in the Warfield Commerce and Cultural Center. Evaluates the nine PEC zone conditional use criteria. Staff recommends the PC provide a recommendation to the BZA including an updated traffic study (covering Warfield Complex and Enclave at Parkside), emergency service call analysis, and compliance with Warfield Design Guidelines (2017). Code basis: \u00a7180-137(A)(2)(b), \u00a7180-105, \u00a7180-108, \u00a7180-109."
+    },
+    {
+      "name": "BZA Application",
+      "sha256": "7da1facc1c01ef17fadbdedce1aa155fe07a32bdd919ea8fb8741c45b4e89aba",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4366/BZA-Cover-Letter-and-Application-Parcel-B",
+      "raw_key": "documents/sykesville/by-sha/7da1facc1c01ef17fadbdedce1aa155fe07a32bdd919ea8fb8741c45b4e89aba.pdf",
+      "original_filename": "BZA Cover Letter and Application - Parcel B",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "BZA conditional use application for assisted living facility at Warfield Parcel B, filed January 30, 2025.",
+      "description": "Four-page BZA application filed by Thrive at Warfield (Robert Hobson, Managing Member) with Warfield Center, LLC as property owner (signed January 30, 2025). Attorney: David K. Bowersox. Requests conditional use approval for assisted living facility on Parcel B (Tax Map 0078, PEC zone, 3.42 acres). Filing fee: $350; cites \u00a7180-105, \u00a7180-108, \u00a7180-109, \u00a7180-137(A)(2)(b). Certified list of contiguous property owners includes Northrop Grumman, Town of Sykesville, Warfield Center LLC, Warfield Properties LLC, State of Maryland SHA, Parkside at Warfield LLC, Board of Education of Carroll County, and Carroll County Commissioners."
+    },
+    {
+      "name": "Proposed Layout and Concept Design",
+      "sha256": "167ee6d5453261f6f7ba44964d6d36a5bafae3f1ed741de5c4f56d6820f77595",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4364/Parcel-B-Site-Layout-and-Concept-Design",
+      "raw_key": "documents/sykesville/by-sha/167ee6d5453261f6f7ba44964d6d36a5bafae3f1ed741de5c4f56d6820f77595.pdf",
+      "original_filename": "Parcel B - Site Layout and Concept Design",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Concept site layout for proposed assisted living facility at Warfield Parcel B.",
+      "description": "Illustrative concept plan for the proposed 170-190 resident assisted living facility on Parcel B of the Warfield Commerce and Cultural Center. Provided for informational purposes only; final design subject to future Planning Commission review if conditional use is approved by the BZA."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "4f2bf3b3d1b1f2f72ee5fbe88f87f7bd69e2ec571f0c5523f4afaf247754164b",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_03032025-164",
+      "raw_key": "documents/sykesville/by-sha/4f2bf3b3d1b1f2f72ee5fbe88f87f7bd69e2ec571f0c5523f4afaf247754164b.pdf",
+      "original_filename": "03032025 164",
+      "document_type": "AGENDA",
+      "synopsis": "March 3, 2025 Planning Commission meeting agenda.",
+      "description": "Agenda for the March 3, 2025 regular Planning Commission meeting covering approval of February 3 minutes, Carroll County Master Plan update, and the conditional use request from Thrive at Warfield for an assisted living facility on Warfield Parcel B."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-03-03",
+      "sha256": "3b895ec5a33337f0a5423cf2b7fbb951006ab7bb9d9908ac07ebff63456f2231",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_03032025-164",
+      "raw_key": "documents/sykesville/by-sha/3b895ec5a33337f0a5423cf2b7fbb951006ab7bb9d9908ac07ebff63456f2231.pdf",
+      "original_filename": "Minutes - March 3, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the March 3, 2025 Planning Commission meeting.",
+      "description": "PC approved Feb 3 minutes unanimously (Council Member Schofield abstained \u2014 absent from that meeting). County updates provided in writing. Business: Thrive at Warfield conditional use request for assisted living facility on Warfield Parcel B \u2014 Dave Bowersox presented for applicant; PC voted unanimously to recommend approval to the BZA with conditions (updated traffic study, emergency service call data, Warfield design guidelines compliance). Town updates: South End Streetscape beginning in weeks, Station restaurant design still in progress, Joy Property inactive since approval, Enclave in county stormwater process."
+    }
+  ]
+}

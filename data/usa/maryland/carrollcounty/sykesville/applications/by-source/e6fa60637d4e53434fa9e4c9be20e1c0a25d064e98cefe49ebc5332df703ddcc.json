@@ -1,0 +1,29 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-11-04",
+    "source_document_sha256": "e6fa60637d4e53434fa9e4c9be20e1c0a25d064e98cefe49ebc5332df703ddcc"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "file_number": "GRO-23-0017",
+      "title": "Review and Approval of Parkside at Warfield Stormwater Management Plan Updates",
+      "fields": {
+        "date_received": "2024-11-04",
+        "next_hearing_date": "2024-11-04",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Elm Street Development"
+      },
+      "retract": []
+    }
+  ]
+}

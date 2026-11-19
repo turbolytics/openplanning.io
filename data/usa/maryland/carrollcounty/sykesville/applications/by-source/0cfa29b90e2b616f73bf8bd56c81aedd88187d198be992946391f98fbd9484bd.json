@@ -1,0 +1,26 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-05-05",
+    "source_document_sha256": "0cfa29b90e2b616f73bf8bd56c81aedd88187d198be992946391f98fbd9484bd"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "file_number": "2025-02",
+      "title": "Appeal of Planning Commission decision on July 7, 2025 to deny the concept plan for re-",
+      "fields": {
+        "date_received": "2026-02-04",
+        "next_hearing_date": "2026-02-04",
+        "applicant": "Warfield Companies"
+      },
+      "retract": []
+    }
+  ]
+}

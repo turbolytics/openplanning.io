@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-03-03",
+    "source_document_sha256": "9a76a294d1e55761ef3aebcb51dc72ecd45f6828b0697c62b25dec3f919941a5"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Conditional Use Request for Assisted Living - Warfield Parcel B",
+      "fields": {
+        "date_received": "2025-03-03",
+        "next_hearing_date": "2025-03-03",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Thrive at Warfield"
+      },
+      "retract": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Updated Concept Plan for the Warfield Development"
+      },
+      "body": "Planning Commission",
+      "date": "2025-07-07",
+      "outcome": "DENIED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Future concept plan submittals must exclude changes to the use percentage on parcel E/F.",
+        "Future concept plan submittals must indicate how the recreational space requirement in the PEC zone will be met.",
+        "Future concept plan submittals must explore alternative locations for retail/service uses.",
+        "A new concept plan may be submitted for consideration at any future Planning Commission meeting."
+      ]
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Draft Water Resource Element for MDE 60-day review"
+      },
+      "body": "Planning Commission",
+      "date": "2025-07-07",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    }
+  ]
+}

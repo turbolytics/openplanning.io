@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-12-02",
+    "source_document_sha256": "2705ecc099dda3f5a16c1a6555d81b28e4e232e1a34a1dbd583d99d337303205"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Upcoming Projects Review and Updates",
+      "fields": {
+        "date_received": "2024-12-02",
+        "next_hearing_date": "2024-12-02",
+        "applicant": "Town of Sykesville"
+      },
+      "retract": []
+    }
+  ]
+}

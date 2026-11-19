@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-02-05",
+    "source_document_sha256": "cdc3754483b03aa6956ae325f58c02f2cfe9c773c6dad1bb419d0c8638dda7e4"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Review and approve Annual Report submittal to the county.",
+      "fields": {
+        "date_received": "2024-02-05",
+        "next_hearing_date": "2024-02-05"
+      },
+      "retract": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Agenda",
+      "sha256": "be94e04246df952a5cd4394b2fe440592c0562246a679b3579c28a3f1be31dab",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_10012025-199",
+      "raw_key": "documents/sykesville/by-sha/be94e04246df952a5cd4394b2fe440592c0562246a679b3579c28a3f1be31dab.pdf",
+      "original_filename": "10012025 199",
+      "document_type": "AGENDA",
+      "synopsis": "Board of Zoning Appeals agenda for October 1, 2025. Single item: introduction of the new BZA attorney to board members."
+    },
+    {
+      "name": "Board of Zoning Appeals Minutes - 2025-10-01",
+      "sha256": "2822f781cabe2f9ca29b6da0133b52d698dfe591a1ae87e426b0455e4bc5f28a",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_10012025-199",
+      "raw_key": "documents/sykesville/by-sha/2822f781cabe2f9ca29b6da0133b52d698dfe591a1ae87e426b0455e4bc5f28a.pdf",
+      "original_filename": "10012025 199",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 1, 2025 Sykesville Board of Zoning Appeals meeting. Sole business: introduction of new BZA attorney Larry Taub (replacing retired Lynn Board) and discussion of general BZA procedures. No cases heard. Adjourned 2:39 PM."
+    }
+  ]
+}

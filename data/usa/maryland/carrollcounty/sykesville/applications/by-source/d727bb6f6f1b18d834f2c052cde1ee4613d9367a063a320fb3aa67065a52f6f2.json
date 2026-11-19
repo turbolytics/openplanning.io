@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-07-07",
+    "source_document_sha256": "d727bb6f6f1b18d834f2c052cde1ee4613d9367a063a320fb3aa67065a52f6f2"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Public Hearing - Water Resource Comprehensive Plan Element Draft",
+      "fields": {
+        "date_received": "2026-02-02",
+        "next_hearing_date": "2026-02-02"
+      },
+      "retract": []
+    }
+  ]
+}

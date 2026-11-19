@@ -1,0 +1,101 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "County Updates",
+      "sha256": "4481550421757482470f8b73693935313e1a136206367e3b2a2348974fb836b9",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4946/County-Updates-4626",
+      "raw_key": "documents/sykesville/by-sha/4481550421757482470f8b73693935313e1a136206367e3b2a2348974fb836b9.pdf",
+      "original_filename": "County Updates 4626",
+      "document_type": "OTHER",
+      "synopsis": "Carroll County updates for the April 6, 2026 Planning Commission meeting.",
+      "description": "Carroll County Bureau of Comprehensive Planning update for April 6, 2026. Covers county planning and zoning activities relevant to Sykesville."
+    },
+    {
+      "name": "March 2 Minutes",
+      "sha256": "a44c0ceeb023955f43d0f79c15dee5e44e77617f5c7588fbad396e5d3c45c368",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4945/March-2-Minutes",
+      "raw_key": "documents/sykesville/by-sha/a44c0ceeb023955f43d0f79c15dee5e44e77617f5c7588fbad396e5d3c45c368.pdf",
+      "original_filename": "03022026 226",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the March 2, 2026 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the March 2, 2026 regular Planning Commission meeting. Commissioner Mican presided. Site plan for 7448 Springfield Avenue (Factory Partners LLC shared office and parking) APPROVED unanimously with conditions for signage, access lane width, pedestrian crosswalk striping, nighttime lighting, and easement for pull-off area. BZA updates: Warfield variance denied, appeal of Town Manager decision denied, appeal of July 2025 PC denial postponed. Meeting adjourned at 7:26 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "fed7a5ec9452e699ff846e40f96c74405e923fb77292afc400fc85b16811d32f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4950/Thrive-Parcel-B-Letter-PC-Staff-Report-04062026--DESKTOP-FAOVJ6N",
+      "raw_key": "documents/sykesville/by-sha/fed7a5ec9452e699ff846e40f96c74405e923fb77292afc400fc85b16811d32f.pdf",
+      "original_filename": "Thrive Parcel B Letter PC Staff Report 04062026  DESKTOP FAOVJ6N",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report on Thrive at Warfield's proposal for simultaneous PEC concept and preliminary plan amendment review for Parcel B.",
+      "description": "Staff report responding to Thrive at Warfield's March 10, 2026 letter requesting combined concept and preliminary PEC plan review for Parcel B. Background: BZA Case No. 2025-04 (decided February 24, 2026) upheld the ZA's August 28, 2025 letter requiring sequential review per \u00a7180-144. Staff recommends PC decline to discuss specifics until a formal submittal is made and BZA Case No. 2025-02 (pending appeal of the July 2025 concept plan denial) is resolved. Staff is willing to allow simultaneous Parcel B site plan review with the PEC amendment, at applicant's risk, once the Preliminary Plan and Pattern Book are approved."
+    },
+    {
+      "name": "March 10 Letter from the Applicant to the Town",
+      "sha256": "3530465093621f5e58136a7ae6a5fd78f5a7e36552362846bfc491ec02882ae4",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4952/March-10-Thrive-Letter-to-Town",
+      "raw_key": "documents/sykesville/by-sha/3530465093621f5e58136a7ae6a5fd78f5a7e36552362846bfc491ec02882ae4.pdf",
+      "original_filename": "March 10 Thrive Letter to Town",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "March 10, 2026 letter from Thrive at Warfield to Town staff proposing combined PEC plan amendment review.",
+      "description": "Letter dated March 10, 2026 from Thrive at Warfield to Town staff, requesting discussion of a combined/simultaneous concept and preliminary PEC plan amendment process for the Warfield property, focusing on changes related to completed subdivision of Parcels E and F, rehabilitation of Parcel D Building F, and Thrive's proposed assisted living facility on Parcel B."
+    },
+    {
+      "name": "August 2025 Letter from the Town to the Applicant",
+      "sha256": "c98a64f02ba7f8e69ceb04bdc06c8ab0bcfe058b995a9b7e631d8c00e408fd7c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4951/August-2025-Staff-Letter-To-Applicant",
+      "raw_key": "documents/sykesville/by-sha/c98a64f02ba7f8e69ceb04bdc06c8ab0bcfe058b995a9b7e631d8c00e408fd7c.pdf",
+      "original_filename": "August 2025 Staff Letter To Applicant",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "August 28, 2025 letter from the Zoning Administrator to Thrive at Warfield explaining required PEC amendment process for Parcel B.",
+      "description": "Zoning Administrator's letter dated August 28, 2025 to Thrive at Warfield explaining that development of Parcel B requires an amended PEC plan following the sequential steps in \u00a7180-144. This letter was appealed in BZA Case No. 2025-04 and upheld (verbally) on February 24, 2026."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "d2e72d9b81d75c5fabc19b0b98e0e8200af4757325f0d8a2c325f9b5d1d73f3f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4948/Staff-Report-WRE-Resolution-Approval",
+      "raw_key": "documents/sykesville/by-sha/d2e72d9b81d75c5fabc19b0b98e0e8200af4757325f0d8a2c325f9b5d1d73f3f.pdf",
+      "original_filename": "Staff Report WRE Resolution Approval",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending approval of WRE Resolution 2026-01 following state agency comment review.",
+      "description": "Staff report for WRE Resolution 2026-01. Following the MDE 60-day review, Carroll County compiled comments from state agencies (MDP, DHCD, MDOT, MDE, DNR) and Frederick County. No public comments were received at any of the nine municipal public hearings. Most comments result in simple clarifications with no substantive changes to Sykesville-specific content. Staff recommends voting to approve Resolution 2026-01 incorporating all Carroll County staff recommendations (March 2026) and recommending adoption into the Comprehensive Plan."
+    },
+    {
+      "name": "Comment and Recommendation Summary",
+      "sha256": "31795fe422665e5a55da48940dabe36fcd7925a5e8c2571589777770253e9060",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4949/WRE-2024-Comment--Summary-Staff-Recomm",
+      "raw_key": "documents/sykesville/by-sha/31795fe422665e5a55da48940dabe36fcd7925a5e8c2571589777770253e9060.pdf",
+      "original_filename": "WRE 2024 Comment  Summary Staff Recomm",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "WRE 2024 comment and recommendation summary from the 60-day state agency review period.",
+      "description": "Summary of comments received from state agencies (MDP, DHCD, MDOT, MDE, DNR) and Frederick County on the October 2025 draft WRE, dated March 6, 2026. Includes staff responses and recommended text revisions for each comment. MDP commended the plan on water and wastewater analyses. Key recommended revisions: add Planning Principles discussion, equity mapping and text, complete streets reference, climate change references, tree species guidance, and corrections to wastewater capacity tables. No public comments received. Frederick County declined to support a Mount Airy interconnection option."
+    },
+    {
+      "name": "Planning Commission Resolution NO. 2026-01",
+      "sha256": "140f568d0236154f2724934b78482c7e9ca25197b6bacd9fee23169c5fa1c59c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4947/WRE-2024-PC-Resolution",
+      "raw_key": "documents/sykesville/by-sha/140f568d0236154f2724934b78482c7e9ca25197b6bacd9fee23169c5fa1c59c.pdf",
+      "original_filename": "WRE 2024 PC Resolution",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Planning Commission Resolution No. 2026-01 approving and certifying the 2024 Water Resources Element.",
+      "description": "Planning Commission Resolution No. 2026-01, dated April 6, 2026. Approves and certifies the 2024 Water Resources Element (Carroll County/Freedom, Hampstead, Manchester, Mount Airy, New Windsor, Sykesville, Taneytown, Union Bridge, Westminster, dated March 2026) including all Carroll County staff recommendations dated March 2026, and recommends adoption into the Town of Sykesville Comprehensive Plan by the Mayor and Town Council. Signed by Chair Daniel Mican and approved for legal sufficiency by Town Attorney Karen Ruff."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "7282397b0028db19a6a7f29c2e91d26c765e390d155875be1ac72ad418707a5b",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_04062026-231",
+      "raw_key": "documents/sykesville/by-sha/7282397b0028db19a6a7f29c2e91d26c765e390d155875be1ac72ad418707a5b.pdf",
+      "original_filename": "04062026 231",
+      "document_type": "AGENDA",
+      "synopsis": "April 6, 2026 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the April 6, 2026 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: county updates; approval of March 2, 2026 minutes; discussion of Thrive at Warfield PEC amendment process proposal for Parcel B; vote on WRE Resolution 2026-01; and town updates."
+    }
+  ]
+}

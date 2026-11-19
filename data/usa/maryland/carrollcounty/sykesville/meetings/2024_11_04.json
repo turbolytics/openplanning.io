@@ -1,0 +1,47 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-11-04",
+      "time": "19:00",
+      "location": "Town House Conference Room",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - October 7, 2024, Minutes",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "Site Plan Review - 7422 Springfield Avenue - Residential Addition",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Site Plan for 7422 Springfield Ave. - Residential Addition"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Review and Approval of Parkside at Warfield Stormwater Management Plan Updates \u25aa Pages 1-8 \u25aa Pages 9-16 \u25aa Pages 17-24",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "file_number": "GRO-23-0017"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

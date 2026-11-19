@@ -1,0 +1,33 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "date": "2025-11-19",
+      "time": "19:00",
+      "location": "7547 Main Street, Town House Conference Room",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - April 29, 2025",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "Case #2025-05: Conditional Use Request for a Warehouse at 7452 Springfield Avenue",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "BZA",
+            "file_number": "2025-05"
+          }
+        }
+      ]
+    }
+  ]
+}

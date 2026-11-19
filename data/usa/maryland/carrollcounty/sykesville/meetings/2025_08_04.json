@@ -1,0 +1,60 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2025-08-04",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "minutes_approved_from": {
+        "jurisdiction_abbreviation": "PC",
+        "date": "2025-07-07"
+      },
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - July 7, 2025",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Carroll County Updates"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Consider/Discuss/Act on a site plan review and approval for Lib\u2019s Grill at the Station",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "file_number": "S-24-0033"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Consider/Discuss/Act on an amended plat review and approval for Lib\u2019s Grill at the Station",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "file_number": "S-24-0033"
+          }
+        },
+        {
+          "order": 5,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

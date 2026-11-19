@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-02-03",
+    "source_document_sha256": "cdd181ad71eabe06645486e86a96df8bb12a58ea00b8df6e8eec1723d3b7cf56"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Review and approve MDP Annual Report submittal to the county.",
+      "fields": {
+        "date_received": "2025-02-03",
+        "next_hearing_date": "2025-02-03",
+        "applicant": "Town of Sykesville Planning Commission"
+      },
+      "retract": []
+    }
+  ]
+}

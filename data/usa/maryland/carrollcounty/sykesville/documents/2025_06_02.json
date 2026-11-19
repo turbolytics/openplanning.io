@@ -1,0 +1,109 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - June 2, 2025",
+      "document_type": "AGENDA",
+      "source_url": "https://www.townofsykesville.org/AgendaCenter/ViewFile/Agenda/_06022025-194",
+      "sha256": "f91f390515fa077ecd56880138d0a7fb0b5472413e4625c6738de9769635ed96",
+      "raw_key": "documents/sykesville/by-sha/f91f390515fa077ecd56880138d0a7fb0b5472413e4625c6738de9769635ed96.pdf",
+      "original_filename": "Planning Commission Agenda - June 2, 2025"
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-05-05",
+      "sha256": "c09781cd358ae3f4ca91a4d771c73e13609777efc0193cd9cbac33781e420eb8",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4566/May-5-Minutes",
+      "raw_key": "documents/sykesville/by-sha/c09781cd358ae3f4ca91a4d771c73e13609777efc0193cd9cbac33781e420eb8.pdf",
+      "original_filename": "Minutes - May 5, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the May 5, 2025 Planning Commission meeting.",
+      "description": "Full PC present with Town Attorney Karen Ruff. April 7 minutes approved unanimously (motion text reads 'March 3' \u2014 typo in official record). Warfield updated concept plan: Dave Bowersox, Sean Davis, and Tom Cole presented; PC voted unanimously to continue to July 2025 pending revised plan excluding ROW from land use calculations and written HB538 explanation. Town updates: Station HDC approval, South End Streetscape underway, Parcel B developers need PC-approved concept plan first."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "69b4120ba882f737620e2f87e028c87bc7fa3f433e9a466454020079633f6017",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4565/CountyUpdates_StaffReport060225",
+      "raw_key": "documents/sykesville/by-sha/69b4120ba882f737620e2f87e028c87bc7fa3f433e9a466454020079633f6017.pdf",
+      "original_filename": "County Updates - Staff Report (June 2, 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County planning update for June 2, 2025 Planning Commission meeting.",
+      "description": "Carroll County update from Clare Stewart: 2035 Master Plan workgroups now active for Housing, Economy, and Agriculture. County Commissioner text amendments on Employment Campus District, Adequate Public Facilities, and solar development coming to Planning Commission in June/July. Annual Report draft to be forwarded within the week."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "8e81e76f80893ffce20a944a415972a36f85e012d9dfb75467c90fd1141ce914",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4567/Staff-Report-7557-Main-St",
+      "raw_key": "documents/sykesville/by-sha/8e81e76f80893ffce20a944a415972a36f85e012d9dfb75467c90fd1141ce914.pdf",
+      "original_filename": "Staff Report - Garage Conversion at 7557 Main St",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for site plan \u2014 garage conversion to music school classroom at 7557 Main Street (parcel 4404, B-L).",
+      "description": "Staff recommends approval with parking waiver for conversion of ~400 sq ft two-story garage at 7557 Main Street into commercial classroom space for an expanding music school. Interior changes only plus facade replacement of garage doors with walls/windows/doors (requires HDC approval). Three parking spaces waived per Town Code given central Main Street public parking availability. Site plan review required under \u00a7180-95."
+    },
+    {
+      "name": "Floor Plan",
+      "sha256": "3ebee25548c34372e6a51c7834b5a7fdeeeae0b1fa0679f54779624d71895c6f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4571/7557-Main-St-Garage-Floor-Plan",
+      "raw_key": "documents/sykesville/by-sha/3ebee25548c34372e6a51c7834b5a7fdeeeae0b1fa0679f54779624d71895c6f.pdf",
+      "original_filename": "7557 Main St - Garage Floor Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Interior floor plan for the 7557 Main Street garage conversion.",
+      "description": "Floor plan showing proposed interior layout for the two-story garage conversion at 7557 Main Street, including classroom areas on both floors, ADA half-bath, and wall/door separation between floors."
+    },
+    {
+      "name": "Elevation",
+      "sha256": "2658dae524db5990dd4e19dbd825b69f8eab2cee4ccd19d29f51e238fa6298be",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4569/7557-Main-St_Garage_Elevation",
+      "raw_key": "documents/sykesville/by-sha/2658dae524db5990dd4e19dbd825b69f8eab2cee4ccd19d29f51e238fa6298be.pdf",
+      "original_filename": "7557 Main St - Garage Elevation",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Elevation drawing for the 7557 Main Street garage conversion facade changes.",
+      "description": "Exterior elevation showing proposed facade changes to the garage at 7557 Main Street, replacing garage doors with walls, windows, and doors."
+    },
+    {
+      "name": "Aerial View",
+      "sha256": "25ed0c6839bd6ab28c5aaca0d7c6cdf0927e180a13cf021b147487837ace806f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4570/Aerial-View",
+      "raw_key": "documents/sykesville/by-sha/25ed0c6839bd6ab28c5aaca0d7c6cdf0927e180a13cf021b147487837ace806f.pdf",
+      "original_filename": "7557 Main St - Aerial View",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Aerial view of 7557 Main Street property context.",
+      "description": "Aerial photograph providing site context for 7557 Main Street and the surrounding Main Street area."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "ce83344dd888d6a1757c90fc83f3f5f8e044b4b23232fcd210593a2a04e2573a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4568/Staff-Report-Schoolhouse-Overlook",
+      "raw_key": "documents/sykesville/by-sha/ce83344dd888d6a1757c90fc83f3f5f8e044b4b23232fcd210593a2a04e2573a.pdf",
+      "original_filename": "Staff Report - Schoolhouse Overlook Subdivision",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for Schoolhouse Overlook preliminary subdivision plan (P-21-0062, parcel 4454, Conservation zone).",
+      "description": "Staff recommends approval of the 5-lot Schoolhouse Overlook subdivision preliminary plan (parcel 4454, Conservation zone, 3-acre minimum lots, UIC driveway off Schoolhouse Road). All county agency approvals received. APFO approved November 2022 by Town Council. Sykesville Middle School addition addresses prior enrollment concerns. Private wells and UIC emergency access approved by county."
+    },
+    {
+      "name": "Preliminary Plan",
+      "sha256": "141cabbe17183b3a00559ac529f23f60e60c38315f4ab5b8e31ebe3d13109c5a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4564/2-Schoolhouse-Overlook-Prelim-Plan-Set",
+      "raw_key": "documents/sykesville/by-sha/141cabbe17183b3a00559ac529f23f60e60c38315f4ab5b8e31ebe3d13109c5a.pdf",
+      "original_filename": "Schoolhouse Overlook - Preliminary Plan Set",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Preliminary subdivision plan set for Schoolhouse Overlook (P-21-0062).",
+      "description": "Preliminary plan showing 5 residential lots on parcel 4454 (Conservation zone), each minimum 3 acres, with use-in-common driveway off Schoolhouse Road."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "63249e62737b284ddbfea2d99e044e7e7e477ee1cf238feda060bcc7a5488e0a",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_06022025-182",
+      "raw_key": "documents/sykesville/by-sha/63249e62737b284ddbfea2d99e044e7e7e477ee1cf238feda060bcc7a5488e0a.pdf",
+      "original_filename": "06022025 182",
+      "document_type": "AGENDA",
+      "synopsis": "June 2, 2025 Planning Commission meeting agenda.",
+      "description": "Agenda for the June 2, 2025 regular Planning Commission meeting covering approval of May 5 minutes, county updates, site plan for garage conversion at 7557 Main Street (music school expansion), and Schoolhouse Overlook preliminary subdivision plan (P-21-0062)."
+    }
+  ]
+}

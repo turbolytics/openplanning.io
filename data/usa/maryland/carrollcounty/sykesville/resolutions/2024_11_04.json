@@ -1,0 +1,47 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan Review\u2013 7422 Springfield Avenue \u2013 Residential Addition"
+      },
+      "body": "Planning Commission",
+      "date": "2024-11-04",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Review and Approval of Parkside at Warfield Stormwater Management Plan Updates"
+      },
+      "body": "Planning Commission",
+      "date": "2024-11-04",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "changes to the slopes of the water retention ponds to be 3 to 1 grass slopes",
+        "The stormwater ponds near the playground will be fenced in",
+        "a 30 inch wall will be placed to allow for the slope to be lessened and allow for grass growth",
+        "The HOA will be contacted to distribute information about the construction to the residents"
+      ]
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan Review - 7422 Springfield Avenue - Residential Addition"
+      },
+      "body": "Planning Commission",
+      "date": "2024-11-04",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    }
+  ]
+}

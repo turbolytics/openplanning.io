@@ -1,0 +1,88 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "f680c7402c553e55656b38cf1105cffb2aa1ad3e710108606d0e90d72650525d",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 841,
+          "end": 844,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-G"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 867,
+          "end": 870,
+          "excerpt": "B-G",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1120,
+          "end": 1123,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1628,
+          "end": 1631,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-G"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1635,
+          "end": 1637,
+          "excerpt": "BG",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1758,
+          "end": 1761,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

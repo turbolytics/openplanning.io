@@ -1,0 +1,86 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "927e3df4364255c8458ea75531fb44fae9a04a0880850cdc4309fe9c8849b1cf",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 416,
+          "end": 424,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 2338,
+          "end": 2354,
+          "excerpt": "7611 Main Street",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7306",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7549"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 2671,
+          "end": 2691,
+          "excerpt": "7306 Springfield Ave",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-102"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4017,
+          "end": 4037,
+          "excerpt": "Zoning Administrator",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-102"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 4115,
+          "end": 4135,
+          "excerpt": "Zoning Administrator",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

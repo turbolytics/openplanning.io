@@ -1,0 +1,30 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Introduction of site plan for Schoolhouse Road Apartments accessory building"
+      },
+      "body": "Planning Commission",
+      "date": "2025-02-03",
+      "outcome": "NO_DECISION"
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Approval of the Maryland Department of Planning Annual Report for 2024"
+      },
+      "body": "Planning Commission",
+      "date": "2025-02-03",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    }
+  ]
+}

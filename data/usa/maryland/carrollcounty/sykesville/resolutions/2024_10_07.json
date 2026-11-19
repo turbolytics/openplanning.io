@@ -1,0 +1,37 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan for 7540 Main St.- Local Motive Expansion"
+      },
+      "body": "Planning Commission",
+      "date": "2024-10-07",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "Waiver of the requirement to add three additional parking spaces"
+      ]
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan Review - 7306 Springfield Ave."
+      },
+      "body": "Planning Commission",
+      "date": "2024-10-07",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "Additional screening must be installed for the new parking on parcel 4088"
+      ]
+    }
+  ]
+}

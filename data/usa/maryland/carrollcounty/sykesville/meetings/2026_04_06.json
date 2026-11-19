@@ -1,0 +1,52 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2026-04-06",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES"
+        },
+        {
+          "order": 2,
+          "title": "Approval of Minutes - March 2, 2026",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 3,
+          "title": "Consider/Discuss PEC Amendment Process Proposal",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Discussion and Feedback - PEC Amendment Process Proposal"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Consider/Discuss/Act on Planning Commission Resolution NO. 2026-01: A RESOLUTION APPROVING AND CERTIFYING THE WATER RESOURCES ELEMENT",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Review and act on Water Resource Element and Recommendation to the Mayor and Town"
+          }
+        },
+        {
+          "order": 5,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

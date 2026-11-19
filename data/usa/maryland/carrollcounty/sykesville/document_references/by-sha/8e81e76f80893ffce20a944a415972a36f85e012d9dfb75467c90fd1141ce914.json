@@ -1,0 +1,137 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "8e81e76f80893ffce20a944a415972a36f85e012d9dfb75467c90fd1141ce914",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7557",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7366"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 111,
+          "end": 123,
+          "excerpt": "7557 Main St",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 186,
+          "end": 189,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7557",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7366"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 284,
+          "end": 296,
+          "excerpt": "7557 Main St",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 712,
+          "end": 715,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-95"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 863,
+          "end": 870,
+          "excerpt": "\u00a7180-95",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3463,
+          "end": 3481,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3727,
+          "end": 3745,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 3868,
+          "end": 3871,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7557",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7366"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 4683,
+          "end": 4699,
+          "excerpt": "7557 Main Street",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

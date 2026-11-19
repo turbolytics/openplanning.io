@@ -1,0 +1,65 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Pc Minutes July 1",
+      "sha256": "8218fc887425452f1a650e8b11296210e7a6a54a2e25a0d80d5cebe96acb9fe5",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4084/PC-Minutes---July-1",
+      "raw_key": "documents/sykesville/by-sha/8218fc887425452f1a650e8b11296210e7a6a54a2e25a0d80d5cebe96acb9fe5.pdf",
+      "original_filename": "07012024 129",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the July 1, 2024 Sykesville Planning Commission meeting, presented for approval. No substantive cases heard; informational updates on ongoing projects."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "d6857a1bffda6e0dad70512f374760d8dce891de663e5b71c21d7cdec6a2c326",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4083/CountyUpdates_StaffReport080524",
+      "raw_key": "documents/sykesville/by-sha/d6857a1bffda6e0dad70512f374760d8dce891de663e5b71c21d7cdec6a2c326.pdf",
+      "original_filename": "CountyUpdates StaffReport080524",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for the August 5, 2024 PC meeting covering Water and Sewer fall amendments, Housing Study data compilation, and text amendments (Housing Expansion and Affordability Act, Solar Site Design Requirements)."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "5cad11d827959c86bb4ff157b05b583661c2bc3613f1a7893a447d5a91c9356d",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4087/Staff-Report-7611-Main-St",
+      "raw_key": "documents/sykesville/by-sha/5cad11d827959c86bb4ff157b05b583661c2bc3613f1a7893a447d5a91c9356d.pdf",
+      "original_filename": "Staff Report 7611 Main St",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the August 5, 2024 Planning Commission site plan review for 7611 Main St. (Parcel 4454-6, B-L zone), a DSC-owned property converting the first-floor pottery center to two retail suites and an office. Staff recommends approval."
+    },
+    {
+      "name": "Interior Layout Plan",
+      "sha256": "29f642b5e44a2c40923aeabe3a3bbfe822cd398ded790679830c76bb0e7bfe67",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4085/7611-Site-Layout",
+      "raw_key": "documents/sykesville/by-sha/29f642b5e44a2c40923aeabe3a3bbfe822cd398ded790679830c76bb0e7bfe67.pdf",
+      "original_filename": "7611 Site Layout",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Interior layout plan for the proposed 7611 Main St redevelopment showing the conversion of the first-floor pottery center into two retail suites and an office space for the DSC."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "e4f3fd535b95d7cd9f1f0cb17c9779e23ff33abfe5a2ef6efbe8ee59901ff57a",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_08052024-134",
+      "raw_key": "documents/sykesville/by-sha/e4f3fd535b95d7cd9f1f0cb17c9779e23ff33abfe5a2ef6efbe8ee59901ff57a.pdf",
+      "original_filename": "08052024 134",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for August 5, 2024. Business item: site plan review for 7611 Main Street (DSC change of use from pottery center to multi-use retail/office)."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-08-05",
+      "sha256": "0a691c8685745452b6371e680df20e5f24443f77ace2c3d9617e5cc68840bcb7",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_08052024-134",
+      "raw_key": "documents/sykesville/by-sha/0a691c8685745452b6371e680df20e5f24443f77ace2c3d9617e5cc68840bcb7.pdf",
+      "original_filename": "08052024 134",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the August 5, 2024 Sykesville Planning Commission meeting. Site plan for 7611 Main Street redevelopment (pottery center to multi-use retail/office) approved unanimously. Town updates: Joy Property in final review stage; Enclave at Parkside resubmitted stormwater plans contingent on Parkside at Warfield. Next PC meeting moved to Tuesday Sept 3 due to Labor Day."
+    }
+  ]
+}

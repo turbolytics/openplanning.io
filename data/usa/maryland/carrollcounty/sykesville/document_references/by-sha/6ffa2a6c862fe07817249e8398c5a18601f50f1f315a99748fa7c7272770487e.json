@@ -1,0 +1,32 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "6ffa2a6c862fe07817249e8398c5a18601f50f1f315a99748fa7c7272770487e",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7306",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7549"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 393,
+          "end": 416,
+          "excerpt": "7306 Springfield Avenue",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

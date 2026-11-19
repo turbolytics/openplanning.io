@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2023-08-07",
+    "source_document_sha256": "d8122f8995e7bbb3ae9e46d2fda34b1a02b7d7de67bc0882ed2a500683ef8dc4"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Certification of Adequacy of Public Facilities- The Enclave at Parkside",
+      "fields": {
+        "date_received": "2023-08-07",
+        "next_hearing_date": "2023-08-07",
+        "applicant": "Elm Street Development"
+      },
+      "retract": []
+    }
+  ]
+}

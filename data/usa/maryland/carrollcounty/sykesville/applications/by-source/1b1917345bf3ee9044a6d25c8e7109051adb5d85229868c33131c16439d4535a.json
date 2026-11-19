@@ -1,0 +1,26 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2026-02-11",
+    "source_document_sha256": "1b1917345bf3ee9044a6d25c8e7109051adb5d85229868c33131c16439d4535a"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "file_number": "2025-03",
+      "title": "Request for a variance of the adopted land use percentages in the Planned Employment",
+      "fields": {
+        "date_received": "2026-02-11",
+        "next_hearing_date": "2026-02-11",
+        "applicant": "Warfield Companies"
+      },
+      "retract": []
+    }
+  ]
+}

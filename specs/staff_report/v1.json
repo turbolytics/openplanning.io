@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/staff_report/v1",
+  "title": "OpenPlanning Staff Report Schema v1",
+  "description": "Defines staff reports authored by planning staff for a deciding body. A staff report is the structured analysis presented at a hearing: title, summary, background, analysis, action requested, recommendation, suggested motion. May be linked to an agenda item (one-to-one) and/or an application, and may reference a source PDF document.",
+  "type": "object",
+  "required": ["version", "municipality", "staff_reports"],
+  "properties": {
+    "version": {
+      "const": "staff_report/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" },
+        "extracted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these staff reports belong to."
+    },
+    "staff_reports": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/staff_report" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "agenda_item_ref": {
+      "type": "object",
+      "description": "Natural key for an AgendaItem: jurisdiction + meeting date + order (or item title as fallback). The pair (jurisdiction, meeting_date) resolves a Meeting; (meeting, order) resolves an AgendaItem.",
+      "required": ["jurisdiction_abbreviation", "meeting_date"],
+      "properties": {
+        "jurisdiction_abbreviation": { "type": "string" },
+        "meeting_date": { "type": "string", "format": "date" },
+        "order": { "type": "integer", "minimum": 0 },
+        "title": {
+          "type": "string",
+          "description": "Agenda item title. Used to resolve when order is not provided or ambiguous."
+        }
+      }
+    },
+    "application_ref": {
+      "type": "object",
+      "description": "Natural key for an Application. Tries application_number, file_number, then title within the jurisdiction.",
+      "required": ["jurisdiction_abbreviation"],
+      "properties": {
+        "jurisdiction_abbreviation": { "type": "string" },
+        "application_number": { "type": "string" },
+        "file_number": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    },
+    "document_ref": {
+      "type": "object",
+      "description": "Natural key for a documents.Document within the municipality. Resolved by source_url first, then by name.",
+      "properties": {
+        "name": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "citation": {
+      "type": "object",
+      "description": "An embedded citation linking the host staff report to a legal.Block. The host's jurisdiction (via staff_report.application.jurisdiction or municipality jurisdiction) is inherited; the spec only carries section_number for block resolution. Re-loading the same fixture is idempotent (keyed on (jurisdiction, block, staff_report)).",
+      "required": ["block"],
+      "properties": {
+        "block": {
+          "type": "object",
+          "required": ["section_number"],
+          "properties": {
+            "section_number": {
+              "type": "string",
+              "description": "Block.section_number (e.g. '180-137'). Resolved within the host staff report's jurisdiction. If multiple versions exist, the current version (is_current=True) is preferred."
+            }
+          }
+        },
+        "excerpt": {
+          "type": "string",
+          "description": "Verbatim quote from the host document supporting the citation."
+        },
+        "note": {
+          "type": "string",
+          "description": "Editor's note explaining the citation's relevance."
+        },
+        "created_by": {
+          "type": "string",
+          "default": "openplanning",
+          "description": "Origin tag, e.g. 'openplanning' or 'seed'. Defaults to 'openplanning' when omitted."
+        }
+      }
+    },
+    "staff_report": {
+      "type": "object",
+      "description": "A single staff report. Identity: if `id` is set, it is the canonical primary key (UUID). Otherwise the loader falls back to natural keys: agenda_item OneToOne if present, else (municipality, application, title). At least one of agenda_item, application, or title must be set.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID primary key. When set, this is the canonical identifier across environments. Generated by the source system on first publish."
+        },
+        "title": {
+          "type": "string",
+          "description": "Human-readable report title. Required when no agenda_item is provided."
+        },
+        "agenda_item": {
+          "$ref": "#/$defs/agenda_item_ref",
+          "description": "Agenda item where this report is presented. OneToOne ,  only one staff report per agenda item."
+        },
+        "application": {
+          "$ref": "#/$defs/application_ref",
+          "description": "Application this report analyzes."
+        },
+        "summary": {
+          "type": "string",
+          "description": "Brief summary read at the top of the hearing. Plain text or markdown."
+        },
+        "background": {
+          "type": "string",
+          "description": "History and context. Plain text or markdown."
+        },
+        "analysis": {
+          "type": "string",
+          "description": "Staff's substantive analysis and findings. Plain text or markdown."
+        },
+        "action_requested": {
+          "type": "string",
+          "description": "What staff is asking the deciding body to do."
+        },
+        "recommendation": {
+          "type": "string",
+          "enum": [
+            "APPROVE",
+            "APPROVE_WITH_CONDITIONS",
+            "DENY",
+            "DEFER",
+            "TABLE",
+            "NO_RECOMMENDATION",
+            ""
+          ],
+          "description": "Staff's formal recommendation. Empty string is allowed for drafts."
+        },
+        "suggested_motion": {
+          "type": "string",
+          "description": "Pre-drafted motion language for the chair to read."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["DRAFT", "FINAL", "PRESENTED"],
+          "default": "DRAFT"
+        },
+        "prepared_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date staff finished preparing the report."
+        },
+        "prepared_by_email": {
+          "type": "string",
+          "format": "email",
+          "description": "Email of the user who prepared the report. Resolved against users.User; null if no match."
+        },
+        "source_document": {
+          "$ref": "#/$defs/document_ref",
+          "description": "The PDF this report was extracted from, when applicable."
+        },
+        "citations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/citation" },
+          "description": "Code citations attached to this staff report. Each entry creates or updates a Citation row keyed by (jurisdiction, block, staff_report). Edges are additive across loads."
+        }
+      },
+      "anyOf": [
+        { "required": ["agenda_item"] },
+        { "required": ["application"] },
+        { "required": ["title"] }
+      ]
+    }
+  }
+}

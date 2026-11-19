@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-06-02",
+    "source_document_sha256": "8e81e76f80893ffce20a944a415972a36f85e012d9dfb75467c90fd1141ce914"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan- Garage Conversion at 7557 Main St",
+      "fields": {
+        "description": "The applicant is presenting a basic interior site plan for 7557 Main St, showing the conversion of the garage from a storage space into useable commercial space to accommodate the expansion of the music school located on the ground floor of the principal structure. The layout of the site will remain as it currently exists with all major modifications taking place inside of the garage building, along with minor fa\u00e7ade changes.",
+        "date_received": "2025-06-02",
+        "next_hearing_date": "2025-06-02",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

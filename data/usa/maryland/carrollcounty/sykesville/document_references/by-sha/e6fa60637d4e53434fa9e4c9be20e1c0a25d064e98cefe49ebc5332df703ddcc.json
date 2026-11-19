@@ -1,0 +1,112 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "e6fa60637d4e53434fa9e4c9be20e1c0a25d064e98cefe49ebc5332df703ddcc",
+      "references": [
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 114,
+          "end": 122,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 203,
+          "end": 206,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "application",
+          "target_key": {
+            "file_number": "GRO-23-0017"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "application",
+          "start": 220,
+          "end": 231,
+          "excerpt": "GRO-23-0017",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 271,
+          "end": 279,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 457,
+          "end": 460,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 1647,
+          "end": 1655,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2791,
+          "end": 2799,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "application",
+          "target_key": {
+            "file_number": "GRO-23-0017"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "application",
+          "start": 2906,
+          "end": 2917,
+          "excerpt": "GRO-23-0017",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Village Road Island - Site Plan"
+      },
+      "body": "Planning Commission",
+      "date": "2024-05-06",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "The new sign location is in violation of the Town's sign ordinance (\u00a7180-89 C. 6) and must be moved upon the Town's request"
+      ]
+    }
+  ]
+}

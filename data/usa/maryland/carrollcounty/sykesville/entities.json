@@ -1,0 +1,36 @@
+{
+  "version": "entity/v1",
+  "source": {
+    "title": "Sykesville rolodex seed",
+    "retrieved_at": "2026-05-03"
+  },
+  "entities": [
+    {
+      "id": "e0000001-0001-4000-8000-000000000001",
+      "name": "Toll Brothers",
+      "entity_type": "BUSINESS",
+      "organization": "Toll Brothers, Inc.",
+      "website": "https://www.tollbrothers.com",
+      "notes": "Master developer for the Warfield PEC project, including the Enclave at Parkside subdivision."
+    },
+    {
+      "id": "e0000001-0001-4000-8000-000000000002",
+      "name": "Joy Property",
+      "entity_type": "BUSINESS",
+      "notes": "Owner of 7306 Springfield Ave (former service station). Filed rezone petition Dec 2023 to allow auto service garage."
+    },
+    {
+      "id": "e0000001-0001-4000-8000-000000000003",
+      "name": "Rob's Barber Shop",
+      "entity_type": "BUSINESS",
+      "address": "7503 Village Rd, Sykesville, MD",
+      "notes": "Tenant at 7503 Village Rd. Site plan filed April 2024 to convert former convenience store."
+    },
+    {
+      "id": "e0000001-0001-4000-8000-000000000004",
+      "name": "Thrive at Warfield",
+      "entity_type": "BUSINESS",
+      "notes": "Applicant for assisted living facility on Warfield Parcel B. Conditional use approval requested."
+    }
+  ]
+}

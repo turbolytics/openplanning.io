@@ -1,0 +1,26 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "BZA",
+        "title": "Board of Zoning Appeals Rules of Procedure"
+      },
+      "body": "BZA",
+      "date": "2025-03-19",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "Remove section 7a-7c (prehearing requirements for special exception, variance, or administrative review)",
+        "Change item A on page four to require submission 20 days before a meeting (not 10)",
+        "Town Clerk is responsible for administering the oath to those who give testimony at public hearings"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "78c658578f445b16fb05a065697a30ff537351e2389052185c16d7cdcd8aa917",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Joy Property"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1717,
+          "end": 1729,
+          "excerpt": "Joy Property",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

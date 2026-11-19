@@ -1,0 +1,98 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "a4df3ec89fe8276af9655aa98736b58988fceb70a4da77d41216ceee4c6af0f6",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7422",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 93,
+          "end": 114,
+          "excerpt": "7422 Springfield Ave.",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 219,
+          "end": 222,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 488,
+          "end": 491,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-95"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 639,
+          "end": 646,
+          "excerpt": "\u00a7180-95",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-88"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 2748,
+          "end": 2755,
+          "excerpt": "\u00a7180-88",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7422",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 3121,
+          "end": 3142,
+          "excerpt": "7422 Springfield Ave.",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

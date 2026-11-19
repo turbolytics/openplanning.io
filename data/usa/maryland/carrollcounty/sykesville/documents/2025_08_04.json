@@ -1,0 +1,71 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "July 7 Minutes",
+      "sha256": "8af3001fff7e96787060852d80163d705a74edc1fb10a2967e3c6905ad107fe3",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4644/July-7-Minutes",
+      "raw_key": "documents/sykesville/by-sha/8af3001fff7e96787060852d80163d705a74edc1fb10a2967e3c6905ad107fe3.pdf",
+      "original_filename": "Minutes - July 7, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the July 7, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the July 7, 2025 regular Planning Commission meeting. Commissioner Singleton presided; Commissioner Smith absent. Two business items decided: (1) updated Warfield concept plan DENIED unanimously -- plan fails PEC land use percentages; (2) 2024 Water Resource Element draft APPROVED unanimously for MDE 60-day review. June 2, 2025 minutes approved. Meeting adjourned at 8:10 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "f88955cf8a7e906aaf3a16119bbe6845725a6ed15fdfd2f84e3f8c3b9575ba76",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4645/CountyUpdates_StaffReport080425",
+      "raw_key": "documents/sykesville/by-sha/f88955cf8a7e906aaf3a16119bbe6845725a6ed15fdfd2f84e3f8c3b9575ba76.pdf",
+      "original_filename": "County Updates - Staff Report (August 4, 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County updates for the August 4, 2025 Planning Commission meeting.",
+      "description": "Carroll County Bureau of Comprehensive Planning update for August 4, 2025. New planning liaison: Carlisle Fillat (Planning Technician). Water and sewer fall 2025 amendment requests due August 1. Master plan work groups (Housing, Economy, Agriculture) meeting through summer; staff attending farmers markets. Zoning text amendments on Adequate Public Facilities and solar development under review at August meetings; Employment Campus District recommendation forwarded to Board of County Commissioners."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "75dedc058f96f0bb2c065ef7983a43457d8d13aac7811b243e75c1d2a2cde4b7",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4643/Staff-Report-Libs-Grill-Site-Plan-and-Plat",
+      "raw_key": "documents/sykesville/by-sha/75dedc058f96f0bb2c065ef7983a43457d8d13aac7811b243e75c1d2a2cde4b7.pdf",
+      "original_filename": "Staff Report - Lib's Grill Site Plan and Plat",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending approval of site plan and amended plat for Lib's Grill at the Station, 7618 Main St.",
+      "description": "Staff report for two related items at 7618 Main St (Parcel 479, Lots 1A and 2A, B-L zone, file S-24-0033): (1) site plan for Lib's Grill restaurant including a 1,602 sq ft kitchen addition and rear platform dining area improvements; (2) amended plat reconfiguring Lots 1A and 2A so the kitchen addition remains within Lot 1A. Staff recommends approval of both items with a waiver of the 43-space parking requirement due to proximity to public parking. Most Carroll County, HDC, and Maryland Historic Trust approvals already received."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "7f24cd97e4c5047815d01d97552b49d10faef5bdc1e7f1b6b8a87e8a7aa64be7",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4646/Site-Plan-Libs-Grill-SF-25-0047",
+      "raw_key": "documents/sykesville/by-sha/7f24cd97e4c5047815d01d97552b49d10faef5bdc1e7f1b6b8a87e8a7aa64be7.pdf",
+      "original_filename": "Site Plan - Lib's Grill at the Station (SF-25-0047)",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site plan drawing for Lib's Grill at the Station, 7618 Main St.",
+      "description": "Site plan (SF-25-0047) for Lib's Grill at the Station at 7618 Main St. Shows the original train station building, existing rear patio/platform, and the proposed 1,602 sq ft kitchen addition on the western side of the structure."
+    },
+    {
+      "name": "Amended Plat",
+      "sha256": "6a4819f9bf61738e1dce7005b5a64b9260f904d6c59436168a146264aa40f5e6",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4647/Ammened-Plat-Parcel-479-1A_2A",
+      "raw_key": "documents/sykesville/by-sha/6a4819f9bf61738e1dce7005b5a64b9260f904d6c59436168a146264aa40f5e6.pdf",
+      "original_filename": "Amended Plat - Parcel 479 Lots 1A and 2A",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Amended record plat for Sykesville Train Station, Parcel 479 Lots 1A and 2A.",
+      "description": "Amended record plat (April 15, 2025) prepared by Sill Engineering Group for Parcel 479, Lots 1A (20,983.81 SF / 0.4817 ac) and 2A (14,199.61 SF / 0.3260 ac), Tax Map 21, Grid 10, Carroll County, Maryland. Reconfigures the original Lots 1 and 2 of the Sykesville Train Station (Plat Book 29, Page 138) to allow the proposed kitchen addition to remain within Lot 1A. Owner: Town of Sykesville."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "215ddf0f6e1a29aaed117a79b6e2d152f053d3707e91b818679578208c03a34c",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_08042025-191",
+      "raw_key": "documents/sykesville/by-sha/215ddf0f6e1a29aaed117a79b6e2d152f053d3707e91b818679578208c03a34c.pdf",
+      "original_filename": "08042025 191",
+      "document_type": "AGENDA",
+      "synopsis": "August 4, 2025 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the August 4, 2025 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: approval of July 7, 2025 minutes; Carroll County updates; site plan for Lib's Grill at the Station (7618 Main St) with parking waiver; amended plat for Parcel 479 Lots 1A and 2A; and town updates."
+    }
+  ]
+}

@@ -1,0 +1,800 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "f7c4bdcfd931e8a14df1e40d8b82de40d329a80bd32c61d99de94008067e5f67",
+      "references": [
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 24,
+          "end": 36,
+          "excerpt": "PATTERN BOOK",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1229,
+          "end": 1232,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1483,
+          "end": 1495,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1500,
+          "end": 1503,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "Art-XVI"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 2009,
+          "end": 2023,
+          "excerpt": "Administration",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2678,
+          "end": 2686,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 5087,
+          "end": 5090,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 6292,
+          "end": 6304,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-143"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 7003,
+          "end": 7015,
+          "excerpt": "Pattern Book",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_citation",
+          "start": 8745,
+          "end": 8749,
+          "excerpt": "\u00a7180",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 9158,
+          "end": 9161,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 12983,
+          "end": 12989,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-134"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 15550,
+          "end": 15557,
+          "excerpt": "purpose",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 15687,
+          "end": 15693,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 15804,
+          "end": 15810,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 15846,
+          "end": 15852,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 16011,
+          "end": 16017,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 16111,
+          "end": 16117,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 18275,
+          "end": 18281,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-134"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 19737,
+          "end": 19744,
+          "excerpt": "purpose",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-141"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 21843,
+          "end": 21857,
+          "excerpt": "maximum height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 24578,
+          "end": 24583,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 24605,
+          "end": 24610,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 24875,
+          "end": 24880,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 24969,
+          "end": 24977,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 25418,
+          "end": 25423,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 25433,
+          "end": 25438,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 25512,
+          "end": 25517,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 25618,
+          "end": 25623,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 25624,
+          "end": 25629,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 26486,
+          "end": 26491,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 26847,
+          "end": 26852,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-100"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 27038,
+          "end": 27044,
+          "excerpt": "height",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 27111,
+          "end": 27116,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 27678,
+          "end": 27683,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 27871,
+          "end": 27876,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28144,
+          "end": 28149,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28209,
+          "end": 28214,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28296,
+          "end": 28301,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28394,
+          "end": 28399,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28486,
+          "end": 28491,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28557,
+          "end": 28562,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28723,
+          "end": 28728,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 28984,
+          "end": 28989,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29160,
+          "end": 29165,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29202,
+          "end": 29207,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29288,
+          "end": 29293,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29454,
+          "end": 29459,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29527,
+          "end": 29532,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29598,
+          "end": 29603,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 29669,
+          "end": 29674,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30097,
+          "end": 30102,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30221,
+          "end": 30226,
+          "excerpt": "Signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30308,
+          "end": 30313,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30370,
+          "end": 30375,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30486,
+          "end": 30491,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 30524,
+          "end": 30527,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 30631,
+          "end": 30636,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 30758,
+          "end": 30761,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-89"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 31964,
+          "end": 31969,
+          "excerpt": "signs",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 32051,
+          "end": 32054,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}
