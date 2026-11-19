@@ -1,0 +1,110 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Pc Minutes August 5",
+      "sha256": "0a691c8685745452b6371e680df20e5f24443f77ace2c3d9617e5cc68840bcb7",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4157/PC-Minutes---August-5",
+      "raw_key": "documents/sykesville/by-sha/0a691c8685745452b6371e680df20e5f24443f77ace2c3d9617e5cc68840bcb7.pdf",
+      "original_filename": "08052024 134",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the August 5, 2024 Sykesville Planning Commission meeting, presented for approval. 7611 Main St site plan (DSC change of use) approved unanimously."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "128bf504a6a83e4b8dc809dcafe215c72b6a78d85e152c86e26ac73cd1f475b0",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4149/2-Staff-Report-Local-Motive-Expansion",
+      "raw_key": "documents/sykesville/by-sha/128bf504a6a83e4b8dc809dcafe215c72b6a78d85e152c86e26ac73cd1f475b0.pdf",
+      "original_filename": "2 Staff Report Local Motive Expansion",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the October 7, 2024 Planning Commission review of the Local Motive bar expansion at 7540 Main St. Staff recommends approval with waiver of three additional parking spaces."
+    },
+    {
+      "name": "Local Motive Expansion 1",
+      "sha256": "bbd69f0963a61e3397f2503b5f4dfdcc7c7235ed9991dc11213dc0cf708baf98",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4150/Local-Motive-Expansion-1",
+      "raw_key": "documents/sykesville/by-sha/bbd69f0963a61e3397f2503b5f4dfdcc7c7235ed9991dc11213dc0cf708baf98.pdf",
+      "original_filename": "Local Motive Expansion 1",
+      "document_type": "OTHER",
+      "synopsis": "Interior plan drawing for the Local Motive bar expansion at 7540 Main St., showing conversion of an unoccupied apartment into lounge, seating, and storage space."
+    },
+    {
+      "name": "Local Motive Expansion 2",
+      "sha256": "8db323cb1916bb6aa7722c7aaa154d0e7f4efd8bb486abe1fc50a2a422a4a5a1",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4151/Local-Motive-Expansion-2",
+      "raw_key": "documents/sykesville/by-sha/8db323cb1916bb6aa7722c7aaa154d0e7f4efd8bb486abe1fc50a2a422a4a5a1.pdf",
+      "original_filename": "Local Motive Expansion 2",
+      "document_type": "OTHER",
+      "synopsis": "Additional plan drawing for the Local Motive bar expansion at 7540 Main St., supplementing the interior layout."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "57def4b7c53d5288f03faf17b83e10e93446c93298507cfbc2ad2f9462687f1e",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4152/2-Staff-Report-7306-Springfield",
+      "raw_key": "documents/sykesville/by-sha/57def4b7c53d5288f03faf17b83e10e93446c93298507cfbc2ad2f9462687f1e.pdf",
+      "original_filename": "2 Staff Report 7306 Springfield",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the October 7, 2024 Planning Commission site plan review of the Joy Property automobile service garage at 7306 Springfield Ave. Three parcels: 0001 (B-L), Dinky Line, and 4088 (R-10,000). Staff recommends approval with conditions on parking space relocation and additional fencing."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "eed4f79ff9933e923bff028b1fc676dc9aca21d54db9d78e227d36ac90911375",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4153/2-23-2_Site-Plan-revised",
+      "raw_key": "documents/sykesville/by-sha/eed4f79ff9933e923bff028b1fc676dc9aca21d54db9d78e227d36ac90911375.pdf",
+      "original_filename": "2 23 2 Site Plan revised",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Revised site plan for 7306 Springfield Ave (Joy Property automobile service garage), showing the layout across three parcels with 9 parking spaces and screening."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "cd8c4ce15682d3c488cfa072c5d6192dddf03ce15b1925a511ab982f0a6f9b54",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4154/2-Staff-Report-Enclave-Update",
+      "raw_key": "documents/sykesville/by-sha/cd8c4ce15682d3c488cfa072c5d6192dddf03ce15b1925a511ab982f0a6f9b54.pdf",
+      "original_filename": "2 Staff Report Enclave Update",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the October 7, 2024 Planning Commission informational update on Parkside stormwater management remediation and Enclave at Parkside (P-23-0026) preliminary plan progress. No PC action requested."
+    },
+    {
+      "name": "October 2024 Preliminary Plan",
+      "sha256": "601c04b30a93bcca99f952062b2d4622ef03f4f8b9dcc86743db024b06e1f24a",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4155/4-Oct-2024-Enclave-Preliminary-Plan",
+      "raw_key": "documents/sykesville/by-sha/601c04b30a93bcca99f952062b2d4622ef03f4f8b9dcc86743db024b06e1f24a.pdf",
+      "original_filename": "4 Oct 2024 Enclave Preliminary Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "October 2024 preliminary plan for the Enclave at Parkside subdivision (P-23-0026, PEC zone, Parcel 688/689), submitted for informational PC review."
+    },
+    {
+      "name": "Staff Comment Response Letter",
+      "sha256": "e4c1978ecc8aecd01a97a79f7d9fdc6a0013d0060dcf6122f50df8d8456bf8c1",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4156/Sykesville-Staff-Comment-Response-letter",
+      "raw_key": "documents/sykesville/by-sha/e4c1978ecc8aecd01a97a79f7d9fdc6a0013d0060dcf6122f50df8d8456bf8c1.pdf",
+      "original_filename": "Sykesville Staff Comment Response letter",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "February 5, 2024 letter from Morris & Ritchie Associates (engineer for Elm Street Development) responding point-by-point to Town staff comments on the Enclave at Parkside preliminary plan (P-23-0026). Addresses commercial use phasing, side yard setbacks, parking notes, speed limit, erosion/sediment control, sidewalk additions, and trail connection feasibility."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "cdc2049650628ebd62520d932109a612c0e6df55ffa9b2c2f7dc26a8c2304dea",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_10072024-142",
+      "raw_key": "documents/sykesville/by-sha/cdc2049650628ebd62520d932109a612c0e6df55ffa9b2c2f7dc26a8c2304dea.pdf",
+      "original_filename": "10072024 142",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for October 7, 2024. Three business items: Local Motive bar expansion site plan (7540 Main St), Joy Property automobile service garage site plan (7306 Springfield Ave), and Enclave at Parkside development informational update."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-10-07",
+      "sha256": "975022d8c92ec9d41857e3f2f2700e2871a6c5408107989f6b3f740ec03aa032",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_10072024-142",
+      "raw_key": "documents/sykesville/by-sha/975022d8c92ec9d41857e3f2f2700e2871a6c5408107989f6b3f740ec03aa032.pdf",
+      "original_filename": "10072024 142",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 7, 2024 Sykesville Planning Commission meeting. Local Motive expansion at 7540 Main Street approved unanimously with parking waiver. 7306 Springfield Avenue site plan (Joy Property automobile service garage) approved unanimously conditional on screening fence at parcel 4088 parking. Enclave and Parkside development update (Jason Van Kirk, Elm Street Development): ~2,000 cf SWM deficit at Parkside being remediated via Enclave excess capacity; spring 2025 target for final Enclave approvals."
+    }
+  ]
+}

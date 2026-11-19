@@ -1,0 +1,81 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "April 29 Minutes",
+      "sha256": "39b2fb06772df4c4efaddfe96e8e533b8a3c99e75685c78c3f2c58153e887e1e",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4792/April-29-Minutes",
+      "raw_key": "documents/sykesville/by-sha/39b2fb06772df4c4efaddfe96e8e533b8a3c99e75685c78c3f2c58153e887e1e.pdf",
+      "original_filename": "04292025 174",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the April 29, 2025 Board of Zoning Appeals meeting. The Board unanimously approved Case #2025-01, a conditional use request from Thrive Senior Living for an assisted living facility on Parcel B of the Warfield Commerce and Cultural Center, with three conditions covering state licensing compliance, additional delivery information, and adherence to the Warfield Commercial Center design guidelines. The approval was based on a finding of compliance with the 2030 Comprehensive Plan, the Planned Employment Center Zoning, and \u00a7180-109 of the Town Code.",
+      "description": "These minutes record the April 29, 2025 BZA hearing on the Thrive at Warfield conditional use request. Chairperson Al McEvoy called the meeting to order at 7:00 PM with Board Members Andrew Miner and Paul Mueller present. The applicant team included David Bowersox (counsel), Jeremy Ragsdale (Thrive Senior Living CEO), Rob Hobson (Hobson Capital Partners), and expert witness James Mathias. The minutes capture exhibit admissions (Litman Frizell letter, Carl Wilson traffic study, Thrive at Warfield Plan), expert testimony on traffic, utilities, and comprehensive plan compliance, and the staff report presented by Town Manager Joe Cosentini. The approval motion (made by Chairperson McEvoy, seconded by Member Mueller) carried unanimously."
+    },
+    {
+      "name": "October 1 Minutes",
+      "sha256": "2822f781cabe2f9ca29b6da0133b52d698dfe591a1ae87e426b0455e4bc5f28a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4787/October-1-Minutes",
+      "raw_key": "documents/sykesville/by-sha/2822f781cabe2f9ca29b6da0133b52d698dfe591a1ae87e426b0455e4bc5f28a.pdf",
+      "original_filename": "10012025 199",
+      "document_type": "MINUTES",
+      "synopsis": "Brief BZA meeting on October 1, 2025 with no case action. The sole agenda item was the introduction of Larry Taub, esq, as the Board's new attorney, replacing Lynn Board who retired. General procedural matters were discussed and the meeting adjourned at 2:39 PM.",
+      "description": "These minutes record a short administrative BZA meeting on October 1, 2025. Chairperson Al McEvoy convened the meeting at 1:00 PM with Board Members Andrew Miner and Paul Mueller present. Staff in attendance included Town Manager Joe Cosentini, Town Clerk Kerry Kavaloski, Town Planner Kevin Rubenstein, and the new BZA attorney Larry Taub, esq. No cases were heard, no exhibits were admitted, no motions were taken on substantive matters; the meeting was procedural and oriented around introducing counsel and reviewing general BZA procedures."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "489c1dceb177ea33e879e982ff9b4aaa461b6fd35af04272c661ba8585e639b0",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4790/5-2025-05-Staff-Report",
+      "raw_key": "documents/sykesville/by-sha/489c1dceb177ea33e879e982ff9b4aaa461b6fd35af04272c661ba8585e639b0.pdf",
+      "original_filename": "5 2025 05 Staff Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for Case #2025-05, a conditional use request for warehouse use at 7452 Springfield Avenue in the B-L (Business Local) zone (Map/Parcel 0200/4338-4). The report walks the BZA through the ten conditional-use evaluation criteria, applying the Carroll County definition of warehouse (\u00a7158-002) since the Town's ordinance does not define the term. Staff conclude that they are not opposed to approval given the site's prior warehouse use, the structural integrity questions favoring rehabilitation over redevelopment, and the fact that any approval will still go through Planning Commission site plan review and Historic District Commission design review.",
+      "description": "The staff report is structured around \u00a7180-62(J), which authorizes warehouses as a conditional use in the B-L zone, and the ten conditional-use evaluation criteria the BZA must apply. The analysis cites \u00a7180-64 (required conditions for the B-L zone) repeatedly, especially subsections (C) on objectionable odors/dust/smoke/noise and (D) on deliveries not unduly burdening public ways. The property is located within the Town's historic district, so exterior modifications will be subject to the Downtown Historic District Commission Guidelines. The report does not enumerate explicit conditions of approval; instead it relies on the BZA to incorporate compliance with \u00a7180-64 and any other criteria into its motion. The closest public-gathering structures noted are Sykesville Middle School (NE on Springfield Ave) and St. Paul's United Methodist Church (south on Main Street)."
+    },
+    {
+      "name": "Process and Opening Statement",
+      "sha256": "28e544a610eecf9d47e20151e5c3911ae2426bb40de8bb3ee2897b9788ebafaf",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4789/4-2025-05-Process-and-opening-statement",
+      "raw_key": "documents/sykesville/by-sha/28e544a610eecf9d47e20151e5c3911ae2426bb40de8bb3ee2897b9788ebafaf.pdf",
+      "original_filename": "4 2025 05 Process and opening statement",
+      "document_type": "OTHER",
+      "synopsis": "Procedural opening statement read by the BZA chair at the start of the Case #2025-05 conditional use hearing. Outlines the order of testimony, swearing-in of witnesses, exhibit handling, and the standard for the Board's decision under the Town's conditional use criteria.",
+      "description": "Standard BZA opening-statement procedural document. The Chair uses this script to open the public hearing, explain the conditional use process and evaluation criteria, swear in witnesses, set the record for exhibits, and frame the Board's deliberative authority. Filed alongside the staff report and application materials for Case #2025-05."
+    },
+    {
+      "name": "Application",
+      "sha256": "08705d1adc3dab95a8b5d6aa5fefaa4c6105d5b4ccabcf700afc97071595de43",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4788/2-2025-05-Application",
+      "raw_key": "documents/sykesville/by-sha/08705d1adc3dab95a8b5d6aa5fefaa4c6105d5b4ccabcf700afc97071595de43.pdf",
+      "original_filename": "2 2025 05 Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Applicant filing for Case #2025-05, the conditional use request for warehouse use at 7452 Springfield Avenue. Includes the formal application form, owner/applicant identification, property description, and the requested relief.",
+      "description": "The application package the applicant submitted to initiate Case #2025-05. Provides the formal application materials supporting the conditional use request for warehouse use at 7452 Springfield Avenue (Map/Parcel 0200/4338-4) in the B-L zone. Submitted in advance of the November 19, 2025 BZA hearing."
+    },
+    {
+      "name": "Photos",
+      "sha256": "c9a97d096e131e737f67a9d6e6f08da635e4e09fa8be6d7e094c6a1ae5f3713c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4791/6-2025-05-Photos",
+      "raw_key": "documents/sykesville/by-sha/c9a97d096e131e737f67a9d6e6f08da635e4e09fa8be6d7e094c6a1ae5f3713c.pdf",
+      "original_filename": "6 2025 05 Photos",
+      "document_type": "OTHER",
+      "synopsis": "Site photographs of the existing structure at 7452 Springfield Avenue, filed in support of Case #2025-05. The images document the building's current condition and historic warehouse character.",
+      "description": "Photographic exhibits filed with Case #2025-05. Documents the existing building at 7452 Springfield Avenue, which has historically been used as a warehouse and is now the subject of a conditional use request to reauthorize warehouse use. The photos support staff's analysis of the building's structural condition and the site's compatibility with surrounding Downtown Sykesville character."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "a4c7a97c8878c32685cc4666dc44c3858e8cb12bb09a2304f84b7ebcd8ba6994",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_11192025-207",
+      "raw_key": "documents/sykesville/by-sha/a4c7a97c8878c32685cc4666dc44c3858e8cb12bb09a2304f84b7ebcd8ba6994.pdf",
+      "original_filename": "11192025 207",
+      "document_type": "AGENDA",
+      "synopsis": "Agenda for the November 19, 2025 Board of Zoning Appeals meeting. Two items: approval of minutes from April 29, 2025 and October 1, 2025, and Case #2025-05, a conditional use request for warehouse use at 7452 Springfield Avenue.",
+      "description": "Meeting agenda for the November 19, 2025 BZA hearing at 7:00 PM in the Town House Conference Room (7547 Main Street). Links to the prior minutes for ratification and to the staff report, application, photos, and procedural materials for Case #2025-05."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": "jurisdiction/v1",
+  "source": {
+    "title": "Carroll County government agencies involved in development review",
+    "retrieved_at": "2026-04-15"
+  },
+  "jurisdictions": [
+    {
+      "id": "a1b2c3d4-1111-4000-8000-000000000001",
+      "name": "Carroll County Bureau of Development Review",
+      "abbreviation": "BDR",
+      "jurisdiction_type": "EXTERNAL_AGENCY",
+      "authority_type": "COUNTY",
+      "county": "Carroll County",
+      "state": "MD",
+      "description": "Environmental Site Delineation (ESD). Required before most site plan submittals.",
+      "contact_phone": "410-386-2100",
+      "website": "https://www.carrollcountymd.gov",
+      "order": 10
+    },
+    {
+      "id": "a1b2c3d4-2222-4000-8000-000000000002",
+      "name": "Carroll County Bureau of Permits and Inspections",
+      "abbreviation": "PERMITS",
+      "jurisdiction_type": "EXTERNAL_AGENCY",
+      "authority_type": "COUNTY",
+      "county": "Carroll County",
+      "state": "MD",
+      "description": "Building permits for all construction within Town limits, including properties in Frederick County.",
+      "contact_phone": "410-386-2674",
+      "website": "https://www.carrollcountymd.gov",
+      "order": 11
+    },
+    {
+      "id": "a1b2c3d4-3333-4000-8000-000000000003",
+      "name": "Carroll County Bureau of Resource Management",
+      "abbreviation": "BRM",
+      "jurisdiction_type": "EXTERNAL_AGENCY",
+      "authority_type": "COUNTY",
+      "county": "Carroll County",
+      "state": "MD",
+      "description": "Grading permits after site plan approval. Stormwater management and sediment control review.",
+      "contact_phone": "410-386-2110",
+      "website": "https://www.carrollcountymd.gov",
+      "order": 12
+    }
+  ]
+}

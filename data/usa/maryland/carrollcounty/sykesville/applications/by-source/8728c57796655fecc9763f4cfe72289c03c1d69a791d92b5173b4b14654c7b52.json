@@ -1,0 +1,25 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-10-27",
+    "source_document_sha256": "8728c57796655fecc9763f4cfe72289c03c1d69a791d92b5173b4b14654c7b52"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "TC",
+      "title": "Consider/Discuss/Act - Michael Baker International Work Order No. 2: B.F. Shriver Cannery",
+      "fields": {
+        "date_received": "2025-10-27",
+        "next_hearing_date": "2025-10-27",
+        "applicant": "Michael Baker International"
+      },
+      "retract": []
+    }
+  ]
+}

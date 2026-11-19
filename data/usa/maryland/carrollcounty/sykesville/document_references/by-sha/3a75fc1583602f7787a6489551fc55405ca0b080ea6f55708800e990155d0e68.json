@@ -1,0 +1,1148 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "3a75fc1583602f7787a6489551fc55405ca0b080ea6f55708800e990155d0e68",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 166,
+          "end": 184,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 373,
+          "end": 391,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1737,
+          "end": 1755,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 2781,
+          "end": 2799,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7564",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7353"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 2917,
+          "end": 2930,
+          "excerpt": "7564 MAIN ST.",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7566",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7342"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 3636,
+          "end": 3648,
+          "excerpt": "7566 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7568",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7300"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 4037,
+          "end": 4049,
+          "excerpt": "7568 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7600",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7316"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 4271,
+          "end": 4283,
+          "excerpt": "7600 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7604",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7316"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 5483,
+          "end": 5495,
+          "excerpt": "7604 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7610",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7316"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 7531,
+          "end": 7543,
+          "excerpt": "7610 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 8283,
+          "end": 8285,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 8286,
+          "end": 8304,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7618",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7316"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 8484,
+          "end": 8496,
+          "excerpt": "7618 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 8671,
+          "end": 8689,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 8840,
+          "end": 8858,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7625",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7317"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 9038,
+          "end": 9050,
+          "excerpt": "7625 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 9262,
+          "end": 9280,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7543",
+            "street_name": "NORWOOD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7324"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 9478,
+          "end": 9494,
+          "excerpt": "7543 NORWOOD AVE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "729",
+            "street_name": "OKLAHOMA",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7334"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 9766,
+          "end": 9782,
+          "excerpt": "729 OKLAHOMA AVE",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7625",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7317"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 10213,
+          "end": 10225,
+          "excerpt": "7625 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7615",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7317"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 10381,
+          "end": 10397,
+          "excerpt": "7615 MAIN STREET",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7615",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7317"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 10422,
+          "end": 10434,
+          "excerpt": "7615 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 10638,
+          "end": 10654,
+          "excerpt": "7611 MAIN STREET",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 10829,
+          "end": 10841,
+          "excerpt": "7611 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7604",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7316"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 12044,
+          "end": 12056,
+          "excerpt": "7604 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7567",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 12450,
+          "end": 12462,
+          "excerpt": "7567 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7565",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7311"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 13130,
+          "end": 13142,
+          "excerpt": "7565 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7557",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7366"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 13971,
+          "end": 13983,
+          "excerpt": "7557 MAIN ST",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 16206,
+          "end": 16224,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 16366,
+          "end": 16384,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 18642,
+          "end": 18644,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 23727,
+          "end": 23745,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 26532,
+          "end": 26534,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 29120,
+          "end": 29138,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 35481,
+          "end": 35483,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 36929,
+          "end": 36947,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 37101,
+          "end": 37119,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 38120,
+          "end": 38138,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 38266,
+          "end": 38284,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 51759,
+          "end": 51777,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 51911,
+          "end": 51929,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 56545,
+          "end": 56563,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 56733,
+          "end": 56751,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 64877,
+          "end": 64895,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 65035,
+          "end": 65053,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 66748,
+          "end": 66750,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 73026,
+          "end": 73044,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 73189,
+          "end": 73207,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 75973,
+          "end": 75975,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 78852,
+          "end": 78870,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 79015,
+          "end": 79033,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 82781,
+          "end": 82799,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 82930,
+          "end": 82948,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 85173,
+          "end": 85175,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 88594,
+          "end": 88612,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 88782,
+          "end": 88800,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 90846,
+          "end": 90848,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 91146,
+          "end": 91148,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 98259,
+          "end": 98277,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 98422,
+          "end": 98440,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 110005,
+          "end": 110023,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 110151,
+          "end": 110169,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 115287,
+          "end": 115289,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 120669,
+          "end": 120687,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 120878,
+          "end": 120896,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 126304,
+          "end": 126306,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 141588,
+          "end": 141606,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 142400,
+          "end": 142418,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 144007,
+          "end": 144025,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 150251,
+          "end": 150269,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 151879,
+          "end": 151897,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 152071,
+          "end": 152089,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 153493,
+          "end": 153511,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 153685,
+          "end": 153703,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 156602,
+          "end": 156604,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 157697,
+          "end": 157715,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 157904,
+          "end": 157922,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "I-R"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 159700,
+          "end": 159702,
+          "excerpt": "IR",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 162443,
+          "end": 162461,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 162650,
+          "end": 162668,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 166377,
+          "end": 166395,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 168269,
+          "end": 168287,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 168415,
+          "end": 168433,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 169457,
+          "end": 169475,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 170156,
+          "end": 170174,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 171523,
+          "end": 171541,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 172831,
+          "end": 172849,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 173038,
+          "end": 173056,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

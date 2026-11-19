@@ -1,0 +1,56 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes May 6 2024",
+      "sha256": "78c658578f445b16fb05a065697a30ff537351e2389052185c16d7cdcd8aa917",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4062/Planning-Commission---Minutes---May-6-2024",
+      "raw_key": "documents/sykesville/by-sha/78c658578f445b16fb05a065697a30ff537351e2389052185c16d7cdcd8aa917.pdf",
+      "original_filename": "05062024 121",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the May 6, 2024 Sykesville Planning Commission meeting, presented for approval. Village Road island site plan approved with condition that sign must be moved on Town request."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "611e3a1b5ca7d61d5f88fa297fe371142e1f05ac8f729b20604e7da97582d01c",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4064/CountyUpdates_StaffReport070124",
+      "raw_key": "documents/sykesville/by-sha/611e3a1b5ca7d61d5f88fa297fe371142e1f05ac8f729b20604e7da97582d01c.pdf",
+      "original_filename": "CountyUpdates StaffReport070124",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for July 1, 2024 covering Water and Sewer fall amendments, Housing Study community engagement wrap-up, 2023 Annual Report MDP submission, food processing/DAF residual storage text amendment, and Master Plan Update direction from BCC."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "7364bb57b59ebf6d1b15bb77539c4a3bc36e0a8d64c80989523ddb79e0555fde",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4063/Staff-Report-July-Project-Update",
+      "raw_key": "documents/sykesville/by-sha/7364bb57b59ebf6d1b15bb77539c4a3bc36e0a8d64c80989523ddb79e0555fde.pdf",
+      "original_filename": "Staff Report July Project Update",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for July 1, 2024 providing informational updates on Schoolhouse Rd subdivision, 7306 Springfield Ave service garage site plan status, and Enclave at Parkside/Parkside stormwater management deficiency. No PC action required."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "0243d766a5ca0728aa736e4fb4a026847f3058473aae36bf13010cfe5344e663",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_07012024-129",
+      "raw_key": "documents/sykesville/by-sha/0243d766a5ca0728aa736e4fb4a026847f3058473aae36bf13010cfe5344e663.pdf",
+      "original_filename": "07012024 129",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for July 1, 2024. Business item: informational review of ongoing projects (Schoolhouse Rd subdivision, Springfield Ave service garage, Enclave at Parkside)."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-07-01",
+      "sha256": "8218fc887425452f1a650e8b11296210e7a6a54a2e25a0d80d5cebe96acb9fe5",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_07012024-129",
+      "raw_key": "documents/sykesville/by-sha/8218fc887425452f1a650e8b11296210e7a6a54a2e25a0d80d5cebe96acb9fe5.pdf",
+      "original_filename": "07012024 129",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the July 1, 2024 Sykesville Planning Commission meeting. May 6 minutes approved. Informational updates: Schoolhouse Rd subdivision awaiting MDE approval for W&S amendment; Joy Property at 7306 Springfield Ave has conditional use approval, site plan in progress; Parkside stormwater management deficiency and Enclave hold; historic train station preliminary approval from Maryland Historic Trust. Springfield Ave roadwork rescheduled for fall 2024."
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "BZA Minutes - March 19, 2025",
+      "sha256": "5972279440eeb12f0e435b8cc7d2f7cd5429cfa8563b1ab21ea8fd51f20e6cf7",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4475/March-19-Minutes",
+      "raw_key": "documents/sykesville/by-sha/5972279440eeb12f0e435b8cc7d2f7cd5429cfa8563b1ab21ea8fd51f20e6cf7.pdf",
+      "original_filename": "03192025 166",
+      "document_type": "MINUTES",
+      "synopsis": "BZA approved Rules of Procedure with three modifications: removal of sections 7a-7c, 20-day advance notice requirement, and Town Clerk to administer oath for testimony. Motion carried unanimously.",
+      "description": "Official minutes of the March 19, 2025 Board of Zoning Appeals meeting, Town House Conference Room, 1:16 PM. Present: Chair Al McEvoy, Board Member Paul Mueller. Staff: Town Manager Joe Cosentini, Town Clerk Kerry Kavaloski, Town Planner Kevin Rubenstein, Counsel Lynn Board (Levan and Ruff). Business included a Board of Appeals training by Lynn Board and approval of draft Rules of Procedure with the noted amendments. Adjourned at 2:41 PM."
+    },
+    {
+      "name": "Cover Letter and Application",
+      "sha256": "7da1facc1c01ef17fadbdedce1aa155fe07a32bdd919ea8fb8741c45b4e89aba",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4472/1-BZA-Cover-Letter-and-Application-Parcel-B",
+      "raw_key": "documents/sykesville/by-sha/7da1facc1c01ef17fadbdedce1aa155fe07a32bdd919ea8fb8741c45b4e89aba.pdf",
+      "original_filename": "BZA Cover Letter and Application - Parcel B",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "BZA application filed January 30, 2025 by Thrive at Warfield requesting conditional use approval for an assisted living facility on Parcel B (Tax Map 0078, 3.42 ac., PEC zone) in the Warfield Commerce and Cultural Center.",
+      "description": "Notice of Appeal and Application for Hearing filed by Thrive at Warfield (applicant/contract purchaser, Robert Hobson Managing Member) and Warfield Center, LLC (owner, Steven D. McCleaf SVP). Attorney: David K. Bowersox, 24 North Court Street, Westminster, MD 21157 (410-848-4444). Tax Map 0078; Parcel B, east side of MD Rte. 32 and south side of Warfield Ave.; Plat Book 51, folio 187-202; Liber/Folio 9054-37; 3.42 acres, PEC zone. Code basis: Sections 180-105, 180-108, 180-109, 180-137 A.(2)(b). Contiguous owners include Northrup Grumman, Town of Sykesville, Warfield Properties LLC, State Highway Administration, Parkside at Warfield LLC, Carroll County Board of Education, and Carroll County Commissioners."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "335f8ef65aeb9fea55276b9617be5bbafcb4aab5381000fdcf8cd25a0abab1a7",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4473/2-Parcel-B-PC-Staff-Report",
+      "raw_key": "documents/sykesville/by-sha/335f8ef65aeb9fea55276b9617be5bbafcb4aab5381000fdcf8cd25a0abab1a7.pdf",
+      "original_filename": "2 Parcel B PC Staff Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending BZA approval of Case #2025-01 (conditional use for assisted living on Warfield Parcel B) with three conditions: regulatory compliance, delivery logistics information, and adherence to Warfield design guidelines.",
+      "description": "Staff report for the BZA April 29, 2025 meeting. Evaluates the conditional use request against 10 criteria in the Town Code for the PEC zone. Applicant Thrive at Warfield proposes a 170-190 resident assisted living facility on Parcel B (Map 0078/Parcel 0689, 3.42 ac., PEC zone). TIA confirms fewer peak-hour trips than the approved hotel use. Staff concurs with the Planning Commission's April 7, 2025 recommendation to approve with conditions. Recommended motion includes three conditions covering state/local licensing compliance, delivery impact review, and strict adherence to the 2017 Warfield Commercial Center Design Guidelines."
+    },
+    {
+      "name": "Planning Commission Recommendation",
+      "sha256": "8a8f368949497785cd7213874d6339f410cd24559955e5e1b381650e16ae7136",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4474/3-Planning-Commission-Reccomendation-to-BZA--Parcel-B",
+      "raw_key": "documents/sykesville/by-sha/8a8f368949497785cd7213874d6339f410cd24559955e5e1b381650e16ae7136.pdf",
+      "original_filename": "3 Planning Commission Reccomendation to BZA  Parcel B",
+      "document_type": "OTHER",
+      "synopsis": "Sykesville Planning Commission recommendation dated April 7, 2025 advising the BZA to approve Case #2025-01 (conditional use for assisted living on Warfield Parcel B) with conditions.",
+      "description": "Written recommendation from the Sykesville Planning Commission to the Board of Zoning Appeals for Case #2025-01. The Commission reviewed the conditional use request as required for all conditional uses in the PEC zone and recommended approval subject to: compliance with all applicable licensing and operational regulations, submission of delivery logistics information, and strict adherence to the 2017 Warfield Commercial Center New Construction Design Guidelines and Standards for Signs."
+    },
+    {
+      "name": "Traffic Impact Analysis",
+      "sha256": "81c280ec8baf5e640a72a7464ddb1177024ce7b9288a751b38b55dcb797444e8",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4469/4-Parcel-B-Traffic-Impact-Analysis",
+      "raw_key": "documents/sykesville/by-sha/81c280ec8baf5e640a72a7464ddb1177024ce7b9288a751b38b55dcb797444e8.pdf",
+      "original_filename": "4 Parcel B Traffic Impact Analysis",
+      "document_type": "OTHER",
+      "synopsis": "Traffic Impact Analysis for the proposed assisted living facility on Warfield Parcel B. Finds approximately 46 fewer AM peak trips and 26 fewer PM peak trips compared to the approved hotel use.",
+      "description": "Updated Traffic Impact Analysis submitted by Thrive at Warfield as required by the Planning Commission. Evaluates peak-hour traffic generation for the proposed 170-190 unit assisted living facility on Parcel B, which fronts MD Route 32, Warfield Avenue, and Springfield Avenue (signalized at Rte. 32). Concludes the assisted living use generates significantly fewer peak-hour vehicle trips than the currently approved hotel development on the parcel."
+    },
+    {
+      "name": "Surrounding Property Value Impact",
+      "sha256": "ccc200783abfc538a5b6b85a7d581a68ec67a6bba582a9f57d33bc09d02ab5c1",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4470/5-Surrounding-Property-Value-Impact-Report",
+      "raw_key": "documents/sykesville/by-sha/ccc200783abfc538a5b6b85a7d581a68ec67a6bba582a9f57d33bc09d02ab5c1.pdf",
+      "original_filename": "5 Surrounding Property Value Impact Report",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Consulting report by Lipman Frizzell & Mitchell LLC (Feb. 28, 2025) concluding the proposed assisted living facility will not negatively impact surrounding residential property values.",
+      "description": "Real estate consulting report (LFM #25-010) prepared by Ryland L. Mitchell III, Principal, Lipman Frizzell & Mitchell LLC, dated February 28, 2025 for Robert Hobson, Managing Member, Warfield Senior Housing GP, LLC. Analyzes four comparable senior living facilities in the region (Fairhaven/Peak Healthcare at 7200 Third Ave., Brightview of Westminster, Lorien Encore at Turf Valley, Sunrise of Columbia) and a 2021 study of four Montgomery County neighborhoods adjacent to senior facilities. Concludes there is no evidence that proximity to a senior assisted living facility negatively affects residential property values."
+    },
+    {
+      "name": "Site Layout and Concept Design",
+      "sha256": "167ee6d5453261f6f7ba44964d6d36a5bafae3f1ed741de5c4f56d6820f77595",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4471/6-Parcel-B-Site-Layout-and-Concept-Design",
+      "raw_key": "documents/sykesville/by-sha/167ee6d5453261f6f7ba44964d6d36a5bafae3f1ed741de5c4f56d6820f77595.pdf",
+      "original_filename": "Parcel B - Site Layout and Concept Design",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site layout and concept design for the Thrive at Warfield assisted living facility on Parcel B: a mid-rise structure (up to 6 stories, 170-190 units) with parking and a receiving area adjacent to Rt. 32.",
+      "description": "Site plan and concept design documents for Case #2025-01. Shows a mid-rise structure of six stories or less on Parcel B of the Warfield Commerce and Cultural Center, with approximately 190 assisted living units, separate living quarters from communal dining areas on the first floor, supporting parking, and a receiving/delivery area adjacent to MD Route 32."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "26b94d2734199e0bbc9939490443be0a2278311f43134ccb8fa10952f8b86a27",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_04292025-174",
+      "raw_key": "documents/sykesville/by-sha/26b94d2734199e0bbc9939490443be0a2278311f43134ccb8fa10952f8b86a27.pdf",
+      "original_filename": "04292025 174",
+      "document_type": "AGENDA",
+      "synopsis": "BZA agenda for April 29, 2025: approval of March 19 minutes and public hearing on Case #2025-01 (Thrive at Warfield conditional use request for assisted living on Warfield Parcel B).",
+      "description": "Board of Zoning Appeals meeting agenda for April 29, 2025 at 7:00 PM, Town House, 7547 Main Street, Sykesville, MD. Two items: (1) Approval of minutes from March 19, 2025; (2) Case #2025-01 - public hearing on Thrive at Warfield's conditional use request for a 170-190 unit assisted living facility on Parcel B of the Warfield Commerce and Cultural Center (PEC zone, Map 0078/Parcel 0689, 3.42 ac.)."
+    },
+    {
+      "name": "BZA Minutes - April 29, 2025",
+      "sha256": "39b2fb06772df4c4efaddfe96e8e533b8a3c99e75685c78c3f2c58153e887e1e",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_04292025-174",
+      "raw_key": "documents/sykesville/by-sha/39b2fb06772df4c4efaddfe96e8e533b8a3c99e75685c78c3f2c58153e887e1e.pdf",
+      "original_filename": "04292025 174",
+      "document_type": "MINUTES",
+      "synopsis": "BZA approved Case #2025-01 (Thrive at Warfield conditional use for assisted living on Warfield Parcel B) unanimously with 3 conditions. Meeting opened at 7:00 PM and adjourned at 8:02 PM.",
+      "description": "Official minutes of the April 29, 2025 Board of Zoning Appeals meeting, Town House Conference Room. Present: Chair Al McEvoy, Board Members Andrew Miner and Paul Mueller. Staff: Town Manager Joe Cosentini, Town Clerk Kerry Kavaloski, Town Planner Kevin Rubenstein, Counsel Lynn Board (Levan and Ruff). March 19 minutes approved unanimously. Case #2025-01: public hearing for Thrive at Warfield conditional use request for an assisted living facility on Parcel B of the Warfield Commerce and Cultural Center. Testimony from attorney David Bowersox, CEO Jeremy Ragsdale (Thrive Senior Living), developer Rob Hobson (Hobson Capital Partners), and expert witness James Mathias (Thrive at Warfield site plan author). Exhibits admitted: Lipman Frizzell letter (Feb. 28) as Exhibit 1 and Carl Wilson traffic study (Apr. 23) as Exhibit 2. BZA approved the conditional use unanimously with 3 conditions, finding compliance with the 2030 Comprehensive Plan, PEC zoning, and Section 180-109 of the Town Code."
+    }
+  ]
+}

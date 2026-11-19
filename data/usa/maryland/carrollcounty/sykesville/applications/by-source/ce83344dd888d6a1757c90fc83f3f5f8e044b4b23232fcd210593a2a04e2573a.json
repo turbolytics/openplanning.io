@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-06-02",
+    "source_document_sha256": "ce83344dd888d6a1757c90fc83f3f5f8e044b4b23232fcd210593a2a04e2573a"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "file_number": "P-21-0062",
+      "title": "Schoolhouse Overlook Subdivision Preliminary Plan Review and Approval",
+      "fields": {
+        "date_received": "2025-06-02",
+        "next_hearing_date": "2025-06-02",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

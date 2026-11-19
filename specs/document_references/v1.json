@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/document_references/v1",
+  "title": "OpenPlanning Document References Schema v1",
+  "description": "Materializes DocumentReference rows (annotation links from documents to parcels, blocks, projects, entities, and jurisdictions) for documents that already exist in the target environment. Split out from document/v1 so the load graph stays acyclic: documents create rows with no outgoing edges to entity targets, then this spec resolves the targets after all entities exist. Identity is (document.sha256, target_type, target_key, source) ,  re-applying the same fixture replaces the GAZETTEER rows for each named document and leaves LLM/MANUAL rows alone.",
+  "type": "object",
+  "required": ["version", "municipality", "documents"],
+  "properties": {
+    "version": {
+      "const": "document_references/v1",
+      "description": "Schema version identifier."
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these documents and their reference targets belong to. Document lookup is scoped to this municipality."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "extracted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/document_entry" },
+      "description": "One entry per source document. Each entry carries the document's natural key (sha256) plus its list of resolved references."
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "document_entry": {
+      "type": "object",
+      "required": ["sha256", "references"],
+      "properties": {
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "Natural key for the documents.Document the references belong to. Resolved against (municipality, sha256). Missing rows are skipped with a warning."
+        },
+        "references": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/reference" }
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "required": ["target_type", "target_key"],
+      "properties": {
+        "target_type": {
+          "type": "string",
+          "enum": ["parcel", "block", "project", "entity", "jurisdiction"]
+        },
+        "target_key": {
+          "type": "object",
+          "description": "Natural-key fields for the referenced target. Shape depends on target_type: parcel uses {street_number?, street_name, street_suffix?}; block uses {jurisdiction?, section_number}; project uses {name}; entity uses {name} or {id} (global rolodex, no municipality scope); jurisdiction uses {name} or {abbreviation}, scoped to the document's municipality via Jurisdiction.for_municipality. Unresolvable keys are skipped silently."
+        },
+        "source": {
+          "type": "string",
+          "enum": ["GAZETTEER", "LLM", "MANUAL"],
+          "default": "GAZETTEER",
+          "description": "Provenance of the reference. Loader replaces only its own source bucket per document, so GAZETTEER fixtures never disturb LLM or MANUAL rows."
+        },
+        "extractor_name": { "type": "string" },
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 0 },
+        "excerpt": { "type": "string", "maxLength": 500 },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    }
+  }
+}

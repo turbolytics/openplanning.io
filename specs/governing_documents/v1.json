@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/governing_documents/v1",
+  "title": "Parcela Governing Documents Schema v1",
+  "description": "Batch-loads simple legal.Document records (without block trees) as governing documents for a municipality. For documents with structured content (zoning codes), use legal_document/v1 instead.",
+  "type": "object",
+  "required": ["version", "municipality", "documents"],
+  "properties": {
+    "version": {
+      "const": "governing_documents/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these documents belong to."
+    },
+    "documents": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/document" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "jurisdiction_ref": {
+      "type": "object",
+      "required": ["abbreviation"],
+      "properties": {
+        "abbreviation": { "type": "string" },
+        "municipality": { "$ref": "#/$defs/municipality_ref" }
+      }
+    },
+    "document": {
+      "type": "object",
+      "required": ["jurisdiction", "name", "document_type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID for this legal.Document. When present, takes precedence over (jurisdictions, name) as the upsert key. Minted by intake on first run; persisted into the fixture so subsequent re-runs hit the same row."
+        },
+        "jurisdiction": {
+          "$ref": "#/$defs/jurisdiction_ref",
+          "description": "Jurisdiction this document belongs to."
+        },
+        "name": {
+          "type": "string",
+          "description": "Document name. Legacy natural key with jurisdiction when id is absent."
+        },
+        "document_type": {
+          "type": "string",
+          "enum": [
+            "RULES_OF_PROCEDURE", "COMPREHENSIVE_PLAN", "ZONING_CODE",
+            "DESIGN_GUIDELINES", "SUBDIVISION_REGULATIONS", "PATTERN_BOOK",
+            "HISTORIC_STANDARDS", "OTHER"
+          ]
+        },
+        "description": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" },
+        "source_document_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "SHA-256 of the durable PDF bytes stored in documents.Document. Loader resolves to a documents.Document FK by (municipality, sha256). Warns if the documents.Document row is missing."
+        },
+        "effective_date": { "type": "string", "format": "date" },
+        "version": { "type": "string" },
+        "order": { "type": "integer", "default": 0 }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Updated Concept Plan for the Warfield Development"
+      },
+      "body": "Planning Commission",
+      "date": "2025-05-05",
+      "outcome": "CONTINUED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Applicant shall revise the concept plan to exclude all right-of-way areas from land use percentage calculations and resubmit updated figures based solely on net developable acreage.",
+        "Applicant shall provide a written explanation of the relevance and proposed application of HB538 (Housing Expansion and Affordability Act of 2024) to the Warfield site and demonstrate how its implementation aligns with the purpose of the PEC zoning district and other applicable requirements of the Town Code."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "140f568d0236154f2724934b78482c7e9ca25197b6bacd9fee23169c5fa1c59c",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville Planning Commission"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 514,
+          "end": 552,
+          "excerpt": "Town of Sykesville Planning Commission",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1063,
+          "end": 1081,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1992,
+          "end": 2010,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville Planning Commission"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 2173,
+          "end": 2211,
+          "excerpt": "Town of Sykesville Planning Commission",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

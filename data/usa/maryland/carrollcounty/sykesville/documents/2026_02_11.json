@@ -1,0 +1,71 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Staff Report",
+      "sha256": "1b1917345bf3ee9044a6d25c8e7109051adb5d85229868c33131c16439d4535a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4755/1-Warfield-Variance-Staff-Report-10292025",
+      "raw_key": "documents/sykesville/by-sha/1b1917345bf3ee9044a6d25c8e7109051adb5d85229868c33131c16439d4535a.pdf",
+      "original_filename": "1 Warfield Variance Staff Report 10292025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending denial of Warfield Companies' variance request from PEC District land use percentage minimums (Case 2025-03).",
+      "description": "BZA staff report analyzing the variance request against \u00a7180-105(A)(3) and \u00a7180-109 criteria. Staff finds no unique physical hardship, that reducing non-residential minimums conflicts with the PEC District's employment objectives, and recommends denial with a prepared resolution/order. Recommended motion is to deny and direct Board Counsel to prepare the necessary order for signature."
+    },
+    {
+      "name": "Application",
+      "sha256": "e1f517c041b0a93516f74157ce13775f5d17b967fee10dfb9479fa4262095831",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4757/BZA-Case-2025-03-Cover-Letter-and-Application",
+      "raw_key": "documents/sykesville/by-sha/e1f517c041b0a93516f74157ce13775f5d17b967fee10dfb9479fa4262095831.pdf",
+      "original_filename": "BZA Case 2025 03 Cover Letter and Application",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Cover letter and formal BZA application for variance from PEC District land use percentages, filed September 5, 2025 by attorney David K. Bowersox on behalf of Warfield Companies.",
+      "description": "Application package including cover letter from Hoffman, Gomfort, Offutt, Scott & Halstad LLP, BZA Notice of Appeal and Application for Hearing form, certified list of contiguous property owners, and parcel/building ownership information for the five Warfield Companies entities. Bases for variance cited as Town Code Sections 180-22 and 180-105(3)."
+    },
+    {
+      "name": "Warfield Concept Plan with Variance",
+      "sha256": "e45dcb5790f9f9926266a080861580eab9922afbf52d850958fdbc23dbac5eb3",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4754/BZA-Variance-Warfield-Concept-Plan-9-2-2025-1",
+      "raw_key": "documents/sykesville/by-sha/e45dcb5790f9f9926266a080861580eab9922afbf52d850958fdbc23dbac5eb3.pdf",
+      "original_filename": "BZA Variance Warfield Concept Plan 9 2 2025 1",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Concept plan drawing by Morris & Ritchie Associates (September 2, 2025) submitted with the variance application showing the Warfield property with proposed land use areas.",
+      "description": "Site plan exhibit depicting the Warfield at Historic Sykesville property (~90.57 acres) with proposed land use configuration under the requested variance. Prepared by Morris & Ritchie Associates and submitted as part of BZA Case 2025-03."
+    },
+    {
+      "name": "Applicant Post Hearing Memorandum",
+      "sha256": "b36082093aeacc7f52cfa738e7a3a28596e49ace943d844a2cbd6550d2f48441",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4882/1-Warfield-Post-Hearing-Memo-1",
+      "raw_key": "documents/sykesville/by-sha/b36082093aeacc7f52cfa738e7a3a28596e49ace943d844a2cbd6550d2f48441.pdf",
+      "original_filename": "1 Warfield Post Hearing Memo 1",
+      "document_type": "OTHER",
+      "synopsis": "Post-hearing memorandum filed by Warfield Companies after the initial BZA hearing on Case 2025-03.",
+      "description": "Applicant's memorandum submitted following the initial hearing, providing additional argument and information in support of the variance request for PEC District land use percentage adjustments."
+    },
+    {
+      "name": "Town Lawyer Response Memorandum",
+      "sha256": "4edae2503094363584ce5c4b27a6c65b568a2bffceb9f8d8e2f25a7802d2adbc",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4883/2-Memorandum-re-variances",
+      "raw_key": "documents/sykesville/by-sha/4edae2503094363584ce5c4b27a6c65b568a2bffceb9f8d8e2f25a7802d2adbc.pdf",
+      "original_filename": "2 Memorandum re variances",
+      "document_type": "OTHER",
+      "synopsis": "Town's legal memorandum responding to the applicant's post-hearing submission, addressing variance criteria for BZA Case 2025-03.",
+      "description": "Memorandum prepared by Town counsel addressing the legal standards for variance approval and responding to the applicant's arguments in their post-hearing memorandum. Submitted for the February 11, 2026 continuation hearing."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "e55f972fd06b91f97e4c4d16ca080902d68f345675411eb83a177819a6bbcb04",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_02112026-221",
+      "raw_key": "documents/sykesville/by-sha/e55f972fd06b91f97e4c4d16ca080902d68f345675411eb83a177819a6bbcb04.pdf",
+      "original_filename": "02112026 221",
+      "document_type": "AGENDA",
+      "synopsis": "Board of Zoning Appeals agenda for February 11, 2026 continuation hearing on Case 2025-03.",
+      "description": "BZA meeting agenda for the continuation of Case #2025-03 (Warfield Companies variance request), held at 7547 Main Street - Town House at 6:00 PM."
+    }
+  ]
+}

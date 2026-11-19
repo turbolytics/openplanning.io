@@ -1,0 +1,21 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan Review - Change of use at 7611 Main St."
+      },
+      "body": "Planning Commission",
+      "date": "2024-08-05",
+      "outcome": "APPROVED",
+      "vote": "unanimous"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-02-05",
+    "source_document_sha256": "53948a7b8d8f898a75c5807258945177837c0b93b334787c394c230252b4a117"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Carroll County Updates",
+      "fields": {
+        "date_received": "2024-02-05",
+        "next_hearing_date": "2024-02-05"
+      },
+      "retract": []
+    }
+  ]
+}

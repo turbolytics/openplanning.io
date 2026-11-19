@@ -1,0 +1,65 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "1ff95599df664924cddce987d5a4908f08f5a8648160bb7c2ac67273b48374cf",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Elm Street Communities"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1503,
+          "end": 1525,
+          "excerpt": "Elm Street Communities",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-134"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1729,
+          "end": 1736,
+          "excerpt": "purpose",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2647,
+          "end": 2655,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2898,
+          "end": 2906,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

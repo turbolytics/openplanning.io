@@ -1,0 +1,61 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Town Council Minutes - 2025-10-14",
+      "sha256": "61376d2445984018fa0143cd4659e6bc451eb520ade4fb221e86ae98a0c03eac",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4765/Minutes---October-14",
+      "raw_key": "documents/sykesville/by-sha/61376d2445984018fa0143cd4659e6bc451eb520ade4fb221e86ae98a0c03eac.pdf",
+      "original_filename": "Minutes   October 14",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 14, 2025 Town Council meeting.",
+      "description": "Minutes of the October 14, 2025 regular Town Council meeting. Key actions: (1) Approved Ordinance 2025-05 authorizing acquisition of ~4.07 acres NW of Main Street and Norwood Avenue (Map 200, Parcel 4323) for pedestrian connectivity, potential Public Works relocation, and strategic open space. (2) Approved Ordinance 2025-06 amending the FY2026 budget to add $22,680 in police grants and $525,000 for the property acquisition. (3) Approved stormwater improvement contract with BGC Inc. for Norwood Avenue and Central Avenue infrastructure, not to exceed $280,000 (ARPA + Capital + Highway User Revenue funding). (4) Approved Proclamation for National Community Media Day. All motions carried unanimously."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "8728c57796655fecc9763f4cfe72289c03c1d69a791d92b5173b4b14654c7b52",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4768/MBI-Contract-Update-Staff-Report-10272025",
+      "raw_key": "documents/sykesville/by-sha/8728c57796655fecc9763f4cfe72289c03c1d69a791d92b5173b4b14654c7b52.pdf",
+      "original_filename": "MBI Contract Update Staff Report 10272025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending approval of updated Michael Baker International Work Order No. 2 adding deconstruction scope for the B.F. Shriver Cannery.",
+      "description": "Staff report for the October 27, 2025 Town Council meeting. Summarizes the structural assessment finding that reuse of the B.F. Shriver Cannery building is not feasible, and requests authorization for MBI's updated scope (Task 6.A: Demolition Design and Support Services) covering deconstruction feasibility, concrete slab evaluation, Howard County Planning Board and Historic Preservation Commission approvals, permitting, bid preparation, and construction administration. Additional cost: $123,467. Funded through FY2026-FY2027 Capital Budget; reimbursed via State capital grant. Recommended motion: approve updated Work Order #2 as presented."
+    },
+    {
+      "name": "Structural Assessment Report",
+      "sha256": "2041756b11f3bef855a0c1a982c76d9957be677e2d2764c3ebb08a6ef00e3782",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4769/MBI-Structural-Assessment-Report",
+      "raw_key": "documents/sykesville/by-sha/2041756b11f3bef855a0c1a982c76d9957be677e2d2764c3ebb08a6ef00e3782.pdf",
+      "original_filename": "MBI Structural Assessment Report",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Michael Baker International structural assessment concluding the B.F. Shriver Cannery building is not feasible for reuse without substantial or complete structural replacement.",
+      "description": "Structural engineering assessment by Michael Baker International (MBI Project No. 198612, February 20, 2025) of the Howard Cotton Factory / B.F. Shriver Cannery Building at 350 W. Friendship Rd., Sykesville MD, in South Branch Park (Howard County). Field review January 15, 2025. Key findings: severely deteriorated and bowing brick masonry walls, failing wood and steel lintels, missing joist bridging, displaced lean-to joist connections, poor lean-to floor slab condition, and vegetative/water intrusion. Concludes existing structure requires substantial remedial work or complete new structural system. Provides four-step ROM cost estimate for stabilization, hazardous material remediation, lean-to demolition, interior structural steel, and finish work. Recommends immediate safety fencing and building marked off-limits."
+    },
+    {
+      "name": "Letter of Amendment WO2   B F Shriver Cannery Reuse Master Plan 29SEPT2025",
+      "sha256": "dbe78620f68339509f9c1bee4106dc2a665ee8066de2d373084864563544066a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4767/Letter-of-Amendment_WO2---B-F-Shriver-Cannery-Reuse-Master-Plan_29SEPT2025",
+      "raw_key": "documents/sykesville/by-sha/dbe78620f68339509f9c1bee4106dc2a665ee8066de2d373084864563544066a.pdf",
+      "original_filename": "Letter of Amendment WO2   B F Shriver Cannery Reuse Master Plan 29SEPT2025",
+      "document_type": "OTHER",
+      "synopsis": "Letter of Amendment to Work Order No. 2 dated September 29, 2025, adding Task 6.A (Demolition Design and Support Services) at $123,467.",
+      "description": "Michael Baker International's formal amendment to Work Order No. 2 for the B.F. Shriver Cannery Reuse Master Plan, dated September 29, 2025. Adds Task 6.A covering deconstruction-related engineering services including demolition design, Howard County agency coordination, bid support, and construction administration. This document is the contract amendment being presented for Council approval."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "0953b22ba8c4d21435967a48e3b5a72c4d9ded23d70ba27891c24346032a304e",
+      "source_url": "https://www.townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_10272025-204",
+      "raw_key": "documents/sykesville/by-sha/0953b22ba8c4d21435967a48e3b5a72c4d9ded23d70ba27891c24346032a304e.pdf",
+      "original_filename": "10272025 204",
+      "document_type": "AGENDA",
+      "synopsis": "Town Council agenda for October 27, 2025.",
+      "description": "Town Council meeting agenda for October 27, 2025. Consent agenda item: approval of October 14, 2025 minutes. New business: scope update on Michael Baker International Work Order No. 2 for the B.F. Shriver Cannery Reuse Master Plan, adding deconstruction design services following the finding that building reuse is not structurally feasible."
+    }
+  ]
+}

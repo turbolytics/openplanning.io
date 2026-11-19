@@ -1,0 +1,15 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "0fed3f7a84a5ffff8fdc6fa0f5a298a96c6e6ce23c66ca7e0b6842ad0a573315",
+      "references": []
+    }
+  ]
+}

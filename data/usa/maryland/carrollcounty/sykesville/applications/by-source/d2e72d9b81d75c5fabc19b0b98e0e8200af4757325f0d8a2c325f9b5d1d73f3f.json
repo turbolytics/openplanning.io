@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2026-04-06",
+    "source_document_sha256": "d2e72d9b81d75c5fabc19b0b98e0e8200af4757325f0d8a2c325f9b5d1d73f3f"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Review and act on Water Resource Element and Recommendation to the Mayor and Town",
+      "fields": {
+        "date_received": "2026-04-06",
+        "next_hearing_date": "2026-04-06"
+      },
+      "retract": []
+    }
+  ]
+}

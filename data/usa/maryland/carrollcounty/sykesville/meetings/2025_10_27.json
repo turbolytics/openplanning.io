@@ -1,0 +1,33 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "TC",
+      "date": "2025-10-27",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Consent Agenda",
+          "section": "CONSENT_AGENDA"
+        },
+        {
+          "order": 2,
+          "title": "Consider/Discuss/Act on a scope update on Michael Baker International Work Order No. 2: B.F. Shriver Cannery Reuse Master Plan and Construction Documents",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "TC",
+            "title": "Consider/Discuss/Act - Michael Baker International Work Order No. 2: B.F. Shriver Cannery"
+          }
+        }
+      ]
+    }
+  ]
+}

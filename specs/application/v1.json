@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/application/v1",
+  "title": "Parcela Application Schema v1",
+  "description": "Defines an Application: the bridge between a Jurisdiction (who reviews) and a Parcel (what is reviewed). Two shapes are supported, dispatched on the presence of source.source_document_sha256: (1) Observation merge: each item lists `fields` (and optional `retract`) that ONE source document observed on ONE date; the loader merges field-by-field by observed_at into Application.field_provenance. Spec path is conventionally applications/by-source/<source_doc_sha256>.json so re-emit of the same source bytes is idempotent. (2) Full-row upsert (legacy hand-authored fixtures): items carry full row state; identity is optional id (uuid) or natural key (jurisdiction, application_number) > (jurisdiction, file_number) > (jurisdiction, title).",
+  "type": "object",
+  "required": ["version", "municipality", "applications"],
+  "properties": {
+    "version": {
+      "const": "application/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "description": "When source_document_sha256 is set, the loader uses observation-merge mode and `observed_at` is required.",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" },
+        "observed_at": {
+          "type": "string", "format": "date",
+          "description": "Source document's authored date. Drives merge precedence per field."
+        },
+        "source_document_sha256": {
+          "type": "string", "pattern": "^[a-f0-9]{64}$",
+          "description": "sha256 of the source document. Loader resolves to a Document row by (municipality, sha256). The Document fixture must load earlier in the manifest."
+        },
+        "source_document_name": { "type": "string" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these applications belong to. Used to scope parcel and project lookups; the jurisdiction_abbreviation on each application is resolved within this municipality."
+    },
+    "applications": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/application" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "project_ref": {
+      "type": "object",
+      "description": "Reference to a Project within the municipality. Resolved by id when present, otherwise by slug.",
+      "properties": {
+        "id": { "type": "string", "format": "uuid" },
+        "slug": { "type": "string" }
+      },
+      "anyOf": [
+        { "required": ["id"] },
+        { "required": ["slug"] }
+      ]
+    },
+    "parcel_ref": {
+      "$ref": "openplanning/specs/parcel/v1#/$defs/parcel_ref",
+      "description": "See parcel/v1#/$defs/parcel_ref for the canonical definition. Structured natural-key reference: {street_number?, street_name, street_suffix?, city, state}."
+    },
+    "citation": {
+      "type": "object",
+      "description": "An embedded citation linking the host application to a legal.Block. The host's jurisdiction is inherited; the spec only carries section_number for block resolution. Re-loading the same fixture is idempotent (keyed on (jurisdiction, block, application)).",
+      "required": ["block"],
+      "properties": {
+        "block": {
+          "type": "object",
+          "required": ["section_number"],
+          "properties": {
+            "section_number": {
+              "type": "string",
+              "description": "Block.section_number (e.g. '180-137'). Resolved within the host application's jurisdiction. If multiple versions exist, the current version (is_current=True) is preferred."
+            }
+          }
+        },
+        "excerpt": {
+          "type": "string",
+          "description": "Verbatim quote from the host document supporting the citation."
+        },
+        "note": {
+          "type": "string",
+          "description": "Editor's note explaining the citation's relevance."
+        },
+        "created_by": {
+          "type": "string",
+          "default": "openplanning",
+          "description": "Origin tag, e.g. 'openplanning' or 'seed'. Defaults to 'openplanning' when omitted."
+        }
+      }
+    },
+    "document_ref": {
+      "type": "object",
+      "description": "Reference to a documents.Document within the municipality. Resolved by source_url first, then by name.",
+      "properties": {
+        "name": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "process_assignment": {
+      "type": "object",
+      "description": "Enrolls the application in a ReviewProcess (creates an ApplicationProcess row). Resolved by (application.jurisdiction, name). The model permits multiple processes per application (one per commission), so this is an array; the typical case is a single entry.",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "ReviewProcess name, unique within the application's jurisdiction."
+        },
+        "current_node": {
+          "type": "string",
+          "description": "Current node ID in the process graph. Empty string when not started or when the process is complete.",
+          "default": ""
+        },
+        "is_complete": {
+          "type": "boolean",
+          "description": "True when the process has reached a terminal state.",
+          "default": false
+        }
+      }
+    },
+    "entity_ref": {
+      "description": "Reference to a global Entity in the rolodex. The natural key is `name`, which is globally unique (case-insensitive). Either a bare string (the name) or an object `{name, id?}` is accepted ,  `id` is the canonical UUID when known. `entity_type` is not part of the ref because the type is often unknown at the time of reference (e.g. AI-extracted applicants where the source PDF doesn't disclose whether 'Joy Property' is a sole proprietorship or a corporation). The Entity record itself owns its type. The loader does not auto-create entities; missing entities are logged and the FK is left null.",
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Bare entity name ,  the canonical natural key."
+        },
+        {
+          "type": "object",
+          "required": ["name"],
+          "properties": {
+            "id": { "type": "string", "format": "uuid" },
+            "name": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "application": {
+      "type": "object",
+      "description": "Application item. Two shapes: (1) Observation-merge item carries `fields` (and optional `retract`) which the loader merges into the row. Identified by (jurisdiction_abbreviation, file_number) with title fallback. (2) Legacy full-row item carries scalar fields directly at the top level (title, parcel, applicant, dates, etc.) for upsert.",
+      "required": ["jurisdiction_abbreviation"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID primary key. When set, this is the canonical identifier across environments. Optional in the observation-merge shape."
+        },
+        "jurisdiction_abbreviation": {
+          "type": "string",
+          "description": "Reviewing jurisdiction, resolved within the municipality (e.g. 'PC')."
+        },
+        "fields": {
+          "type": "object",
+          "description": "Observation-merge mode only: fields this source document actually observed. Missing keys are not deletions. Scalar values pass through; refs (parcel, applicant) resolve via existing helpers.",
+          "additionalProperties": true
+        },
+        "retract": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Observation-merge mode only: fields to set to null with this spec's observed_at."
+        },
+        "title": {
+          "type": "string",
+          "description": "Human-readable application title. Used as a natural-key fallback when file_number is absent."
+        },
+        "application_number": {
+          "type": "string",
+          "description": "Public-facing application number. First-priority natural key within the jurisdiction."
+        },
+        "file_number": {
+          "type": "string",
+          "description": "Internal file number (e.g. 'P-23-0026'). Second-priority natural key within the jurisdiction."
+        },
+        "parcel": {
+          "$ref": "#/$defs/parcel_ref",
+          "description": "Reviewed Parcel, resolved by street address within the municipality."
+        },
+        "applicant": {
+          "$ref": "#/$defs/entity_ref",
+          "description": "The Entity that applied. Hermetic ref carrying name + entity_type, resolved against the global rolodex by name (case-insensitive). Never auto-creates."
+        },
+        "description": {
+          "type": "string",
+          "description": "Free-form description. Plain text or markdown."
+        },
+        "date_received": { "type": "string", "format": "date" },
+        "date_of_last_action": { "type": "string", "format": "date" },
+        "next_hearing_date": { "type": "string", "format": "date" },
+        "current_status": {
+          "type": "string",
+          "description": "Free-form workflow status string (e.g. 'Approved', 'In Review', 'Referred to Town Council')."
+        },
+        "assigned_reviewer": { "type": "string" },
+        "project": {
+          "$ref": "#/$defs/project_ref",
+          "description": "Optional Project to attach via the Project.applications M2M. Resolved within the municipality."
+        },
+        "documents": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/document_ref" },
+          "description": "Documents to attach via the Application.documents M2M. Each is resolved by source_url first, then name."
+        },
+        "processes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/process_assignment" },
+          "description": "ReviewProcess enrollments for this application. Each entry creates or updates an ApplicationProcess row keyed by (application, review_process)."
+        },
+        "citations": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/citation" },
+          "description": "Code citations attached to this application. Each entry creates or updates a Citation row keyed by (jurisdiction, block, application). Edges are additive across loads."
+        }
+      }
+    }
+  }
+}

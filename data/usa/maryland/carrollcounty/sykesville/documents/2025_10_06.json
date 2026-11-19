@@ -1,0 +1,79 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Agenda - October 6, 2025",
+      "document_type": "AGENDA",
+      "source_url": "https://www.townofsykesville.org/AgendaCenter/ViewFile/Agenda/_10062025-210",
+      "sha256": "77851d49b170d96d462a1836fd807acee5e7c3c6ab718eb6fcf0baec20b90a41",
+      "raw_key": "documents/sykesville/by-sha/77851d49b170d96d462a1836fd807acee5e7c3c6ab718eb6fcf0baec20b90a41.pdf",
+      "original_filename": "Planning Commission Agenda - October 6, 2025"
+    },
+    {
+      "name": "Minutes August 4",
+      "sha256": "241145db249a3f9c70b1c8d1548e9576e6db1c2b3a9e75d22dc79d5edf779b8f",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4709/Minutes---August-4",
+      "raw_key": "documents/sykesville/by-sha/241145db249a3f9c70b1c8d1548e9576e6db1c2b3a9e75d22dc79d5edf779b8f.pdf",
+      "original_filename": "Minutes - August 4, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the August 4, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the August 4, 2025 regular Planning Commission meeting. Items on the agenda included approval of July 7, 2025 minutes, county updates, site plan and amended plat for Lib's Grill at the Station (7618 Main St, file S-24-0033), and town updates."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "927e3df4364255c8458ea75531fb44fae9a04a0880850cdc4309fe9c8849b1cf",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4708/Staff-Report-October-Update",
+      "raw_key": "documents/sykesville/by-sha/927e3df4364255c8458ea75531fb44fae9a04a0880850cdc4309fe9c8849b1cf.pdf",
+      "original_filename": "Staff Report - Ongoing Projects and BZA Updates",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Informational staff report on ongoing town projects and pending Warfield BZA requests, October 6, 2025.",
+      "description": "Staff update for the October 6, 2025 Planning Commission covering: (1) ongoing projects -- Enclave final plan with proposed neighborhood square redesign, Sykesville Train Station historic trust coordination, South End Streetscape phases, French Twist site plan in preparation, Service Garage at 7306 Springfield Ave, MD-851 state road dedication request; (2) pending Warfield BZA requests -- appeal of July 7 PC determinations, variance request for PEC land use percentage modification, and appeal of Zoning Administrator's decision on Parcel B. No Planning Commission action required."
+    },
+    {
+      "name": "Enclave Current Neighborhood Square",
+      "sha256": "06912946526aeb50bd84d350a684c7fd3c2f612964546d9bee5200e4e8497c92",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4710/Enclave-Current-Neighborhood-Square",
+      "raw_key": "documents/sykesville/by-sha/06912946526aeb50bd84d350a684c7fd3c2f612964546d9bee5200e4e8497c92.pdf",
+      "original_filename": "Enclave - Current Neighborhood Square",
+      "document_type": "OTHER",
+      "synopsis": "Drawing of the current Enclave neighborhood square configuration.",
+      "description": "Plan drawing showing the current approved neighborhood square design for the Enclave subdivision, including the Town Park Drive loop, attached as reference for the proposed redesign discussion."
+    },
+    {
+      "name": "Enclave Town Square Expansion",
+      "sha256": "c6bdf1dad5d7379287d6476f255cec9ff7314a088deb6a68fb15030161b1729e",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4707/Enclave-Town-Square-Expansion",
+      "raw_key": "documents/sykesville/by-sha/c6bdf1dad5d7379287d6476f255cec9ff7314a088deb6a68fb15030161b1729e.pdf",
+      "original_filename": "Enclave - Town Square Expansion",
+      "document_type": "OTHER",
+      "synopsis": "Drawing of the proposed enlarged Enclave neighborhood square replacing Town Park Drive loop.",
+      "description": "Plan drawing showing the proposed Enclave neighborhood square expansion that replaces the Town Park Drive loop with a larger greenspace. The redesign reinforces community-oriented design, adds neighborhood amenities, improves pedestrian connectivity, and reduces impervious area by eliminating stormwater management facilities within the square, while maintaining the same number of guest parking spaces."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "d4bffed9d550cc16673d3114fa2a66b2fc52a162aed302e500f0428cb90107ac",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_10062025-200",
+      "raw_key": "documents/sykesville/by-sha/d4bffed9d550cc16673d3114fa2a66b2fc52a162aed302e500f0428cb90107ac.pdf",
+      "original_filename": "10062025 200",
+      "document_type": "AGENDA",
+      "synopsis": "October 6, 2025 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the October 6, 2025 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: approval of August 4, 2025 minutes; county updates; informational update on ongoing projects and pending Warfield BZA requests; and town updates."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-10-06",
+      "sha256": "bdd3b68f0404a7f45105b38bbdabb13c4b127ea3b3bb8beb3eb7b932dd6f304d",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_10062025-200",
+      "raw_key": "documents/sykesville/by-sha/bdd3b68f0404a7f45105b38bbdabb13c4b127ea3b3bb8beb3eb7b932dd6f304d.pdf",
+      "original_filename": "Minutes - October 6, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 6, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the October 6, 2025 regular Planning Commission meeting. Commissioner Singleton presided; Commissioners Ludvigsen and Scheiner absent. August 4, 2025 minutes approved unanimously. Business agenda consisted of informational updates only: Enclave at Parkside subdivision in Town/County review with enlarged neighborhood greenspace replacing Town Park Drive loop; Sykesville Train Station historic trust coordination ongoing; South End Streetscape initial phases nearly complete; French Twist formal site plan in preparation; 7306 Springfield Ave owners preparing site for new tenant; MD-851 state road dedication request submitted. Three Warfield BZA applications tentatively scheduled for October 29: appeal of July 7 PC determinations, land use percentage variance, and appeal of Zoning Administrator's decision on Parcel B. Meeting adjourned at 7:22 PM."
+    }
+  ]
+}

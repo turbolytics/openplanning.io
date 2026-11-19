@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/manifest/v1",
+  "title": "OpenPlanning Manifest Schema v1",
+  "description": "Declares an ordered list of openplanning spec files to load. The `apply` subcommand walks the list, hashes each spec, skips files whose hash already matches an AppliedSpec row, otherwise dispatches to the loader for that spec's `version`. Replaces the long Makefile chain with a single declarative load order. Paths are interpreted relative to the manifest file's directory unless absolute.",
+  "type": "object",
+  "required": ["version", "load"],
+  "properties": {
+    "version": {
+      "const": "manifest/v1"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable label for this manifest, used in command output."
+    },
+    "load": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ordered list of spec file paths. Each path is loaded in order. Paths may be absolute or relative to the manifest file's directory. Each referenced file must itself be a valid openplanning spec (carries its own `version` field that the loader dispatches on)."
+    }
+  }
+}

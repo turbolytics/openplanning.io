@@ -1,0 +1,71 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "February 2 Minutes",
+      "sha256": "b4af9cc9e6f1c47417d09577054ee787595e5eda705e7f949c7815c6fc0e4044",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4910/February-2-Minutes",
+      "raw_key": "documents/sykesville/by-sha/b4af9cc9e6f1c47417d09577054ee787595e5eda705e7f949c7815c6fc0e4044.pdf",
+      "original_filename": "Minutes - February 2, 2026",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 2, 2026 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the February 2, 2026 regular Planning Commission meeting. Full attendance. Decisions: (1) 2025 MDP Annual Report approved unanimously for submission to Carroll County; (2) WRE public hearing opened and closed unanimously with no public comments; (3) Commissioner Mican elected 2026 Chairperson and Commissioner Singleton elected Vice Chairperson, unanimously. Meeting adjourned at 7:23 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "1799ce6cb8142d97bfb84af94cc387bd33616accdca589551058430e0fd97ac8",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4911/2-7448-Springfield-PC-Staff-Report-02022026",
+      "raw_key": "documents/sykesville/by-sha/1799ce6cb8142d97bfb84af94cc387bd33616accdca589551058430e0fd97ac8.pdf",
+      "original_filename": "Staff Report - 7448 Springfield Ave Site Plan",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending conditional approval of the site plan for 7448 Springfield Avenue shared office and parking.",
+      "description": "Staff report for the 7448 Springfield Avenue site plan (Factory Partners LLC, Parcel 0200/4338.5, B-L zone). Proposal: build out 3,534 SF vacant interior as 12-suite shared office/co-working space, and demolish rear of building to add 18 parking spaces. Change of use from art studio to professional office requires 14 total spaces (4 Band Shoppe + 10 office); current 11 spaces are deficient. New 18-space rear lot will bring site into compliance. Staff recommends approval with conditions addressing: pull-off boundary encroachment, 25-ft access lane width per Town Code, stop-sign signage at parking exits, and night lighting."
+    },
+    {
+      "name": "Site Plan and Parking Layout",
+      "sha256": "698b84b8b4234946531fced6e8eade75ba8284adedd8ad830fd8b3ad03bb306c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4909/Site-Plan-Parking-Layout",
+      "raw_key": "documents/sykesville/by-sha/698b84b8b4234946531fced6e8eade75ba8284adedd8ad830fd8b3ad03bb306c.pdf",
+      "original_filename": "Site Plan and Parking Layout - 7448 Springfield Ave",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site plan and parking layout for 7448 Springfield Avenue.",
+      "description": "Site plan drawing for 7448 Springfield Avenue showing the existing Band Shoppe tenant suite, proposed shared office suite footprint, and the new 18-space surface parking lot (16 standard + 2 ADA) to be created by demolition of the rear of the building."
+    },
+    {
+      "name": "Shared Office Revisions",
+      "sha256": "6f77b25d3a47c3c194db6619220114ccf2e7e263ab924c32e66a425952c4173c",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4912/Shared-Office-Revisions--7448-Springfield-Ave---12026",
+      "raw_key": "documents/sykesville/by-sha/6f77b25d3a47c3c194db6619220114ccf2e7e263ab924c32e66a425952c4173c.pdf",
+      "original_filename": "Shared Office Revisions - 7448 Springfield Ave",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Architectural drawings for the 7448 Springfield Avenue shared office suite buildout.",
+      "description": "Architectural plans by Bates Architects LLC (project 25095-04, permit revision dated January 20, 2026) for the shared office suite buildout at 7448 Springfield Avenue. Shows floor plan with 12 individual office suites, conference room, shared pantry, ADA restrooms, corridors, and egress calculations. Total new suite area: 3,534 SF, occupant load: 50. Owner: Factory Partners LLC."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "9441511e0aa34928981f9e6623146207b415ea073239a558ba337143706f6982",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_03022026-226",
+      "raw_key": "documents/sykesville/by-sha/9441511e0aa34928981f9e6623146207b415ea073239a558ba337143706f6982.pdf",
+      "original_filename": "Planning Commission Agenda - March 2, 2026",
+      "document_type": "AGENDA",
+      "synopsis": "March 2, 2026 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the March 2, 2026 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: county updates; approval of February 2, 2026 minutes; site plan for 7448 Springfield Avenue shared office and parking (staff recommends conditional approval); and town updates."
+    },
+    {
+      "name": "Planning Commission Minutes - 2026-03-02",
+      "sha256": "a44c0ceeb023955f43d0f79c15dee5e44e77617f5c7588fbad396e5d3c45c368",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_03022026-226",
+      "raw_key": "documents/sykesville/by-sha/a44c0ceeb023955f43d0f79c15dee5e44e77617f5c7588fbad396e5d3c45c368.pdf",
+      "original_filename": "03022026 226",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the March 2, 2026 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the March 2, 2026 regular Planning Commission meeting. Commissioner Mican presided (new chair). Full attendance. February 2, 2026 minutes approved unanimously. Decision: site plan for 7448 Springfield Avenue (Factory Partners LLC shared office buildout + 18-space rear parking lot) APPROVED unanimously with conditions for access lane compliance, pedestrian crosswalk striping, adequate signage, nighttime lighting, and easement or boundary modification for pull-off area. Town updates: BZA denied Warfield land use variance request and denied appeal of Town Manager decision on amendment process; applicant postponed appeal of July 2025 PC denial; South End Streetscape curbing complete, work continuing to Baldwin Drive connection (expected done early May); Lib's Grill demolition of kitchen and rear platform has begun. Meeting adjourned at 7:26 PM."
+    }
+  ]
+}

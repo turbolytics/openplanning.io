@@ -1,0 +1,29 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-02-03",
+    "source_document_sha256": "59893a6f42df8d097385d9268a1c52b7b1b2660008ebd00e6a54a95a0a9fb2b2"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "file_number": "S-24-0033",
+      "title": "Site Plan Review - Schoolhouse Rd Apartments accessory structure.",
+      "fields": {
+        "description": "The project representatives have requested an opportunity to introduce a site plan for an accessory building and various other site improvements for the Schoolhouse Rd. Apartment community.  This is intended as a chance for the Planning Commission to become familiar with the plan and ask any questions that they might have. The Planning Commission is not being asked to approve the plan during this meeting.",
+        "date_received": "2025-02-03",
+        "next_hearing_date": "2025-02-03",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

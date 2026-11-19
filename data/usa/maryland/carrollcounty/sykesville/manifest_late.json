@@ -1,0 +1,10 @@
+{
+  "version": "manifest/v1",
+  "name": "Sykesville demo data (post legacy seed)",
+  "load": [
+    "staff_reports.json",
+    "../../jurisdictions.json",
+    "../jurisdictions.json",
+    "workflows.json"
+  ]
+}

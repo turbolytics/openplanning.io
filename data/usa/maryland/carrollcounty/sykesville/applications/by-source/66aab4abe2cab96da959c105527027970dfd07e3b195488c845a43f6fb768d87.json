@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2023-11-28",
+    "source_document_sha256": "66aab4abe2cab96da959c105527027970dfd07e3b195488c845a43f6fb768d87"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Rezone Petition Recommendation- 7306 Springfield Ave. (Joy Property)",
+      "fields": {
+        "date_received": "2023-12-04",
+        "next_hearing_date": "2023-12-04",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Owners of 7306 Springfield Ave. (Joy Property)"
+      },
+      "retract": []
+    }
+  ]
+}

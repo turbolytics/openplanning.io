@@ -1,0 +1,44 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "cd22b44221742864b0047ac19e3c4d10e8cfd231c166483b4c1c39626d7997d2",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7422",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7550"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 302,
+          "end": 325,
+          "excerpt": "7422 Springfield Avenue",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 429,
+          "end": 437,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

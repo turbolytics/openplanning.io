@@ -1,0 +1,44 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "63249e62737b284ddbfea2d99e044e7e7e477ee1cf238feda060bcc7a5488e0a",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 0,
+          "end": 18,
+          "excerpt": "TOWN OF SYKESVILLE",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7557",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7366"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 359,
+          "end": 375,
+          "excerpt": "7557 Main Street",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

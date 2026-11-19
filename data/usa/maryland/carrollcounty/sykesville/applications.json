@@ -1,0 +1,260 @@
+{
+  "version": "application/v1",
+  "source": {
+    "title": "Sykesville applications fixture",
+    "retrieved_at": "2026-05-03"
+  },
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "applications": [
+    {
+      "id": "a0000001-0001-4000-8000-000000000001",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Enclave at Parkside - Preliminary Plan & Pattern Book",
+      "file_number": "P-23-0026",
+      "parcel": {
+        "street_number": "",
+        "street_name": "Enclave at Parkside",
+        "street_suffix": "",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "applicant": "Toll Brothers",
+      "description": "Preliminary plan and pattern book for the Enclave at Parkside, a 47-unit residential subdivision (side-by-side townhomes) within the Warfield PEC development. Includes open space, stormwater management, and future commercial parcels.",
+      "date_received": "2023-05-22",
+      "date_of_last_action": "2025-05-07",
+      "current_status": "Approved",
+      "project": {
+        "slug": "warfield"
+      },
+      "processes": [
+        {
+          "name": "PEC Three-Step",
+          "is_complete": true
+        }
+      ],
+      "citations": [
+        {
+          "block": {
+            "section_number": "180-144"
+          },
+          "excerpt": "Three-step approval process: concept, preliminary, final.",
+          "note": "PEC three-step approval process governs subdivision review.",
+          "created_by": "seed"
+        },
+        {
+          "block": {
+            "section_number": "180-143"
+          },
+          "excerpt": "A pattern book shall be submitted and approved as part of the preliminary plan phase.",
+          "note": "Pattern book required for preliminary plan approval.",
+          "created_by": "seed"
+        },
+        {
+          "block": {
+            "section_number": "180-139"
+          },
+          "excerpt": "The plan remains consistent with all land use percentages approved during the concept plan stage.",
+          "note": "Land use percentages verified at preliminary stage.",
+          "created_by": "seed"
+        },
+        {
+          "block": {
+            "section_number": "180-142"
+          },
+          "excerpt": "The plan remains consistent with all bulk regulations approved during the concept plan stage.",
+          "note": "Bulk regulations (lot area, width, yards) verified at preliminary stage.",
+          "created_by": "seed"
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000002",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Rezone Petition - 7306 Springfield Ave (Joy Property)",
+      "parcel": {
+        "street_number": "7306",
+        "street_name": "Springfield",
+        "street_suffix": "Ave",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "applicant": "Joy Property",
+      "description": "Rezone petition requesting zoning change from Business Local (B-L) to Business General (B-G) at 7306 Springfield Ave to allow legal operation of an automobile service garage. The property historically operated as a service station but lost non-conforming status. If approved by Town Council, a site plan review will still be required.",
+      "date_of_last_action": "2023-12-04",
+      "current_status": "Referred to Town Council"
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000003",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Schoolhouse Rd Apartments Accessory Structure Site Plan",
+      "file_number": "S-24-0033",
+      "parcel": {
+        "street_number": "",
+        "street_name": "Schoolhouse Road Apartments",
+        "street_suffix": "",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "description": "Site plan review and approval for an accessory structure at the Schoolhouse Road Apartments.",
+      "date_received": "2025-02-20",
+      "date_of_last_action": "2025-05-07",
+      "current_status": "Approved",
+      "processes": [
+        {
+          "name": "Commercial",
+          "current_node": "",
+          "is_complete": true
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000004",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan - 7503 Village Rd (Rob's Barber Shop)",
+      "parcel": {
+        "street_number": "7503",
+        "street_name": "Village",
+        "street_suffix": "Rd",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "applicant": "Rob's Barber Shop",
+      "description": "Site plan review for conversion of a convenience store at 7503 Village Rd into a barber shop. The 2,000 sq ft building layout remains unchanged; primary modification is restriping parking to add a handicap accessible space.",
+      "date_of_last_action": "2024-04-01",
+      "current_status": "Approved"
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000005",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Conditional Use Request for Assisted Living - Warfield Parcel B",
+      "parcel": {
+        "street_number": "",
+        "street_name": "Warfield Parcel B",
+        "street_suffix": "",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "applicant": "Thrive at Warfield",
+      "description": "Conditional use approval for an assisted living facility on Parcel B in the Warfield Development. Reviewed by PC for recommendation to BZA.",
+      "date_received": "2025-02-01",
+      "date_of_last_action": "2025-04-07",
+      "current_status": "In Review",
+      "project": {
+        "slug": "warfield"
+      },
+      "citations": [
+        {
+          "block": {
+            "section_number": "180-137"
+          },
+          "excerpt": "Applicant is requesting conditional use approval of an assisted living facility to be located on Parcel B in the Warfield Development.",
+          "note": "\u00a7180-137 A(2)(b) - assisted living listed as conditional use in PEC zone. Extracted from staff report.",
+          "created_by": "seed"
+        },
+        {
+          "block": {
+            "section_number": "180-134"
+          },
+          "excerpt": "The purpose of the PEC zone is to provide for logical locations where high-quality mixed use developments can occur.",
+          "note": "Staff report evaluates proposal against PEC purpose criteria. Extracted from staff report.",
+          "created_by": "seed"
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000006",
+      "jurisdiction_abbreviation": "PC",
+      "title": "French Twist Building Addition",
+      "parcel": {
+        "street_number": "732",
+        "street_name": "Oklahoma",
+        "street_suffix": "Ave",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "description": "Building addition for the French Twist at 732 Oklahoma Ave.",
+      "date_received": "2025-03-15",
+      "date_of_last_action": "2025-04-07",
+      "current_status": "Introduction",
+      "processes": [
+        {
+          "name": "Commercial",
+          "current_node": "",
+          "is_complete": true
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000007",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Garage Conversion at 7557 Main Street",
+      "parcel": {
+        "street_number": "7557",
+        "street_name": "Main",
+        "street_suffix": "St",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "description": "Site plan for conversion of an existing garage at 7557 Main Street.",
+      "date_received": "2025-04-15",
+      "date_of_last_action": "2025-07-02",
+      "current_status": "Approved",
+      "processes": [
+        {
+          "name": "Commercial",
+          "current_node": "",
+          "is_complete": true
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000008",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Schoolhouse Overlook Subdivision - Preliminary Plan",
+      "parcel": {
+        "street_number": "",
+        "street_name": "Schoolhouse Overlook",
+        "street_suffix": "",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "description": "Preliminary plan for the Schoolhouse Overlook residential subdivision on Schoolhouse Rd.",
+      "date_received": "2025-03-10",
+      "date_of_last_action": "2025-07-10",
+      "current_status": "Approved",
+      "processes": [
+        {
+          "name": "Residential",
+          "current_node": "",
+          "is_complete": true
+        }
+      ]
+    },
+    {
+      "id": "a0000001-0001-4000-8000-000000000009",
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan - 7448 Springfield Avenue",
+      "parcel": {
+        "street_number": "7448",
+        "street_name": "Springfield",
+        "street_suffix": "Ave",
+        "city": "Sykesville",
+        "state": "MD"
+      },
+      "description": "Site plan review for a shared office / coworking space at 7448 Springfield Ave. Includes parking layout revisions.",
+      "date_received": "2026-01-15",
+      "current_status": "Under Review",
+      "processes": [
+        {
+          "name": "Commercial",
+          "is_complete": true
+        }
+      ]
+    }
+  ]
+}

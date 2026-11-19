@@ -1,0 +1,70 @@
+{
+  "version": "jurisdiction/v1",
+  "source": {
+    "title": "Sykesville municipal review bodies",
+    "retrieved_at": "2026-04-19"
+  },
+  "jurisdictions": [
+    {
+      "id": "b1c2d3e4-1111-4000-8000-000000000001",
+      "municipality": {
+        "country": "US",
+        "state": "MD",
+        "county": "Carroll County",
+        "name": "Sykesville"
+      },
+      "name": "Planning Commission",
+      "abbreviation": "PC",
+      "jurisdiction_type": "DECIDING_BODY",
+      "authority_type": "MUNICIPAL",
+      "holds_meetings": true,
+      "zoning_code_version": "Chapter 180 - Zoning (as amended through 2024)",
+      "order": 1
+    },
+    {
+      "id": "b1c2d3e4-2222-4000-8000-000000000002",
+      "municipality": {
+        "country": "US",
+        "state": "MD",
+        "county": "Carroll County",
+        "name": "Sykesville"
+      },
+      "name": "Board of Zoning Appeals",
+      "abbreviation": "BZA",
+      "jurisdiction_type": "DECIDING_BODY",
+      "authority_type": "MUNICIPAL",
+      "holds_meetings": true,
+      "order": 2
+    },
+    {
+      "id": "b1c2d3e4-3333-4000-8000-000000000003",
+      "municipality": {
+        "country": "US",
+        "state": "MD",
+        "county": "Carroll County",
+        "name": "Sykesville"
+      },
+      "name": "Historic District Commission",
+      "abbreviation": "HDC",
+      "jurisdiction_type": "DECIDING_BODY",
+      "authority_type": "MUNICIPAL",
+      "holds_meetings": true,
+      "order": 3
+    },
+    {
+      "id": "b1c2d3e4-4444-4000-8000-000000000004",
+      "municipality": {
+        "country": "US",
+        "state": "MD",
+        "county": "Carroll County",
+        "name": "Sykesville"
+      },
+      "name": "Town Council",
+      "abbreviation": "TC",
+      "jurisdiction_type": "DECIDING_BODY",
+      "authority_type": "MUNICIPAL",
+      "holds_meetings": true,
+      "order": 4
+    }
+  ]
+}

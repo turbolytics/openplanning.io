@@ -1,0 +1,884 @@
+{
+  "version": "review_process/v1",
+  "source": {
+    "title": "Sykesville zoning code and BZA rules of procedure",
+    "retrieved_at": "2026-04-19"
+  },
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "review_processes": [
+    {
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Residential",
+      "description": "Residential permits - county permit, staff review, optional BZA variance.",
+      "graph": {
+        "nodes": {
+          "county_permit": {
+            "label": "Carroll County Permit",
+            "is_initial": true
+          },
+          "staff_review": {
+            "label": "Staff Review"
+          },
+          "bza_hearing": {
+            "label": "BZA Hearing"
+          }
+        },
+        "edges": [
+          {
+            "from": "county_permit",
+            "outcome": "received",
+            "label": "Received",
+            "to": "staff_review"
+          },
+          {
+            "from": "staff_review",
+            "outcome": "complies",
+            "label": "Complies",
+            "terminal": true
+          },
+          {
+            "from": "staff_review",
+            "outcome": "doesnt_comply",
+            "label": "Doesn't Comply",
+            "terminal": true
+          },
+          {
+            "from": "staff_review",
+            "outcome": "needs_variance",
+            "label": "Needs Variance",
+            "to": "bza_hearing"
+          },
+          {
+            "from": "bza_hearing",
+            "outcome": "variance_granted",
+            "label": "Variance Granted",
+            "to": "staff_review"
+          },
+          {
+            "from": "bza_hearing",
+            "outcome": "variance_denied",
+            "label": "Variance Denied",
+            "terminal": true
+          }
+        ]
+      }
+    },
+    {
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "PEC Three-Step",
+      "description": "Planned Employment Center three-step review - concept, preliminary, final.",
+      "graph": {
+        "nodes": {
+          "site_plan_submission": {
+            "label": "Site Plan Submission",
+            "is_initial": true
+          },
+          "staff_completeness": {
+            "label": "Staff Completeness Review"
+          },
+          "concept": {
+            "label": "PC Hearing - Concept"
+          },
+          "preliminary": {
+            "label": "PC Hearing - Preliminary"
+          },
+          "preliminary_conditions": {
+            "label": "Conditions Tracking"
+          },
+          "final": {
+            "label": "PC Hearing - Final"
+          }
+        },
+        "edges": [
+          {
+            "from": "site_plan_submission",
+            "outcome": "submitted",
+            "label": "Submitted",
+            "to": "staff_completeness"
+          },
+          {
+            "from": "staff_completeness",
+            "outcome": "complete",
+            "label": "Complete",
+            "to": "concept"
+          },
+          {
+            "from": "staff_completeness",
+            "outcome": "incomplete",
+            "label": "Incomplete",
+            "to": "site_plan_submission"
+          },
+          {
+            "from": "concept",
+            "outcome": "approved",
+            "label": "Approved",
+            "to": "preliminary"
+          },
+          {
+            "from": "concept",
+            "outcome": "denied",
+            "label": "Denied / Resubmit",
+            "to": "site_plan_submission"
+          },
+          {
+            "from": "preliminary",
+            "outcome": "approved",
+            "label": "Approved",
+            "to": "final"
+          },
+          {
+            "from": "preliminary",
+            "outcome": "approved_with_conditions",
+            "label": "Approved With Conditions",
+            "to": "preliminary_conditions"
+          },
+          {
+            "from": "preliminary",
+            "outcome": "denied",
+            "label": "Denied",
+            "terminal": true
+          },
+          {
+            "from": "preliminary_conditions",
+            "outcome": "conditions_met",
+            "label": "Conditions Met",
+            "to": "final"
+          },
+          {
+            "from": "final",
+            "outcome": "approved",
+            "label": "Approved",
+            "terminal": true
+          },
+          {
+            "from": "final",
+            "outcome": "denied",
+            "label": "Denied",
+            "terminal": true
+          }
+        ]
+      }
+    },
+    {
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Commercial",
+      "description": "Commercial site plan - staff review, PC hearing, conditions tracking, zoning permit.",
+      "graph": {
+        "nodes": {
+          "plan_submission": {
+            "label": "Plan Submission",
+            "is_initial": true
+          },
+          "staff_review": {
+            "label": "Staff Review"
+          },
+          "staff_proposal": {
+            "label": "Staff Proposal"
+          },
+          "planning_commission_review": {
+            "label": "Planning Commission Review"
+          },
+          "pc_decision": {
+            "label": "PC Decision"
+          },
+          "conditions_tracking": {
+            "label": "Conditions Tracking"
+          },
+          "staff_approval": {
+            "label": "Staff Approval"
+          },
+          "zoning_permit": {
+            "label": "Zoning Permit"
+          }
+        },
+        "edges": [
+          {
+            "from": "plan_submission",
+            "outcome": "submitted",
+            "label": "Submitted",
+            "to": "staff_review"
+          },
+          {
+            "from": "staff_review",
+            "outcome": "reviewed",
+            "label": "Reviewed",
+            "to": "staff_proposal"
+          },
+          {
+            "from": "staff_proposal",
+            "outcome": "proposed",
+            "label": "Proposed",
+            "to": "planning_commission_review"
+          },
+          {
+            "from": "planning_commission_review",
+            "outcome": "reviewed",
+            "label": "Reviewed",
+            "to": "pc_decision"
+          },
+          {
+            "from": "pc_decision",
+            "outcome": "approved",
+            "label": "Approved",
+            "to": "staff_approval"
+          },
+          {
+            "from": "pc_decision",
+            "outcome": "approved_with_conditions",
+            "label": "Approved With Conditions",
+            "to": "conditions_tracking"
+          },
+          {
+            "from": "pc_decision",
+            "outcome": "denied",
+            "label": "Denied",
+            "terminal": true
+          },
+          {
+            "from": "conditions_tracking",
+            "outcome": "conditions_satisfied",
+            "label": "Conditions Satisfied",
+            "to": "staff_approval"
+          },
+          {
+            "from": "staff_approval",
+            "outcome": "approved",
+            "label": "Approved",
+            "to": "zoning_permit"
+          },
+          {
+            "from": "zoning_permit",
+            "outcome": "issued",
+            "label": "Issued",
+            "terminal": true
+          }
+        ]
+      }
+    },
+    {
+      "jurisdiction": {
+        "abbreviation": "BZA",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Variance",
+      "description": "Relaxation of zoning requirements where strict compliance would result in undue hardship. Applicant bears burden of proving hardship. Per Rules of Procedure and Chapter 180-101, 180-105(A)(3).",
+      "graph": {
+        "nodes": {
+          "application_filed": {
+            "label": "Application Filed",
+            "is_initial": true,
+            "description": "Filed with Zoning Administrator on Town forms, fee paid, complete. Owner signature required if applicant is not owner. Expert reports due at filing unless Board grants extension."
+          },
+          "staff_review": {
+            "label": "Staff Review",
+            "description": "Staff prepares agenda consulting Chair. Placed on agenda within reasonable time after staff review complete."
+          },
+          "hearing_scheduled": {
+            "label": "Hearing Scheduled",
+            "description": "15 day newspaper notice (2 consecutive issues), 14 day 22x28 inch property posting, certified mail to applicant and contiguous owners. All parties expert reports due 20 days before hearing."
+          },
+          "hearing_held": {
+            "label": "Hearing Held",
+            "description": "Applicant presents first, then staff, then opposition, then other parties, then rebuttal. All testimony under oath. Applicant bears burden of proof and persuasion."
+          },
+          "decision_pending": {
+            "label": "Written Decision Pending",
+            "description": "Written resolution required. Must contain findings of fact and legal conclusions. Members and votes must be shown."
+          },
+          "approved": {
+            "label": "Variance Granted"
+          },
+          "approved_with_conditions": {
+            "label": "Variance Granted with Conditions"
+          },
+          "denied": {
+            "label": "Variance Denied"
+          },
+          "withdrawn": {
+            "label": "Withdrawn"
+          },
+          "reconsideration": {
+            "label": "Reconsideration",
+            "description": "Must occur at Board's next meeting. Grounds: decision didn't conform to law or Rules, clerical error, OR new evidence that couldn't reasonably have been discovered before hearing."
+          },
+          "appealed_circuit_court": {
+            "label": "Appealed to Circuit Court",
+            "description": "Carroll County Circuit Court. No specific appeal period specified in Town Code."
+          }
+        },
+        "edges": [
+          {
+            "from": "application_filed",
+            "to": "staff_review",
+            "outcome": "accepted",
+            "label": "Application Accepted"
+          },
+          {
+            "from": "application_filed",
+            "to": "application_filed",
+            "outcome": "incomplete",
+            "label": "Returned - Incomplete"
+          },
+          {
+            "from": "staff_review",
+            "to": "hearing_scheduled",
+            "outcome": "advance",
+            "label": "Hearing Date Set"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_held",
+            "outcome": "advance",
+            "label": "Hearing Conducted"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_scheduled",
+            "outcome": "postpone",
+            "label": "Postponed"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Withdrawn After Scheduling"
+          },
+          {
+            "from": "hearing_held",
+            "to": "hearing_held",
+            "outcome": "continue",
+            "label": "Continued"
+          },
+          {
+            "from": "hearing_held",
+            "to": "decision_pending",
+            "outcome": "close_record",
+            "label": "Record Closed"
+          },
+          {
+            "from": "hearing_held",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Withdrawn at Hearing"
+          },
+          {
+            "from": "decision_pending",
+            "to": "approved",
+            "outcome": "approve",
+            "label": "Variance Granted"
+          },
+          {
+            "from": "decision_pending",
+            "to": "approved_with_conditions",
+            "outcome": "approve_conditions",
+            "label": "Granted with Conditions"
+          },
+          {
+            "from": "decision_pending",
+            "to": "denied",
+            "outcome": "deny",
+            "label": "Variance Denied"
+          },
+          {
+            "from": "approved",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "denied",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "reconsideration",
+            "to": "approved",
+            "outcome": "approve",
+            "label": "Reconsidered - Granted"
+          },
+          {
+            "from": "reconsideration",
+            "to": "denied",
+            "outcome": "deny",
+            "label": "Reconsidered - Denied"
+          },
+          {
+            "from": "approved",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "approved_with_conditions",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "denied",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          }
+        ]
+      },
+      "notice_requirements": {
+        "newspaper": "2 consecutive issues, first at least 15 days prior to hearing",
+        "property_posting": "22x28 inch sign, at least 14 days before hearing",
+        "certified_mail": "Applicant and contiguous property owners",
+        "expert_reports_all_parties": "Due no later than 20 days before hearing",
+        "postponement_request": "10 days prior, in writing, with advertising costs"
+      },
+      "application_requirements": {
+        "forms": "Town-provided forms filed with Zoning Administrator",
+        "fee": "Required at filing",
+        "owner_signature": "Required if applicant is not the property owner",
+        "expert_reports": "Due at filing unless Board grants extension",
+        "legal_standard": "Undue hardship, not contrary to public interest, most nearly accomplishes purpose of regulations",
+        "code_references": "180-101, 180-105(A)(3), 180-108, 180-109",
+        "bar_on_disapproval": "2 years from date of disapproval for substantially similar proposal on same premises",
+        "bar_on_withdrawal": "1 year from date of withdrawal if hearing was set, advertised and posted"
+      }
+    },
+    {
+      "jurisdiction": {
+        "abbreviation": "BZA",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Special Exception",
+      "description": "Authorization for uses requiring Board approval before a permit may issue. Compliance with specific standards in Chapter 180-109. Per Rules of Procedure and Chapter 180-105(A)(2).",
+      "graph": {
+        "nodes": {
+          "application_filed": {
+            "label": "Application Filed",
+            "is_initial": true,
+            "description": "Filed with Zoning Administrator. Fee paid. Owner signature required if applicant not owner. Expert reports due at filing unless extension granted."
+          },
+          "staff_review": {
+            "label": "Staff Review",
+            "description": "Staff prepares agenda and materials. Placed on agenda within reasonable time after staff review complete."
+          },
+          "hearing_scheduled": {
+            "label": "Hearing Scheduled",
+            "description": "15 day newspaper notice (2 consecutive issues), 14 day 22x28 inch property posting, certified mail to applicant and contiguous owners. Expert reports for all parties due 20 days before hearing."
+          },
+          "hearing_held": {
+            "label": "Hearing Held",
+            "description": "Applicant presents, then staff, opposition, other parties, rebuttal, closing. Testimony under oath. Applicant bears burden of proof and persuasion on all questions of fact."
+          },
+          "decision_pending": {
+            "label": "Written Decision Pending",
+            "description": "Written resolution with findings of fact and legal conclusions. Members and votes shown."
+          },
+          "approved": {
+            "label": "Special Exception Granted"
+          },
+          "approved_with_conditions": {
+            "label": "Granted with Conditions"
+          },
+          "denied": {
+            "label": "Special Exception Denied"
+          },
+          "withdrawn": {
+            "label": "Withdrawn"
+          },
+          "reconsideration": {
+            "label": "Reconsideration",
+            "description": "At Board's next meeting only. Grounds: non-conformance with law/Rules, clerical error, or new evidence not discoverable before hearing."
+          },
+          "appealed_circuit_court": {
+            "label": "Appealed to Circuit Court",
+            "description": "Carroll County Circuit Court."
+          }
+        },
+        "edges": [
+          {
+            "from": "application_filed",
+            "to": "staff_review",
+            "outcome": "accepted",
+            "label": "Application Accepted"
+          },
+          {
+            "from": "application_filed",
+            "to": "application_filed",
+            "outcome": "incomplete",
+            "label": "Returned - Incomplete"
+          },
+          {
+            "from": "staff_review",
+            "to": "hearing_scheduled",
+            "outcome": "advance",
+            "label": "Hearing Date Set"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_held",
+            "outcome": "advance",
+            "label": "Hearing Conducted"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_scheduled",
+            "outcome": "postpone",
+            "label": "Postponed"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Withdrawn After Scheduling"
+          },
+          {
+            "from": "hearing_held",
+            "to": "hearing_held",
+            "outcome": "continue",
+            "label": "Continued"
+          },
+          {
+            "from": "hearing_held",
+            "to": "decision_pending",
+            "outcome": "close_record",
+            "label": "Record Closed"
+          },
+          {
+            "from": "hearing_held",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Withdrawn at Hearing"
+          },
+          {
+            "from": "decision_pending",
+            "to": "approved",
+            "outcome": "approve",
+            "label": "Special Exception Granted"
+          },
+          {
+            "from": "decision_pending",
+            "to": "approved_with_conditions",
+            "outcome": "approve_conditions",
+            "label": "Granted with Conditions"
+          },
+          {
+            "from": "decision_pending",
+            "to": "denied",
+            "outcome": "deny",
+            "label": "Denied"
+          },
+          {
+            "from": "approved",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "denied",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "reconsideration",
+            "to": "approved",
+            "outcome": "approve",
+            "label": "Reconsidered - Granted"
+          },
+          {
+            "from": "reconsideration",
+            "to": "denied",
+            "outcome": "deny",
+            "label": "Reconsidered - Denied"
+          },
+          {
+            "from": "approved",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "approved_with_conditions",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "denied",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          }
+        ]
+      },
+      "notice_requirements": {
+        "newspaper": "2 consecutive issues, first at least 15 days prior to hearing",
+        "property_posting": "22x28 inch sign, at least 14 days before hearing",
+        "certified_mail": "Applicant and contiguous property owners",
+        "expert_reports_applicant": "At filing unless Board grants extension",
+        "expert_reports_all_parties": "Due no later than 20 days before hearing"
+      },
+      "application_requirements": {
+        "forms": "Town-provided forms filed with Zoning Administrator",
+        "fee": "Required at filing",
+        "owner_signature": "Required if applicant is not the property owner",
+        "expert_reports": "Due at filing unless Board grants extension",
+        "legal_standard": "Compliance with specific standards for the use set out in Chapter 180-109. Applicant bears burden of proof.",
+        "code_references": "180-105(A)(2), 180-108, 180-109",
+        "bar_on_disapproval": "2 years from date of disapproval for substantially similar proposal on same premises",
+        "bar_on_withdrawal": "1 year from date of withdrawal if hearing was set, advertised and posted"
+      }
+    },
+    {
+      "jurisdiction": {
+        "abbreviation": "BZA",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Administrative Appeal",
+      "description": "Appeal of a decision made by an administrative official, typically the Zoning Administrator. Board reviews whether the administrative decision was correct. Per Chapter 180-105(A)(1) and 180-107.",
+      "graph": {
+        "nodes": {
+          "appeal_filed": {
+            "label": "Appeal Filed",
+            "is_initial": true,
+            "description": "Filed within 30 days of administrative decision. Filed with Zoning Administrator AND with the Board. Must specify grounds of appeal. Filing stays the administrative decision unless stay is specifically denied."
+          },
+          "record_transmitted": {
+            "label": "Record Transmitted",
+            "description": "Zoning Administrator transmits all papers constituting the record of the action appealed. Board now has full record."
+          },
+          "staff_review": {
+            "label": "Staff Review",
+            "description": "Staff prepares agenda consulting with Chair. Placed on agenda within reasonable time."
+          },
+          "hearing_scheduled": {
+            "label": "Hearing Scheduled",
+            "description": "15 day newspaper notice (2 consecutive issues), 14 day 22x28 inch property posting, certified mail to appellant and contiguous owners. Expert reports for all parties due 20 days before hearing."
+          },
+          "hearing_held": {
+            "label": "Hearing Held",
+            "description": "Appellant presents, then staff/administrative officials, opposition, other parties, rebuttal, closing. Testimony under oath. Appellant bears burden of proof."
+          },
+          "decision_pending": {
+            "label": "Written Decision Pending",
+            "description": "Written resolution required. Must contain findings of fact and legal conclusions on whether administrative decision was correct."
+          },
+          "affirmed": {
+            "label": "Administrative Decision Affirmed"
+          },
+          "reversed": {
+            "label": "Administrative Decision Reversed"
+          },
+          "modified": {
+            "label": "Administrative Decision Modified"
+          },
+          "withdrawn": {
+            "label": "Appeal Withdrawn"
+          },
+          "reconsideration": {
+            "label": "Reconsideration",
+            "description": "Must occur at Board's next meeting only. Grounds: non-conformance with law/Rules, clerical error, or new evidence not discoverable before hearing."
+          },
+          "appealed_circuit_court": {
+            "label": "Appealed to Circuit Court",
+            "description": "Carroll County Circuit Court. Town Code does not specify appeal period for BZA decisions."
+          }
+        },
+        "edges": [
+          {
+            "from": "appeal_filed",
+            "to": "record_transmitted",
+            "outcome": "advance",
+            "label": "Record Received from Zoning Administrator"
+          },
+          {
+            "from": "appeal_filed",
+            "to": "appeal_filed",
+            "outcome": "incomplete",
+            "label": "Returned - Incomplete or Late"
+          },
+          {
+            "from": "record_transmitted",
+            "to": "staff_review",
+            "outcome": "advance",
+            "label": "Assigned for Review"
+          },
+          {
+            "from": "staff_review",
+            "to": "hearing_scheduled",
+            "outcome": "advance",
+            "label": "Hearing Date Set"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_held",
+            "outcome": "advance",
+            "label": "Hearing Conducted"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "hearing_scheduled",
+            "outcome": "postpone",
+            "label": "Postponed"
+          },
+          {
+            "from": "hearing_scheduled",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Appeal Withdrawn After Scheduling"
+          },
+          {
+            "from": "hearing_held",
+            "to": "hearing_held",
+            "outcome": "continue",
+            "label": "Continued"
+          },
+          {
+            "from": "hearing_held",
+            "to": "decision_pending",
+            "outcome": "close_record",
+            "label": "Record Closed"
+          },
+          {
+            "from": "hearing_held",
+            "to": "withdrawn",
+            "outcome": "withdraw",
+            "label": "Withdrawn at Hearing"
+          },
+          {
+            "from": "decision_pending",
+            "to": "affirmed",
+            "outcome": "affirm",
+            "label": "Decision Affirmed"
+          },
+          {
+            "from": "decision_pending",
+            "to": "reversed",
+            "outcome": "reverse",
+            "label": "Decision Reversed"
+          },
+          {
+            "from": "decision_pending",
+            "to": "modified",
+            "outcome": "modify",
+            "label": "Decision Modified"
+          },
+          {
+            "from": "affirmed",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "reversed",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "modified",
+            "to": "reconsideration",
+            "outcome": "reconsider",
+            "label": "Motion to Reconsider"
+          },
+          {
+            "from": "reconsideration",
+            "to": "affirmed",
+            "outcome": "affirm",
+            "label": "Reconsidered - Affirmed"
+          },
+          {
+            "from": "reconsideration",
+            "to": "reversed",
+            "outcome": "reverse",
+            "label": "Reconsidered - Reversed"
+          },
+          {
+            "from": "reconsideration",
+            "to": "modified",
+            "outcome": "modify",
+            "label": "Reconsidered - Modified"
+          },
+          {
+            "from": "affirmed",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "reversed",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          },
+          {
+            "from": "modified",
+            "to": "appealed_circuit_court",
+            "outcome": "appeal",
+            "label": "Appealed to Circuit Court"
+          }
+        ]
+      },
+      "notice_requirements": {
+        "filing_deadline": "30 days from administrative decision",
+        "newspaper": "2 consecutive issues, first at least 15 days prior to hearing",
+        "property_posting": "22x28 inch sign, at least 14 days before hearing",
+        "certified_mail": "Appellant and contiguous property owners",
+        "expert_reports_applicant": "At filing unless Board grants extension",
+        "expert_reports_all_parties": "Due no later than 20 days before hearing"
+      },
+      "application_requirements": {
+        "filing_deadline": "Must be filed within 30 days of the administrative decision being appealed",
+        "grounds": "Must specify grounds of appeal in the filing",
+        "record_transmission": "Zoning Administrator transmits entire record to Board upon filing",
+        "stay_effect": "Filing stays the administrative decision unless stay is specifically denied",
+        "legal_standard": "Board may reverse, affirm wholly or partly, or modify the decision. Makes such order as ought to have been made.",
+        "code_references": "180-105(A)(1), 180-105(B), 180-107, 180-108",
+        "bar_on_disapproval": "2 years from date of disapproval for substantially similar proposal on same premises",
+        "bar_on_withdrawal": "1 year from date of withdrawal if hearing was set, advertised and posted"
+      }
+    }
+  ]
+}

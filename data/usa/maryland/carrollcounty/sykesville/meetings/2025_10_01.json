@@ -1,0 +1,24 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "BZA",
+      "date": "2025-10-01",
+      "time": "13:00",
+      "location": "Town House Conference Room, 7547 Main Street, Sykesville MD",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Introduction of new attorney to BZA Members",
+          "section": "BUSINESS_AGENDA"
+        }
+      ]
+    }
+  ]
+}

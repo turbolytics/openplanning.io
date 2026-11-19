@@ -1,0 +1,101 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - 2024-12-02",
+      "sha256": "3752b4bb4a7354ccb36c1e5f95ac5bfc08733208b810e012360bc65723a3c880",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4292/PC-Minutes---December-2",
+      "raw_key": "documents/sykesville/by-sha/3752b4bb4a7354ccb36c1e5f95ac5bfc08733208b810e012360bc65723a3c880.pdf",
+      "original_filename": "Minutes - December 2, 2024",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the December 2, 2024 Planning Commission meeting.",
+      "description": "PC approved Nov 4 minutes unanimously. Business: Kevin Rubenstein and Joe Cosentini presented informational updates on the Train Station renovation and South End Streetscape projects (no action required). Town updates: Enclave at Parkside SWM plan submitted to county; Danny Mican introduced as PC candidate (to be appointed Dec 9); Springfield Ave paving deferred to spring."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "1ebf1556ce23c2f303259796a70ca7435ce9ad52cad049890c4f0f7a6e6803dd",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4291/020325-County-Updates",
+      "raw_key": "documents/sykesville/by-sha/1ebf1556ce23c2f303259796a70ca7435ce9ad52cad049890c4f0f7a6e6803dd.pdf",
+      "original_filename": "County Updates - Staff Report (February 3, 2025)",
+      "document_type": "OTHER",
+      "synopsis": "Carroll County planning update for February 3, 2025 Planning Commission meeting.",
+      "description": "County planning update provided for information purposes only."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "59893a6f42df8d097385d9268a1c52b7b1b2660008ebd00e6a54a95a0a9fb2b2",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4289/Staff-Report-Schoolhouse-Rd-Acessory-Building",
+      "raw_key": "documents/sykesville/by-sha/59893a6f42df8d097385d9268a1c52b7b1b2660008ebd00e6a54a95a0a9fb2b2.pdf",
+      "original_filename": "Staff Report - Schoolhouse Rd Accessory Building Introduction",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report introducing the Schoolhouse Road Apartments accessory building site plan (S-24-0033, parcel 4452, R-10,000).",
+      "description": "Introduction-only staff report for a site plan proposing a 672 sq ft two-story accessory building (community space/leasing office), ADA and EV parking upgrades, playground, sidewalks, and raised crosswalks at Schoolhouse Road Apartments. No action requested; plan still under Town and County review."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "bd513d6814e89b52edd01520da7bf89ac86700c948d649526cf1536c3eef2af2",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4290/Schoolhouse-Accessory-Building-Site-Plan",
+      "raw_key": "documents/sykesville/by-sha/bd513d6814e89b52edd01520da7bf89ac86700c948d649526cf1536c3eef2af2.pdf",
+      "original_filename": "Schoolhouse Rd Apartments - Accessory Building Site Plan (Feb 2025)",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site plan for Schoolhouse Road Apartments accessory building and site improvements.",
+      "description": "Site plan showing proposed accessory building, updated parking area with ADA and EV charging spaces, playground, sidewalks, raised crosswalks, and ADA unit access improvements at the Schoolhouse Road Apartment community."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "cdd181ad71eabe06645486e86a96df8bb12a58ea00b8df6e8eec1723d3b7cf56",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4286/Staff-Report-Annaul-Report-24",
+      "raw_key": "documents/sykesville/by-sha/cdd181ad71eabe06645486e86a96df8bb12a58ea00b8df6e8eec1723d3b7cf56.pdf",
+      "original_filename": "Staff Report - 2024 Annual Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report requesting Planning Commission approval of the 2024 MDP Annual Report for submittal to Carroll County.",
+      "description": "Staff report presenting the Maryland Department of Planning 2024 Annual Report data for PC approval per Land Use Article \u00a71-207. Once approved, Chair Phil Singleton signs a certification letter to MDP confirming participation in the county-wide report."
+    },
+    {
+      "name": "Annual Report",
+      "sha256": "92d9fdc515b99d11988d01f72f2cd2d851aca4bd367a73148a868d52b188e91d",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4288/2024-Annual-Report",
+      "raw_key": "documents/sykesville/by-sha/92d9fdc515b99d11988d01f72f2cd2d851aca4bd367a73148a868d52b188e91d.pdf",
+      "original_filename": "2024 Annual Report",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Town of Sykesville 2024 Annual Report submitted to Maryland Department of Planning.",
+      "description": "Five-page 2024 Annual Report documenting Sykesville planning activity: no new comprehensive plan amendments; one text amendment (Resolution 2024-01 adding automobile service garage as conditional use in B-L zone); no annexations or zoning map changes; no new parks or road changes."
+    },
+    {
+      "name": "Certification Letter",
+      "sha256": "09e4aed124f74610ab535b23b49e11dfabbc81a776ea599d755c9682b0e2a150",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4287/2024---Sykesville-Certification-Letter-to-MDP-1",
+      "raw_key": "documents/sykesville/by-sha/09e4aed124f74610ab535b23b49e11dfabbc81a776ea599d755c9682b0e2a150.pdf",
+      "original_filename": "Sykesville Certification Letter to MDP - 2024",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Certification letter from Sykesville Planning Commission to Maryland Department of Planning confirming 2024 Annual Report approval.",
+      "description": "Signed letter from PC Chair Phil Singleton dated 02/03/2025 certifying that the Planning Commission approved the 2024 Annual Report data for inclusion in the Carroll County 2024 Annual Report per Land Use Article \u00a71-207 and \u00a71-208."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "9fcf5afd88568677ef4ed6c353093e8721f62020d799cdf1828a85feb7428331",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_02032025-159",
+      "raw_key": "documents/sykesville/by-sha/9fcf5afd88568677ef4ed6c353093e8721f62020d799cdf1828a85feb7428331.pdf",
+      "original_filename": "02032025 159",
+      "document_type": "AGENDA",
+      "synopsis": "February 3, 2025 Planning Commission meeting agenda.",
+      "description": "Agenda for the February 3, 2025 regular Planning Commission meeting covering approval of December 2 minutes, county updates, introduction of Schoolhouse Road Apartments accessory building site plan (S-24-0033, no action), and approval of 2024 MDP Annual Report."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-02-03",
+      "sha256": "4a5e734953b3fc5e53fc94541a9aacd0ca21000138f95b8dd03adc0be2eb22e8",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_02032025-159",
+      "raw_key": "documents/sykesville/by-sha/4a5e734953b3fc5e53fc94541a9aacd0ca21000138f95b8dd03adc0be2eb22e8.pdf",
+      "original_filename": "Minutes - February 3, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the February 3, 2025 Planning Commission meeting.",
+      "description": "PC approved Dec 2 minutes unanimously. Business: Schoolhouse Road Apartments accessory building (S-24-0033) introduced for informational purposes \u2014 no vote taken. MDP 2024 Annual Report approved unanimously; Chair Phil Singleton signed certification letter to Maryland Department of Planning. Town updates: Enclave at Parkside SWM plan under county review; Springfield Ave paving planned for spring."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-04-01",
+    "source_document_sha256": "5b3de0ca3697c97c7ed91be86bbb3a4477b1ef76344f72a31b2844b032cd77a8"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan- 7503 Village Rd",
+      "fields": {
+        "description": "The applicant is presenting a site plan for 7503 Village Rd, showing the conversion of the space from a convenience store into a barber shop. The layout of the site will remain as it currently exists with all major modifications taking place inside of the building. All principle permitted uses in the B-L zone, where a building permit and zoning certificate are required, are also subject to a site plan review by the Planning Commission per Town Code \u00a7180-95. In approving a site plan, the Commission shall have the authority to:",
+        "date_received": "2024-04-01",
+        "next_hearing_date": "2024-04-01",
+        "parcel": {
+          "street_name": ""
+        }
+      },
+      "retract": []
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "June 2 Minutes",
+      "sha256": "6e72848c195829d486a3606f3bf6ec8c2b85be0a0c5554a30d15b39d2af49e24",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4609/June-2-Minutes",
+      "raw_key": "documents/sykesville/by-sha/6e72848c195829d486a3606f3bf6ec8c2b85be0a0c5554a30d15b39d2af49e24.pdf",
+      "original_filename": "Minutes - June 2, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the June 2, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the June 2, 2025 regular Planning Commission meeting. Commissioner Singleton presided. Items approved unanimously: (1) May 5, 2025 minutes; (2) site plan for garage conversion at 7557 Main Street to expand music school use with waiver of three required parking spaces; (3) Schoolhouse Overlook Subdivision Preliminary Plan, allowing applicant to proceed to final subdivision plan. Meeting adjourned at 7:22 PM."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "1c46f7a88bd8d014a629c497c3a3fabacb8afd93de6cfd083195be4bb01c741b",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4607/CountyUpdates_StaffReport070725",
+      "raw_key": "documents/sykesville/by-sha/1c46f7a88bd8d014a629c497c3a3fabacb8afd93de6cfd083195be4bb01c741b.pdf",
+      "original_filename": "County Updates - Staff Report (July 7, 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County updates for the July 7, 2025 Planning Commission meeting.",
+      "description": "Carroll County Bureau of Comprehensive Planning update for July 7, 2025. Covers: (1) master plan work groups for Housing, Economy, and Agriculture meeting through summer; (2) Board of County Commissioners zoning text amendments under review covering Employment Campus District, Adequate Public Facilities, and solar development; (3) 2024 Carroll County Planning Annual Report submitted to Maryland Department of Planning."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "9d37de839a4807c3153ac6fb13d5d3148be98ec418cf509d735601b7d030b928",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4606/July-PC-Staff-Report-Warfield-Concept-Plan",
+      "raw_key": "documents/sykesville/by-sha/9d37de839a4807c3153ac6fb13d5d3148be98ec418cf509d735601b7d030b928.pdf",
+      "original_filename": "Staff Report - Warfield Concept Plan (July 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending denial of the updated Warfield concept plan -- PEC land use percentages not met.",
+      "description": "Staff analysis of the second updated Warfield concept plan for the 47.2-acre PEC site. The plan fails required land use percentages: retail/service at 5% (required 10-20%), residential at 54% (required 10-35%), and open space at 20% (required 25%). Additional deficiencies include use of two different development parcel sizes for calculations and impermissible changes to Parcel E/F, which has already been sold and developed. Staff recommends denial per Chapter 180-139 and requires any future submittal to exclude E/F changes, address recreational space, and explore alternative retail locations along Springfield Avenue and Parcel A/C corridors."
+    },
+    {
+      "name": "Updated Concept Plan",
+      "sha256": "3bac528e1c129b5a422889617e79ff49bed3ee8bffc954371ff5e7d433976105",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4608/060425-Warfield---Concept-Plan-Amendment",
+      "raw_key": "documents/sykesville/by-sha/3bac528e1c129b5a422889617e79ff49bed3ee8bffc954371ff5e7d433976105.pdf",
+      "original_filename": "Warfield - Concept Plan Amendment (6-4-2025)",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Updated Warfield concept plan drawing package submitted June 4, 2025.",
+      "description": "Updated concept plan for the Warfield Development, dated June 4, 2025, showing proposed land use layout for the 47.2-acre PEC parcel. Proposes 20% office/research/institutional/light industrial, 5% retail/service, 54% residential, and 20% open space. Includes bulk standards for townhomes (interior lot minimum 1,120 sq ft, 16 ft width) and multifamily buildings."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "439504b57d96fd797654635b8426bb035892e2fb6917b15825a3dcf0179e3e6f",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4610/Staff-Report-WRE-Draft-Approval",
+      "raw_key": "documents/sykesville/by-sha/439504b57d96fd797654635b8426bb035892e2fb6917b15825a3dcf0179e3e6f.pdf",
+      "original_filename": "Staff Report - WRE Draft Approval",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending approval of the 2024 Water Resource Element draft for MDE 60-day review.",
+      "description": "Staff report for the 2024 Water Resource Element (WRE) draft approval. The WRE is a state-required comprehensive plan element developed jointly by Carroll County and all 8 municipalities. Freedom area water capacity is sufficient for full buildout; wastewater shows a projected deficit of approximately 87,601 gallons per day at full buildout. Sykesville has no specific water or wastewater action items. Stormwater management requires continued NPDES MS4 permit compliance with Carroll County. Staff recommends approving the draft for MDE submission; a joint public hearing will follow the 60-day review."
+    },
+    {
+      "name": "Water Resource Element Summary",
+      "sha256": "8ad82cfb190b18aefadfa5fd297aaed8c2b7be5b0c2ba2b4f886578d3f12250b",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4605/WRE-2024-PC-Summary",
+      "raw_key": "documents/sykesville/by-sha/8ad82cfb190b18aefadfa5fd297aaed8c2b7be5b0c2ba2b4f886578d3f12250b.pdf",
+      "original_filename": "Water Resource Element Summary",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Summary presentation of the 2024 Carroll County Water Resource Element for planning commissions.",
+      "description": "Summary document (as of June 9, 2025) prepared for planning commission review of the 2024 WRE. Covers the WRE purpose (evaluating water, wastewater, and stormwater capacity to inform future comprehensive planning), its relationship to the county master plan, and the collaborative approach across Carroll County and all 8 municipalities. Both the 2010 and 2024 WRE documents represent joint county-municipal efforts."
+    },
+    {
+      "name": "Key Action Items",
+      "sha256": "1d6d04a9eff8ac49bfd9273c6e707927e897cc6d2f8d5b83bf5d95949d0c304f",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4611/WRE-2024-PC-Action-Items---Sykesville-1",
+      "raw_key": "documents/sykesville/by-sha/1d6d04a9eff8ac49bfd9273c6e707927e897cc6d2f8d5b83bf5d95949d0c304f.pdf",
+      "original_filename": "Water Resource Element - Key Action Items",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "WRE 2024 key action items specific to the Town of Sykesville.",
+      "description": "Action items from the 2024 Water Resource Element specific to Sykesville. Covers stormwater management responsibilities under the joint NPDES MS4 permit with Carroll County, green infrastructure incorporation into downtown infill and town projects, and updates to stormwater management code requirements."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "7cfab33b80b61c9910c362213f9b1242633b47b60aea76918612002e4055225b",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_07072025-187",
+      "raw_key": "documents/sykesville/by-sha/7cfab33b80b61c9910c362213f9b1242633b47b60aea76918612002e4055225b.pdf",
+      "original_filename": "07072025 187",
+      "document_type": "AGENDA",
+      "synopsis": "July 7, 2025 Sykesville Planning Commission regular meeting agenda.",
+      "description": "Agenda for the July 7, 2025 Sykesville Planning Commission regular meeting at 7547 Main Street, Town House. Items: approval of June 2, 2025 minutes; Carroll County updates; updated Warfield concept plan (staff recommends denial); draft Water Resource Element approval for MDE 60-day review; and town updates."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-07-07",
+      "sha256": "8af3001fff7e96787060852d80163d705a74edc1fb10a2967e3c6905ad107fe3",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_07072025-187",
+      "raw_key": "documents/sykesville/by-sha/8af3001fff7e96787060852d80163d705a74edc1fb10a2967e3c6905ad107fe3.pdf",
+      "original_filename": "Minutes - July 7, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the July 7, 2025 Sykesville Planning Commission regular meeting.",
+      "description": "Minutes of the July 7, 2025 regular Planning Commission meeting. Commissioner Singleton presided; Commissioner Smith absent. Two business items decided: (1) updated Warfield concept plan DENIED unanimously -- plan fails PEC land use percentages (retail/service 5%, residential 54%, open space 20%) and uses two different development parcel sizes; (2) 2024 Water Resource Element draft APPROVED unanimously for submission to MDE for 60-day review. June 2, 2025 minutes approved. Meeting adjourned at 8:10 PM."
+    }
+  ]
+}

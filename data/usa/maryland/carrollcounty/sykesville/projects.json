@@ -1,0 +1,62 @@
+{
+  "version": "project/v1",
+  "source": {
+    "title": "Sykesville projects fixture",
+    "retrieved_at": "2026-05-23"
+  },
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "projects": [
+    {
+      "id": "d7a89cba-2222-4100-8100-000000000002",
+      "name": "Cannery Building",
+      "slug": "cannery-building",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "d7a89cba-1111-4100-8100-000000000001",
+      "name": "Miller Cooper",
+      "slug": "miller-cooper",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "c6f78fb9-9b4d-4185-af11-b197dd388582",
+      "name": "Warfield",
+      "slug": "warfield",
+      "status": "ACTIVE",
+      "description": "Warfield PEC mixed-use development. Includes Parkside community and the Enclave at Parkside subdivision.",
+      "total_acres": 23.68,
+      "zoning_district": {
+        "jurisdiction_abbreviation": "PC",
+        "code": "PEC"
+      },
+      "parcels": [
+        {
+          "street_number": "",
+          "street_name": "Warfield Parcel B",
+          "street_suffix": "",
+          "city": "Sykesville",
+          "state": "MD"
+        }
+      ],
+      "governing_documents": [
+        {
+          "name": "Comprehensive Plan 2030"
+        },
+        {
+          "name": "Sykesville Landscape Guidelines"
+        },
+        {
+          "name": "Warfield Pattern Book 6.0"
+        },
+        {
+          "name": "Chapter 180 - Zoning"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "09e4aed124f74610ab535b23b49e11dfabbc81a776ea599d755c9682b0e2a150",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Town of Sykesville"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 318,
+          "end": 336,
+          "excerpt": "Town of Sykesville",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

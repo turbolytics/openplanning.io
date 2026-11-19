@@ -1,0 +1,29 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-10-07",
+    "source_document_sha256": "cd8c4ce15682d3c488cfa072c5d6192dddf03ce15b1925a511ab982f0a6f9b54"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "file_number": "P-23-0026",
+      "title": "Enclave and Parkside Development Updates",
+      "fields": {
+        "date_received": "2024-10-07",
+        "next_hearing_date": "2024-10-07",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Elm Street Development"
+      },
+      "retract": []
+    }
+  ]
+}

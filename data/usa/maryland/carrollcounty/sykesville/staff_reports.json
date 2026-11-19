@@ -1,0 +1,39 @@
+{
+  "version": "staff_report/v1",
+  "source": {
+    "title": "Sykesville staff reports fixture",
+    "retrieved_at": "2026-05-02"
+  },
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "staff_reports": [
+    {
+      "id": "1d63f8a4-7c2d-4ba7-9e6a-2f0b8a1c3d11",
+      "title": "Rezone Petition - 7306 Springfield Ave - Staff Report",
+      "application": {
+        "jurisdiction_abbreviation": "PC",
+        "title": "Rezone Petition - 7306 Springfield Ave (Joy Property)"
+      },
+      "summary": "Staff analysis finds the rezone is consistent with the Comprehensive Plan and neighboring B-G properties. The property's unique shape and size make other commercial use or redevelopment unlikely.",
+      "suggested_motion": "To recommend to the Mayor and Town Council that the zoning of 7306 Springfield Ave be changed from Business Local (B-L) to Business General (B-G).",
+      "recommendation": "APPROVE",
+      "status": "DRAFT"
+    },
+    {
+      "id": "2c41ea9f-3b8d-4f12-a7c0-9e5d6f8a2b22",
+      "title": "Site Plan - 7503 Village Rd (Rob's Barber Shop) - Staff Report",
+      "application": {
+        "jurisdiction_abbreviation": "PC",
+        "title": "Site Plan - 7503 Village Rd (Rob's Barber Shop)"
+      },
+      "summary": "The property is zoned Business-Local which allows for the proposed use of a barber shop as a principal permitted use. The site has existed with the same layout since the early 1980s and has functioned primarily as a convenience store.",
+      "suggested_motion": "To approve the proposed site plan and to allow a modification of the minimum parking space size requirements in order to accommodate the 9 ft by 17.5 ft parking spaces shown on the plan along the perimeter of the parking lot.",
+      "recommendation": "APPROVE",
+      "status": "DRAFT"
+    }
+  ]
+}

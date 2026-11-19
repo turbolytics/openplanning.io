@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/meeting/v1",
+  "title": "Parcela Meeting Schema v1",
+  "description": "Defines a Meeting of a deciding body (e.g. Planning Commission, Town Council) with its ordered AgendaItems. Identity: optional `id` (uuid) is canonical. Otherwise the natural key for a Meeting is (jurisdiction, date) ,  unique_together at the model layer. AgendaItems are children of a Meeting and keyed on (meeting, order). Staff reports and resolutions are loaded by their own specs (staff_report/v1, resolution specs) ,  this spec only carries the meeting frame and its agenda.",
+  "type": "object",
+  "required": ["version", "municipality", "meetings"],
+  "properties": {
+    "version": {
+      "const": "meeting/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "description": "Provenance of this data (e.g. agenda PDF or minutes packet).",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" },
+        "extracted_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref",
+      "description": "Municipality these meetings belong to. Used to scope jurisdiction, application, and document lookups."
+    },
+    "meetings": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/meeting" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "meeting_ref": {
+      "type": "object",
+      "description": "Reference to another Meeting within the same municipality. Used by `minutes_approved_from` so a meeting can record which prior meeting's minutes it approved. Resolved by id when present, otherwise by natural key (jurisdiction_abbreviation, date). The referenced meeting is created as a stub if it does not yet exist, mirroring the legacy plan_loader behavior.",
+      "properties": {
+        "id": { "type": "string", "format": "uuid" },
+        "jurisdiction_abbreviation": { "type": "string" },
+        "date": { "type": "string", "format": "date" }
+      },
+      "anyOf": [
+        { "required": ["id"] },
+        { "required": ["jurisdiction_abbreviation", "date"] }
+      ]
+    },
+    "application_ref": {
+      "type": "object",
+      "description": "Reference to an Application within the municipality. Resolved within the named jurisdiction by application_number, then file_number, then title.",
+      "required": ["jurisdiction_abbreviation"],
+      "properties": {
+        "jurisdiction_abbreviation": { "type": "string" },
+        "application_number": { "type": "string" },
+        "file_number": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    },
+    "document_ref": {
+      "type": "object",
+      "description": "Reference to a documents.Document within the municipality. Resolved by source_url first, then by name.",
+      "properties": {
+        "name": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" }
+      }
+    },
+    "meeting": {
+      "type": "object",
+      "required": ["jurisdiction_abbreviation", "date"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID primary key. When set, this is the canonical identifier across environments."
+        },
+        "jurisdiction_abbreviation": {
+          "type": "string",
+          "description": "Reviewing/deciding jurisdiction, resolved within the municipality (e.g. 'PC', 'TC', 'BZA')."
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "Meeting date. (jurisdiction, date) is unique ,  there cannot be two meetings of the same body on the same day."
+        },
+        "time": {
+          "type": "string",
+          "description": "Meeting start time in HH:MM or HH:MM:SS (24-hour). Optional; many records do not capture it.",
+          "pattern": "^([01]?\\d|2[0-3]):[0-5]\\d(:[0-5]\\d)?$"
+        },
+        "location": {
+          "type": "string",
+          "description": "Free-form location string (e.g. 'Town House, 7547 Main Street')."
+        },
+        "minutes_approved_from": {
+          "$ref": "#/$defs/meeting_ref",
+          "description": "Prior meeting whose minutes this meeting approves. Self-referential link, typically within the same jurisdiction."
+        },
+        "agenda_items": {
+          "type": "array",
+          "description": "Ordered list of agenda items for this meeting. Children ,  natural key is (meeting, order).",
+          "items": { "$ref": "#/$defs/agenda_item" }
+        }
+      }
+    },
+    "agenda_item": {
+      "type": "object",
+      "required": ["order", "title"],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Sequence number within the meeting. Together with the parent meeting this is the natural key."
+        },
+        "title": {
+          "type": "string",
+          "description": "Agenda line as printed (e.g. 'P-23-0026 / 7306 Springfield Avenue / Site Plan')."
+        },
+        "section": {
+          "type": "string",
+          "enum": [
+            "BUSINESS_AGENDA",
+            "APPROVAL_OF_MINUTES",
+            "COUNTY_UPDATES",
+            "TOWN_UPDATES",
+            "OTHER"
+          ],
+          "default": "BUSINESS_AGENDA",
+          "description": "Which section of the agenda this item belongs to."
+        },
+        "application": {
+          "$ref": "#/$defs/application_ref",
+          "description": "Optional Application this agenda item is reviewing. Resolved within the named jurisdiction."
+        },
+        "documents": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/document_ref" },
+          "description": "Documents to attach via the AgendaItem.documents M2M (agenda PDF, staff report, exhibits, etc.). Each is resolved by source_url first, then name."
+        }
+      }
+    }
+  }
+}

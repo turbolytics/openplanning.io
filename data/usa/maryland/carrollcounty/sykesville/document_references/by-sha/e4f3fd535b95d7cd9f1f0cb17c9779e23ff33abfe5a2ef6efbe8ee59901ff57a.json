@@ -1,0 +1,32 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "e4f3fd535b95d7cd9f1f0cb17c9779e23ff33abfe5a2ef6efbe8ee59901ff57a",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 339,
+          "end": 355,
+          "excerpt": "7611 Main Street",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

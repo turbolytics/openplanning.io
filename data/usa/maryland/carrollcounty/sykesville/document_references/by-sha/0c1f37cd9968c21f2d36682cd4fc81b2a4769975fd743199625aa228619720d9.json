@@ -1,0 +1,40 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "0c1f37cd9968c21f2d36682cd4fc81b2a4769975fd743199625aa228619720d9",
+      "references": [
+        {
+          "target_type": "legal_document",
+          "target_key": {
+            "name": "Planning Commission Rules of Procedure"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "legal_document",
+          "start": 834,
+          "end": 872,
+          "excerpt": "Planning Commission Rules of Procedure",
+          "confidence": 0.8
+        },
+        {
+          "target_type": "legal_document",
+          "target_key": {
+            "name": "Planning Commission Rules of Procedure"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "legal_document",
+          "start": 2327,
+          "end": 2365,
+          "excerpt": "Planning Commission Rules of Procedure",
+          "confidence": 0.8
+        }
+      ]
+    }
+  ]
+}

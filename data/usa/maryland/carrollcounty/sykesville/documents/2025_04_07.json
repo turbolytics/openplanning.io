@@ -1,0 +1,162 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Schoolhouse Rd Apartments - Site Plan",
+      "document_type": "SITE_PLAN",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4439/Schoolhouse-Site-Plan",
+      "parcels": [
+        {
+          "street_number": "",
+          "street_name": "Schoolhouse Road Apartments",
+          "street_suffix": "",
+          "city": "Sykesville",
+          "state": "MD"
+        }
+      ],
+      "applications": [
+        {
+          "jurisdiction_abbreviation": "PC",
+          "title": "Schoolhouse Rd Apartments Accessory Structure Site Plan"
+        }
+      ],
+      "sha256": "bd4d368b909f36466faf3843331b27248da5932be25ed511380d9089d48fd1fc",
+      "raw_key": "documents/sykesville/by-sha/bd4d368b909f36466faf3843331b27248da5932be25ed511380d9089d48fd1fc.pdf",
+      "original_filename": "Schoolhouse Rd Apartments - Site Plan"
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-03-03",
+      "sha256": "3b895ec5a33337f0a5423cf2b7fbb951006ab7bb9d9908ac07ebff63456f2231",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4430/March-3-Minutes",
+      "raw_key": "documents/sykesville/by-sha/3b895ec5a33337f0a5423cf2b7fbb951006ab7bb9d9908ac07ebff63456f2231.pdf",
+      "original_filename": "Minutes - March 3, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the March 3, 2025 Planning Commission meeting.",
+      "description": "PC approved Feb 3 minutes unanimously (Schofield abstained). Warfield Parcel B conditional use request for assisted living facility presented by Dave Bowersox (Thrive at Warfield); PC voted unanimously to recommend approval to BZA with conditions. Town updates: South End Streetscape beginning, Station restaurant still in design, Joy Property inactive."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "c2ed89070891868cee4234dff05dfa2c443edeb4964fe78331f88b802c7a9e5f",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4431/CountyUpdates_StaffReport040725",
+      "raw_key": "documents/sykesville/by-sha/c2ed89070891868cee4234dff05dfa2c443edeb4964fe78331f88b802c7a9e5f.pdf",
+      "original_filename": "County Updates - Staff Report (April 7, 2025)",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County planning update for April 7, 2025 Planning Commission meeting.",
+      "description": "Carroll County update from Clare Stewart: 2035 Master Plan workgroups forming for Housing, Economy, and Agriculture. Housing Study workgroup being established \u2014 municipalities interested in participating should contact Tiffany Fossett. Annual Report draft will be forwarded for Town review before May 1."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "3d3de2272ed2894d43a7a4c83a63280f1f96f5fa0c590aa9fd897d048fdcb637",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4432/Staff-Report-BoA-Reccomendation",
+      "raw_key": "documents/sykesville/by-sha/3d3de2272ed2894d43a7a4c83a63280f1f96f5fa0c590aa9fd897d048fdcb637.pdf",
+      "original_filename": "Staff Report - Parcel B BZA Recommendation",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report requesting ratification of the written BZA recommendation for Warfield Parcel B assisted living conditional use.",
+      "description": "Staff report presenting the formal written recommendation (prepared by Town legal representative) to the Board of Zoning Appeals following the March 2025 verbal vote. PC is asked to ratify the written document. Recommended motion: approve the written recommendation to the Board of Appeals on the conditional use of an assisted living facility at Parcel B of the Warfield property."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "b43e400797d1f6caea41fd2668d15511c44342120a8b83ac09b6b5900847afe3",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4435/Staff-Report-Enclave-Prelim-Plan-and-Patter-Book---Copy",
+      "raw_key": "documents/sykesville/by-sha/b43e400797d1f6caea41fd2668d15511c44342120a8b83ac09b6b5900847afe3.pdf",
+      "original_filename": "Staff Report - Enclave Preliminary Plan and Pattern Book",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for Enclave at Parkside preliminary subdivision plan and Pattern Book approval (P-23-0026, parcel 688, PEC).",
+      "description": "Staff recommends approval of the 47-unit townhome preliminary plan and Pattern Book for the Enclave at Parkside (Elm Street Development). Layout unchanged from October 2024; all county agency approvals received. Pattern Book mirrors Parkside design with 24-foot units. Code reference: \u00a7180-88 for parking."
+    },
+    {
+      "name": "Preliminary Subdivision Plan",
+      "sha256": "6b2b52d8bc8d99d7d85c9aa27579c4cee6fd2fd6d9e7edbb12e7a73fe4373fdb",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4433/Enclave-Prelim-Plan",
+      "raw_key": "documents/sykesville/by-sha/6b2b52d8bc8d99d7d85c9aa27579c4cee6fd2fd6d9e7edbb12e7a73fe4373fdb.pdf",
+      "original_filename": "Enclave at Parkside - Preliminary Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Preliminary subdivision plan for the Enclave at Parkside (P-23-0026).",
+      "description": "Preliminary subdivision plan showing 47 townhome lots, open space, roads, parking, and sidewalks on the 23.68-acre Enclave at Parkside site (PEC zone). Consistent with concept plan approvals and county agency approvals."
+    },
+    {
+      "name": "Pattern Book",
+      "sha256": "d858986611bf06cc05aa9b8248be4ea953040a66dafb33d7bcba6d6b64797a6f",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4434/The-Enclave-at-Parkside---Pattern-Book",
+      "raw_key": "documents/sykesville/by-sha/d858986611bf06cc05aa9b8248be4ea953040a66dafb33d7bcba6d6b64797a6f.pdf",
+      "original_filename": "The Enclave at Parkside - Pattern Book",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Pattern Book for the Enclave at Parkside development (May 22, 2023, Elm Street Development).",
+      "description": "Design standards document governing architecture, site planning, landscape, signage, and phasing for the Enclave at Parkside. 24-foot townhomes matching Parkside materials and TND principles. Establishes setbacks, parking (4 spaces per unit), architectural materials (brick-predominant), and maintenance standards."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "45ba7e9f4cf48be92d18d329d6c667871601a6187f4b150b09828de4c48f40d1",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4438/Staff-Report-French-Twist-Addition-Introduction",
+      "raw_key": "documents/sykesville/by-sha/45ba7e9f4cf48be92d18d329d6c667871601a6187f4b150b09828de4c48f40d1.pdf",
+      "original_filename": "Staff Report - French Twist Addition Introduction",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report introducing proposed building addition for the French Twist Cafe at 732 Oklahoma Ave (parcel 411, BL).",
+      "description": "Introduction-only staff report for a 27x16 ft addition at the rear of the French Twist Cafe. Expands kitchen, adds first-floor seating, second-floor terrace. Eliminates 6 parking spaces (BZA waiver from all parking requirements granted 2012, zero setback). Utility easement relocation required. No PC action needed; site plan and HDC approval to follow."
+    },
+    {
+      "name": "Architectural Drawings",
+      "sha256": "c1f4b80bdb59b0172e69b09d2e2738cf013db4b9e1dbcec6df204bc7ce8780ce",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4437/French-Twist-architectural-plans",
+      "raw_key": "documents/sykesville/by-sha/c1f4b80bdb59b0172e69b09d2e2738cf013db4b9e1dbcec6df204bc7ce8780ce.pdf",
+      "original_filename": "French Twist - Architectural Plans",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Architectural drawings for the French Twist Cafe building addition at 732 Oklahoma Ave.",
+      "description": "Architectural elevation drawings by Dave Lutter Residential Design (drawn by Carol Bear, dated 3/13/2025) showing rear and side elevations and cross sections for the proposed addition to the French Twist Cafe."
+    },
+    {
+      "name": "Property Plat",
+      "sha256": "06d3d8c31549b8c9d5721d63096aaf0c1e00871ba6ca6a7c0762c7ac0e542fcf",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4436/French-Twist-Plat",
+      "raw_key": "documents/sykesville/by-sha/06d3d8c31549b8c9d5721d63096aaf0c1e00871ba6ca6a7c0762c7ac0e542fcf.pdf",
+      "original_filename": "French Twist - Property Plat",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Property plat for 732 Oklahoma Ave (French Twist Cafe, parcel 411).",
+      "description": "Survey plat showing parcel 411 at 732 Oklahoma Ave, including the existing utility easement that the proposed building addition would encroach on and would need to be relocated."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "bb7b70daf6e11bfce353e41e1221b2f290f61d66a4fc4d19e5ca808c9feaed3a",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4440/Staff-Report-Schoolhouse-Rd-Acessory-Building-Site-Plan",
+      "raw_key": "documents/sykesville/by-sha/bb7b70daf6e11bfce353e41e1221b2f290f61d66a4fc4d19e5ca808c9feaed3a.pdf",
+      "original_filename": "Staff Report - Schoolhouse Rd Accessory Building Site Plan",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for site plan approval of Schoolhouse Road Apartments accessory building (S-24-0033, parcel 4452, R-10,000).",
+      "description": "Staff recommends approval of the Schoolhouse Road Apartments accessory building site plan with condition that labeling errors (speed humps) are corrected. Plan introduced February 2025; layout unchanged. Features: 672 sq ft two-story accessory building, ADA and EV parking upgrades, playground, sidewalks, raised crosswalks."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4439/Schoolhouse-Site-Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site plan for Schoolhouse Road Apartments accessory building and site improvements (S-24-0033).",
+      "description": "Final site plan showing accessory building, parking improvements with ADA and EV charging, playground, sidewalks, and ADA unit access ramps at Schoolhouse Road Apartments."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "b27dae1e2aa07cc994dd672bb16af35bb863bbc6a4fa1a43b5df997cb6f326d2",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_04072025-170",
+      "raw_key": "documents/sykesville/by-sha/b27dae1e2aa07cc994dd672bb16af35bb863bbc6a4fa1a43b5df997cb6f326d2.pdf",
+      "original_filename": "04072025 170",
+      "document_type": "AGENDA",
+      "synopsis": "April 7, 2025 Planning Commission meeting agenda.",
+      "description": "Agenda for the April 7, 2025 regular Planning Commission meeting covering: ratification of Warfield Parcel B BZA recommendation; Enclave at Parkside preliminary plan and Pattern Book approval (P-23-0026); French Twist building addition introduction; and Schoolhouse Road Apartments site plan approval (S-24-0033)."
+    },
+    {
+      "name": "Planning Commission Minutes - 2025-04-07",
+      "sha256": "d9351857d409d449fb3722070391bf2f6e498f4f8244aa047956331fbd88a31b",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_04072025-170",
+      "raw_key": "documents/sykesville/by-sha/d9351857d409d449fb3722070391bf2f6e498f4f8244aa047956331fbd88a31b.pdf",
+      "original_filename": "Minutes - April 7, 2025",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the April 7, 2025 Planning Commission meeting.",
+      "description": "PC approved March 3 minutes unanimously. County update from Clare Stewart on Carroll County Master Plan, Housing Study, and Annual Report. Business: (1) Ratified written recommendation to BZA approving conditional use of assisted living facility on Warfield Parcel B (unanimous). (2) Approved Enclave at Parkside preliminary plan and pattern book; applicant moves to final subdivision plan phase (unanimous). (3) Introduction of building addition for the French Twist \u2014 no vote, applicant to proceed through HDC process. (4) Approved Schoolhouse Road Apartments accessory structure site plan (S-24-0033) with labeling errors corrected (unanimous). Town updates: BZA hearing for Parcel B on April 29; Station building in permitting; South End Streetscape begun."
+    }
+  ]
+}

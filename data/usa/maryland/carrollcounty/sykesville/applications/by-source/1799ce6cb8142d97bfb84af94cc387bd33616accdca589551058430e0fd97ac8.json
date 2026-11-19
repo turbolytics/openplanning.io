@@ -1,0 +1,29 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2026-03-02",
+    "source_document_sha256": "1799ce6cb8142d97bfb84af94cc387bd33616accdca589551058430e0fd97ac8"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan - 7448 Springfield Avenue",
+      "fields": {
+        "description": "The applicants have submitted a site plan and associated architectural documents for several proposed changes to their property at 7448 Springfield Avenue. The proposal involves a buildout of the unoccupied portion of the interior of the structure so it can be used as a shared office and co-working space, as well as deconstruction of the rear of the building to accommodate new surface parking.",
+        "date_received": "2026-03-02",
+        "next_hearing_date": "2026-03-02",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Factory Partners LLC"
+      },
+      "retract": []
+    }
+  ]
+}

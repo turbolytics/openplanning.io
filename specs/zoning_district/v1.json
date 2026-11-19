@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/zoning_district/v1",
+  "title": "OpenPlanning Zoning District Schema v1",
+  "description": "Defines zoning districts for a jurisdiction. Natural key is {jurisdiction, code}. Code sections reference legal.Block records by section_number, resolved municipality-wide.",
+  "type": "object",
+  "required": ["version", "municipality", "jurisdiction", "zoning_districts"],
+  "properties": {
+    "version": {
+      "const": "zoning_district/v1",
+      "description": "Schema version identifier."
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref"
+    },
+    "jurisdiction": {
+      "type": "string",
+      "description": "Jurisdiction abbreviation, e.g. 'PC'. Resolved within the municipality."
+    },
+    "zoning_districts": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/zoning_district" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "zoning_district": {
+      "type": "object",
+      "required": ["code", "name"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "Short code, e.g. 'C', 'R-20000', 'PEC'. Unique within the jurisdiction."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name, e.g. 'Conservation District'."
+        },
+        "code_sections": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Section numbers of legal.Block records that govern this district, e.g. ['180-134', '180-135']. Resolved municipality-wide by section_number."
+        }
+      }
+    }
+  }
+}

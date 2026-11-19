@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/entity/v1",
+  "title": "Parcela Entity Schema v1",
+  "description": "Defines an Entity (a person or legal entity in the global rolodex). Entities are CROSS-MUNICIPALITY: the same Toll Brothers record is referenced by every municipality in which Toll Brothers files an application. Identity: optional `id` (uuid) is canonical. Otherwise the natural key is `name` (case-insensitive exact match across the global rolodex).",
+  "type": "object",
+  "required": ["version", "entities"],
+  "properties": {
+    "version": {
+      "const": "entity/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/entity" }
+    }
+  },
+  "$defs": {
+    "entity": {
+      "type": "object",
+      "required": ["name", "entity_type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID primary key. When set, this is the canonical identifier across environments."
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable name. For people, the personal name. For organizations, the registered name. Used as a natural-key fallback when no id is provided."
+        },
+        "entity_type": {
+          "type": "string",
+          "enum": ["PERSON", "BUSINESS", "GOVERNMENT", "NONPROFIT", "OTHER"],
+          "description": "What kind of entity this is."
+        },
+        "organization": {
+          "type": "string",
+          "description": "Affiliated organization, when distinct from name (e.g. an attorney's firm)."
+        },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "address": { "type": "string" },
+        "website": { "type": "string", "format": "uri" },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/municipality/v1",
+  "title": "OpenPlanning Municipality Schema v1",
+  "description": "Defines a municipality (town, city, or county) as the tenant boundary. The natural key is {country, state, county, name}. Dependent specs (jurisdiction, workflow, etc.) reference municipalities by this natural key to ensure all specs are fully contained and portable.",
+  "type": "object",
+  "required": ["version", "municipality"],
+  "properties": {
+    "version": {
+      "const": "municipality/v1",
+      "description": "Schema version identifier."
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality"
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "description": "Natural key for cross-spec references. Every dependent spec (jurisdiction, workflow, parcel, etc.) embeds this object to identify which municipality it belongs to. All four fields are required for unambiguous resolution.",
+      "properties": {
+        "country": {
+          "type": "string",
+          "default": "US",
+          "description": "ISO 3166-1 alpha-2 country code."
+        },
+        "state": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "Two-letter state/province code, e.g. 'MD'."
+        },
+        "county": {
+          "type": "string",
+          "description": "County name, e.g. 'Carroll County'."
+        },
+        "name": {
+          "type": "string",
+          "description": "Municipality name, e.g. 'Sykesville'."
+        }
+      }
+    },
+    "municipality": {
+      "type": "object",
+      "required": ["id", "country", "state", "county", "name", "status"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID v4 identifier. Used for idempotent loads."
+        },
+        "country": {
+          "type": "string",
+          "default": "US",
+          "description": "ISO 3166-1 alpha-2 country code."
+        },
+        "state": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 2,
+          "description": "Two-letter state/province code, e.g. 'MD'."
+        },
+        "county": {
+          "type": "string",
+          "description": "County name, e.g. 'Carroll County'."
+        },
+        "name": {
+          "type": "string",
+          "description": "Municipality name, e.g. 'Sykesville'."
+        },
+        "status": {
+          "type": "string",
+          "enum": ["PROSPECT", "ACTIVE", "CHURNED"],
+          "description": "Lifecycle status. PROSPECT = not yet onboarded. ACTIVE = live customer. CHURNED = former customer."
+        },
+        "subdomain": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Subdomain slug for tenant routing. Required for ACTIVE municipalities."
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "Municipality's public website."
+        },
+        "population": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Approximate population."
+        },
+        "planning_staff_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of planning staff."
+        },
+        "process_guide_note": {
+          "type": "string",
+          "description": "Callout text shown at the top of the public process guide page."
+        },
+        "bbox_south": {
+          "type": "number",
+          "description": "Southern boundary latitude (WGS84)."
+        },
+        "bbox_north": {
+          "type": "number",
+          "description": "Northern boundary latitude (WGS84)."
+        },
+        "bbox_west": {
+          "type": "number",
+          "description": "Western boundary longitude (WGS84)."
+        },
+        "bbox_east": {
+          "type": "number",
+          "description": "Eastern boundary longitude (WGS84)."
+        },
+        "geometry": {
+          "type": "object",
+          "description": "GeoJSON geometry object for the boundary polygon (for map overlays)."
+        }
+      }
+    }
+  }
+}

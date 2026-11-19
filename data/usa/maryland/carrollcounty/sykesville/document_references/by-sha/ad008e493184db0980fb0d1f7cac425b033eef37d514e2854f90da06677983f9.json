@@ -1,0 +1,32 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "ad008e493184db0980fb0d1f7cac425b033eef37d514e2854f90da06677983f9",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7503",
+            "street_name": "VILLAGE",
+            "street_suffix": "RD",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7445"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 301,
+          "end": 316,
+          "excerpt": "7503 Village Rd",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2025-06-17",
+      "time": "18:00",
+      "location": "7547 Main Street - Town House"
+    }
+  ]
+}

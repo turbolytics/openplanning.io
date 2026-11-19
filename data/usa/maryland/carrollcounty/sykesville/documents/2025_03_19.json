@@ -1,0 +1,71 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Staff Report",
+      "sha256": "3d288aec6b9fda554f1f23ef0c34e0c7bc72a18b1b33c189df08fe3e9a69b4cc",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4382/Training-Staff-Report-03192025",
+      "raw_key": "documents/sykesville/by-sha/3d288aec6b9fda554f1f23ef0c34e0c7bc72a18b1b33c189df08fe3e9a69b4cc.pdf",
+      "original_filename": "Training Staff Report 03192025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for March 19, 2025 BZA training session presented by Lynn Board, Esq.",
+      "description": "Staff report for the Board of Appeals training presentation. Notes significant Board turnover in recent years and introduces Lynn Board, Esq. as both the trainer and new ongoing legal advisor to the Board. Informational only; no Board action required."
+    },
+    {
+      "name": "Presentation",
+      "sha256": "bbe3597fa41e5500b8d817af98096611c5cc5171d6836544a35792a64539c049",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4381/Board-of-Appeals-training-presentation",
+      "raw_key": "documents/sykesville/by-sha/bbe3597fa41e5500b8d817af98096611c5cc5171d6836544a35792a64539c049.pdf",
+      "original_filename": "Board of Appeals training presentation",
+      "document_type": "OTHER",
+      "synopsis": "Board of Appeals training presentation by Lynn Board, Esq., covering roles and responsibilities of Board members.",
+      "description": "Presentation slides from Lynn Board, Esq. covering the roles, responsibilities, and legal framework for the Town of Sykesville Board of Appeals."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "28afee66dd73b489f07b8a2fa1e080dfc939c17b80e184a569c1f7ee01bc5043",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4383/Rules-of-Procedure-Staff-Report-03192025",
+      "raw_key": "documents/sykesville/by-sha/28afee66dd73b489f07b8a2fa1e080dfc939c17b80e184a569c1f7ee01bc5043.pdf",
+      "original_filename": "Rules of Procedure Staff Report 03192025",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report recommending adoption of formal Rules of Procedure for the Board of Appeals.",
+      "description": "Staff report for the March 19, 2025 BZA meeting recommending approval of formal Rules of Procedure drafted by Lynn Board, Esq. Outlines six rationales: legal compliance, transparency, consistency, efficiency, public participation, and defined roles. Includes recommended motion: 'I move that the proposed Town of Sykesville Board of Appeals rules of procedure be adopted as presented.'"
+    },
+    {
+      "name": "Draft Rules of Procedure",
+      "sha256": "2e3686fe97b3920c037e2fe082f7e847cb086fc1609898eeaead604364e033ad",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4380/Draft-BOARD-OF-APPEALS-Rules-of-Procedure",
+      "raw_key": "documents/sykesville/by-sha/2e3686fe97b3920c037e2fe082f7e847cb086fc1609898eeaead604364e033ad.pdf",
+      "original_filename": "Draft BOARD OF APPEALS Rules of Procedure",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Draft Rules of Procedure for the Town of Sykesville Board of Appeals, adopted pursuant to \u00a7180-106.",
+      "description": "14-section draft Rules of Procedure for the Sykesville Board of Appeals. Covers purpose, policy, definitions, officers (Chair/Vice-Chair election), meetings (Maryland Open Meetings Act compliance), general requirements, application filing, notice of hearings (\u00a7180-108.A), hearing conduct and evidence standards, decisions (\u00a7180-109, written resolution with findings of fact), reconsideration, ex-parte communication prohibition, rule amendment process, and conflict resolution with State law. Signature line for Chair Al McEvoy."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "4f3735443b917fb21c826f397c2da36d3f0b8f2b670c9da50c2f30bb7a515a26",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_03192025-166",
+      "raw_key": "documents/sykesville/by-sha/4f3735443b917fb21c826f397c2da36d3f0b8f2b670c9da50c2f30bb7a515a26.pdf",
+      "original_filename": "03192025 166",
+      "document_type": "AGENDA",
+      "synopsis": "BZA meeting agenda for March 19, 2025 covering new member training and proposed Rules of Procedure.",
+      "description": "Board of Zoning Appeals meeting agenda for March 19, 2025 at 1:00 PM at Town House, 7547 Main Street. Two business items: (1) new member training presentation by Lynn Board, Esq. (informational) and (2) consideration of proposed formal Rules of Procedure for the Board."
+    },
+    {
+      "name": "BZA Minutes - 2025-03-19",
+      "sha256": "5972279440eeb12f0e435b8cc7d2f7cd5429cfa8563b1ab21ea8fd51f20e6cf7",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_03192025-166",
+      "raw_key": "documents/sykesville/by-sha/5972279440eeb12f0e435b8cc7d2f7cd5429cfa8563b1ab21ea8fd51f20e6cf7.pdf",
+      "original_filename": "03192025 166",
+      "document_type": "MINUTES",
+      "synopsis": "BZA approved Rules of Procedure unanimously with three modifications: removal of prehearing requirements (7a-7c), 20-day pre-meeting filing deadline, and Town Clerk to administer oaths.",
+      "description": "Official minutes of the Sykesville Board of Zoning Appeals meeting held March 19, 2025. Chair McEvoy and Board Member Mueller present; third member absent. Lynn Board, Esq. (Levan and Ruff) provided new member training. The Board then reviewed and approved the draft Rules of Procedure with three modifications: (1) removal of section 7a-7c prehearing requirements, (2) change of filing deadline on page 4 to 20 days before a meeting, and (3) Town Clerk to administer oaths to those giving testimony. Motion by Mueller, seconded by McEvoy, carried unanimously. Adjourned 2:41 PM."
+    }
+  ]
+}

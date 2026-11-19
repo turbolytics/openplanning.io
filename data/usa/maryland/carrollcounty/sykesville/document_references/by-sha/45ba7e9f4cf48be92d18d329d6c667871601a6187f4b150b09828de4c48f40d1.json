@@ -1,0 +1,60 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "45ba7e9f4cf48be92d18d329d6c667871601a6187f4b150b09828de4c48f40d1",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 194,
+          "end": 196,
+          "excerpt": "BL",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "732",
+            "street_name": "OKLAHOMA",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7333"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 351,
+          "end": 368,
+          "excerpt": "732 Oklahoma Ave.",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "732",
+            "street_name": "OKLAHOMA",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7333"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1947,
+          "end": 1964,
+          "excerpt": "732 Oklahoma Ave.",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

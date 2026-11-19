@@ -1,0 +1,27 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Board of Zoning Appeals",
+        "file_number": "2025-01",
+        "title": "Conditional Use Request for Assisted Living - Warfield Parcel B"
+      },
+      "body": "Board of Zoning Appeals",
+      "date": "2025-04-29",
+      "outcome": "APPROVED_WITH_CONDITIONS",
+      "vote": "unanimous",
+      "conditions": [
+        "The Applicant shall comply with all Federal, State, and local rules and regulations applicable to the licensing, establishment, operation, and maintenance of assisted living facilities.",
+        "The Applicant provides additional information regarding the number of deliveries, timing of deliveries, and the types of trucks being used in order to appropriately assess what impact these will have.",
+        "The Applicant shall strictly adhere to the Town's 'Warfield Commercial Center: New Construction Design Guidelines and Standards for Signs' (2017 edition) when addressing bulk regulations and site development rules."
+      ]
+    }
+  ]
+}

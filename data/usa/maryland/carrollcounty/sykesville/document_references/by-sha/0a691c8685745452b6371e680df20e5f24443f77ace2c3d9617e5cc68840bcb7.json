@@ -1,0 +1,88 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "0a691c8685745452b6371e680df20e5f24443f77ace2c3d9617e5cc68840bcb7",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1423,
+          "end": 1439,
+          "excerpt": "7611 Main Street",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1500,
+          "end": 1516,
+          "excerpt": "7611 Main Street",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1980,
+          "end": 1996,
+          "excerpt": "7611 Main Street",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Joy Property"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 2135,
+          "end": 2147,
+          "excerpt": "Joy property",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 2368,
+          "end": 2376,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

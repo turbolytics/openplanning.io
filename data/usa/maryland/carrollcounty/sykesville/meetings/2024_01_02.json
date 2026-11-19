@@ -1,0 +1,51 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-01-02",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "minutes_approved_from": {
+        "jurisdiction_abbreviation": "PC",
+        "date": "2023-12-04"
+      },
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - December 4, 2023",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Carroll County Updates"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Ratification of Report and Recommendation - Petition for Zoning Map Amendment concerning 7306 Springfield Avenue",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Ratification of Report and Recommendation - Petition for Zoning Map Amendment"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

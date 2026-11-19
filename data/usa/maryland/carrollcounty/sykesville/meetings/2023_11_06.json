@@ -1,0 +1,51 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2023-11-06",
+      "time": "19:00",
+      "location": "7547 Main Street - Town House",
+      "minutes_approved_from": {
+        "jurisdiction_abbreviation": "PC",
+        "date": "2023-08-07"
+      },
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - August 7, 2023 Minutes",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Carroll County Updates"
+          }
+        },
+        {
+          "order": 3,
+          "title": "Rezone Petition Recommendation - 7306 Springfield Ave",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Rezone Petition Recommendation- 7306 Springfield Ave. (Joy Property)"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

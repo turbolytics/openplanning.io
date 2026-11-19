@@ -1,0 +1,28 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan - 7448 Springfield Avenue"
+      },
+      "body": "Planning Commission",
+      "date": "2026-03-02",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Adequate signage must be provided to ensure safety of vehicles entering and exiting the lot.",
+        "Parking layout must comply with the required 25-ft access lane width in the Town Code.",
+        "Pedestrian striping must be provided along the walkway portion of the parking area.",
+        "The parking area must be properly illuminated at night.",
+        "An easement or property boundary modification must be obtained for the pull-off area, which encroaches on the adjacent parcel (both parcels currently owned by the same owner)."
+      ]
+    }
+  ]
+}

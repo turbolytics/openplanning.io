@@ -1,0 +1,363 @@
+{
+  "version": "governing_documents/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "id": "9cd768c4-cc64-411c-92b8-22315ee70e86",
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Planning Commission Rules of Procedure",
+      "document_type": "RULES_OF_PROCEDURE",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3288/Planning-Commission-Rules-of-Procedure-",
+      "description": "Operating rules for the Sykesville Planning Commission.",
+      "order": 1
+    },
+    {
+      "id": "9ceb3ebc-b8f1-41a2-aa82-a8b72d0f84d6",
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Comprehensive Plan 2030",
+      "document_type": "COMPREHENSIVE_PLAN",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/2671/Comprehensive-Plan-2030",
+      "description": "Sykesville long-range comprehensive plan.",
+      "order": 1
+    },
+    {
+      "id": "9c78f875-a580-47f4-ac6a-ae058187fb31",
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Chapter 180 - Zoning",
+      "document_type": "ZONING_CODE",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/2695/Chapter-180---Zoning",
+      "description": "Authoritative zoning code for the Sykesville.",
+      "order": 1
+    },
+    {
+      "id": "85a71dd5-c701-4736-9350-7a38b92e2d1b",
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Sykesville Landscape Guidelines",
+      "document_type": "DESIGN_GUIDELINES",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/358/Town-of-Sykesville-Landscape-Guidelines-PDF",
+      "description": "Landscape design and planting guidelines.",
+      "order": 1
+    },
+    {
+      "id": "86d071c9-5299-4928-8c8b-00147f77b19f",
+      "jurisdiction": {
+        "abbreviation": "BZA",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Board of Zoning Appeals Rules of Procedure",
+      "document_type": "RULES_OF_PROCEDURE",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/4456/Board-of-Zoning-Appeals---Rules-of-Procedure",
+      "description": "Operating rules for the Sykesville Board of Zoning Appeals.",
+      "order": 1
+    },
+    {
+      "id": "afd53595-13fa-44c0-94c4-5f7889e414f2",
+      "jurisdiction": {
+        "abbreviation": "PC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Warfield Pattern Book 6.0",
+      "document_type": "PATTERN_BOOK",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/2596/Warfield-Pattern-Book-60-Approved-1162017",
+      "description": "Approved November 6, 2017. Governs site planning, architectural design, landscape architecture, and signage for the Warfield PEC development.",
+      "effective_date": "2017-11-06",
+      "order": 1
+    },
+    {
+      "id": "01837762-48be-40b1-b296-a7f954df0ed3",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Downtown Historic District Commission Guidelines",
+      "document_type": "HISTORIC_STANDARDS",
+      "source_url": "https://www.townofsykesville.gov/DocumentCenter/View/367/Downtown-Historic-District-Commission-Guidelines-PDF",
+      "source_document_sha256": "a13ebe0399414f9ed94d6a02fda1c8be8ad002a08d2ff980fbe4afe6f68f6b51",
+      "description": "The Sykesville Historic District Design Guidelines provide standards for owners, tenants, architects, and contractors working within the historic district. Updated by brennan+company architects in 2023 and adopted by the Town on February 26, 2024, they cover ten topic areas: roofs, exterior walls and foundations, doors/windows/storefronts, awnings/lighting/signs, porches and decks, accessory buildings, new construction, alternate materials, sustainability/accessibility/equipment, and landscape and site design. The guidelines are administered by the Historic District Commission, which meets on the fourth Wednesday of each month.",
+      "effective_date": "2024-02-26",
+      "version": "October 2023",
+      "order": 1
+    },
+    {
+      "id": "cf2ec4cb-c2d0-4e45-b84d-41162e1b7e43",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Historic District Commission Application",
+      "document_type": "OTHER",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/1863/Historic-District-Commission-Application",
+      "source_document_sha256": "fac45f6e5058c96def1354ab5ce0341d221615d4da63a3647f3d72eaba9a900a",
+      "description": "The HDC Application packet (2023 edition) contains the application for Certificate of Approval and a sign application for projects in the Sykesville Historic District. Applications must be submitted by 4:00 PM on the second Wednesday of the month; the Commission reviews them at its fourth-Wednesday meetings. Fees: $15 residential, $25 commercial, $50 for work in progress without a permit.",
+      "order": 6
+    },
+    {
+      "id": "056eb876-5eb5-4c21-82e9-4c124f218222",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Downtown Historic District Map",
+      "document_type": "HISTORIC_STANDARDS",
+      "source_url": "https://www.townofsykesville.gov/DocumentCenter/View/366/Downtown-Historic-District-Map-PDF",
+      "source_document_sha256": "94252e5593c48618c14f862432a67765af1b0ecba2767534ad5360054e1486be",
+      "description": "The Downtown Historic District Map, issued October 2023 by the Town of Sykesville, delineates the boundaries of the Sykesville Historic District and classifies each property as Contributing (C) or Non-Contributing (NC) based on the Maryland Inventory of Historic Properties. The accompanying property list covers approximately 160 addresses across Main Street, Springfield Avenue, Norwood Avenue, Spout Hill Road, and surrounding streets. Issued for reference purposes only; not a substitute for a survey product.",
+      "effective_date": "2023-10-01",
+      "version": "October 2023",
+      "order": 2
+    },
+    {
+      "id": "db73b945-bf0c-4d1b-ba31-ac08ee38875b",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Warfield Commercial Center New Design Guidelines",
+      "document_type": "DESIGN_GUIDELINES",
+      "source_url": "https://www.townofsykesville.gov/DocumentCenter/View/365/Warfield-Commercial-Center-New-Design-Guidelines-PDF",
+      "source_document_sha256": "298797294b57397c2213ca8e311a2de20ea60b8abcf10094f6e16b7a00013d48",
+      "description": "The Warfield Commercial Center: New Construction Design Guidelines and Standards for Signs (2017 Edition) establishes design standards for new construction on the Warfield Complex, a historic former state mental hospital annexed by the Town of Sykesville. The document covers character-defining features, site plan guidelines, new building guidelines (orientation, scale, proportion, massing, materials, doors/windows, roofs), landscape guidelines, sign standards, and energy efficiency standards. Published by the Sykesville Historic District Commission in 2017 with assistance from Richard Wagner, AIA, David H. Gleason Associates, Inc.",
+      "version": "2017 Edition",
+      "order": 3
+    },
+    {
+      "id": "8e366552-ab3a-4773-89ee-6dbce8b6a751",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Warfield Commercial Center New Design Guidelines Appendix",
+      "document_type": "DESIGN_GUIDELINES",
+      "source_url": "https://www.townofsykesville.gov/DocumentCenter/View/364/Warfield-Commercial-Center-New-Design-Guidelines-Appendix-PDF",
+      "source_document_sha256": "8ed2615e44012fb26a5cecc2eefea243fabb754f84f6b2bf1103d3d40654b87d",
+      "description": "This appendix to the Warfield Commercial Center: New Construction Design Guidelines supplements the 2017 Edition with photographic illustrations of historic buildings in the Warfield Complex (Buildings I, W, C, D, E, Auditorium, Service Building, and others), including facade and detail photos. Its purpose is to help architects and developers understand the character-defining features of existing campus buildings that are within view corridors of proposed new construction.",
+      "version": "2017 Edition",
+      "order": 4
+    },
+    {
+      "id": "6fdef7eb-f814-44a6-a0eb-b5e1183d4212",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Warfield Preservation Guidelines",
+      "document_type": "HISTORIC_STANDARDS",
+      "source_url": "https://www.townofsykesville.gov/DocumentCenter/View/363/Warfield-Preservation-Guidelines-PDF",
+      "source_document_sha256": "44c2ad767009f36e46a8c2b0b4be2ac410ae7da7729443f207c9143fb109fb22",
+      "description": "The Historic Preservation Guidelines for the Warfield Complex (2002), prepared by preservation architect Richard Wagner, AIA, David H. Gleason Associates, Inc. under a federal Save America's Treasures grant, establish standards for rehabilitating the historic buildings of the former Springfield State Hospital campus. The guidelines cover exterior building materials (masonry, wood, architectural metals), roofs, windows, doors, interior spaces and structural systems, mechanical systems, energy efficiency, building additions, signs, illumination, and landscape design. Administered by the Sykesville Historic District Commission.",
+      "effective_date": "2002-03-01",
+      "version": "2002",
+      "order": 5
+    },
+    {
+      "id": "5f5b7722-c2f3-4776-886e-291864d98928",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "HDC Agenda - December 27, 2023",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_12272023-101",
+      "source_document_sha256": "adb03eae49447da4357fd8dd548c7d7d257578fa602f8be1e809b77beaa689bb",
+      "description": "Regular meeting agenda covering approval of November 29 minutes, two certificate of appropriateness applications (2023-16 at 7412 Springfield Avenue for roof/siding replacement; 2023-17 at 7568 Main Street for applied wall and hanging business signs), and adoption of 2024 meeting dates. Meeting held at Town House, 7547 Main Street at 7:00 p.m.",
+      "effective_date": "2023-12-27",
+      "order": 1
+    },
+    {
+      "id": "8974d94d-2503-4ff3-8a88-d2b752b97eae",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "HDC Minutes - November 29, 2023",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3722/Minutes---November-29",
+      "source_document_sha256": "99a9d861bf8e93f9916e829c58d33aa6761ce9877d5cfcfedf91fd7d9d5f175c",
+      "description": "Commission approved application 2023-15 for an applied wall sign at 7524 Main Street, Suite 102 (lash bar, 14\"x46\" lettering, no background) - all voted in favor. Commission voted to send draft design guidelines to Town Council for approval. Brief discussion on the music shop sign at Springfield Avenue.",
+      "effective_date": "2023-11-29",
+      "order": 2
+    },
+    {
+      "id": "b848145c-523c-426e-94d0-b17b84898f2a",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Staff Report #2023-16 - 7412 Springfield Avenue",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3717/23-16-Staff-Report",
+      "source_document_sha256": "dd2dbda2b47b4e7d35d304205aaf17444c58a0e5e5aa0df46618abe317df3752",
+      "description": "Applicants Linda Frizzell-Makowski and David Makowski seek approval to replace roof shingles and vinyl siding on a non-contributing building (built 1994). Proposed materials: Certainteed Landmark asphalt shingles (Moire Black) and Certainteed Monogram vinyl siding 5-inch Dutch lap (Savanna Wicker), matching existing size and profile. Staff references current roof guidelines (page 26) and draft siding guidelines (page 23). No change to trim or other details.",
+      "effective_date": "2023-12-27",
+      "order": 3
+    },
+    {
+      "id": "16130f03-a774-49c7-88d9-fd6ef81c22a6",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Application #2023-16 - 7412 Springfield Avenue",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3718/23-16",
+      "source_document_sha256": "1b8e76742bbe3adcc1225d4350a67f97f4df8e3d361baea92ca8c38e1f24fe72",
+      "description": "Application materials and renderings submitted by Linda Frizzell-Makowski and David Makowski for replacement of asphalt shingles and vinyl siding on the non-contributing building at 7412 Springfield Avenue. Includes material samples for Certainteed products.",
+      "effective_date": "2023-12-27",
+      "order": 4
+    },
+    {
+      "id": "830cc966-517f-4717-9ea5-3df63d140c55",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Staff Report #2023-17 - 7568 Main Street",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3719/23-17-Staff-Report",
+      "source_document_sha256": "52c46061658ffce3cb1a196013f30fb04e4397d8c87ff27fd9e5ffd2bb9272bf",
+      "description": "Applicant Nakia Weable, new business owner; property owner Fred Gossage. Proposes two signs: (1) applied wall sign 48\"x18\"x1.5\" thick above main door and centered above double doors on Oklahoma Avenue; (2) oval hanging business sign 30\"x19\"x2\" thick above rear door on Oklahoma Avenue, 96\" above sidewalk and 3.1 sq ft per face. Replaces existing TriSport Junction signage. Staff references current guidelines pages 36-37 and draft guidelines page 40 on applied wall signs and hanging signs.",
+      "effective_date": "2023-12-27",
+      "order": 5
+    },
+    {
+      "id": "4df647e6-dbbb-4a41-81f0-ca6bfc1cd30a",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "Application #2023-17 - 7568 Main Street",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3720/23-17",
+      "source_document_sha256": "496e0e7dcb3e4a398e142f78a78a92ac7b7bb099141a399779d02b8fd88d3ccf",
+      "description": "Application materials submitted by Nakia Weable for new business signage at 7568 Main Street. Replaces TriSport Junction signage on a contributing building (built 1892). Includes diagrams of proposed applied wall sign and oval hanging sign.",
+      "effective_date": "2023-12-27",
+      "order": 6
+    },
+    {
+      "id": "32fa71d6-10d9-4429-9629-6187586c7b20",
+      "jurisdiction": {
+        "abbreviation": "HDC",
+        "municipality": {
+          "country": "US",
+          "state": "MD",
+          "county": "Carroll County",
+          "name": "Sykesville"
+        }
+      },
+      "name": "HDC 2024 Meeting Schedule",
+      "document_type": "OTHER",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/3721/Historic-District-Commission-Meetings-Dates-2024",
+      "source_document_sha256": "dbef2b1948252c435cdc504ab2a6e7dd0ea49b7c57a0359d2d2dc926ae11a51d",
+      "description": "The Sykesville Historic District Commission meets on the fourth Wednesday of each month at 7:00 p.m. 2024 dates: Jan 24, Feb 28, Mar 27, Apr 24, May 22, Jun 26, Jul 24, Aug 28, Sep 25, Oct 23, Nov 20 (moved due to holiday), Dec 18 (moved due to holiday).",
+      "effective_date": "2024-01-24",
+      "order": 7
+    }
+  ]
+}

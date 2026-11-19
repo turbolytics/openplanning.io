@@ -1,0 +1,29 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2024-08-05",
+    "source_document_sha256": "5cad11d827959c86bb4ff157b05b583661c2bc3613f1a7893a447d5a91c9356d"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Site Plan Review - Change of use at 7611 Main St.",
+      "fields": {
+        "description": "The applicant is presenting a site plan for 7611 Main St., showing the redevelopment of the first-floor interior space from a single use pottery center into a multi-use space with two retail business suites and an office space. The second floor will remain as existing storage and a single residential unit. All major modifications will be taking place inside of the building. All principle permitted uses in the B-L zone, where a building permit and zoning certificate are required for improvements involving building renovation, parking, or new construction, are also subject to a site plan review by the Planning Commission per Town Code \u00a7180-95 (A) 9.",
+        "date_received": "2024-08-05",
+        "next_hearing_date": "2024-08-05",
+        "parcel": {
+          "street_name": ""
+        },
+        "applicant": "Downtown Sykesville Connection (DSC)"
+      },
+      "retract": []
+    }
+  ]
+}

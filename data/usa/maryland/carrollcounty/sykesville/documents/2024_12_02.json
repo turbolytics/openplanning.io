@@ -1,0 +1,81 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - 2024-11-04",
+      "sha256": "1265dcbe0b27a21971ba13a1dd8a003f22793762c985ef4424a01ab8a4f2babd",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4228/PC-Minutes---November-4",
+      "raw_key": "documents/sykesville/by-sha/1265dcbe0b27a21971ba13a1dd8a003f22793762c985ef4424a01ab8a4f2babd.pdf",
+      "original_filename": "11042024 147",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the November 4, 2024 Planning Commission meeting.",
+      "description": "PC approved site plan for 7422 Springfield Ave (residential addition, unanimous) and revised Stormwater Management Plan for Parkside at Warfield (unanimous). Town Updates included approval of 2025 meeting dates."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "78371e90acc180b23b7d488b3d23fb49f00a7763399276dac79e33c389ace0da",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4227/County-Updates-120224",
+      "raw_key": "documents/sykesville/by-sha/78371e90acc180b23b7d488b3d23fb49f00a7763399276dac79e33c389ace0da.pdf",
+      "original_filename": "County Updates 120224",
+      "document_type": "OTHER",
+      "synopsis": "Carroll County planning update for December 2, 2024 Planning Commission meeting.",
+      "description": "County planning update provided for information purposes only."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "2705ecc099dda3f5a16c1a6555d81b28e4e232e1a34a1dbd583d99d337303205",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4230/Staff-Report-December-Project-Update",
+      "raw_key": "documents/sykesville/by-sha/2705ecc099dda3f5a16c1a6555d81b28e4e232e1a34a1dbd583d99d337303205.pdf",
+      "original_filename": "Staff Report December Project Update",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report presenting upcoming Town projects: Sykesville Train Station renovation and South End Downtown Streetscape.",
+      "description": "Informational overview of two Town capital projects coming to the Planning Commission: (1) Sykesville Train Station interior/exterior alterations for a new restaurant (site plan and amended plat likely required); (2) South End Main Street streetscape improvements south of Oklahoma Avenue (hardscape, paving, bollards \u2014 no PC action anticipated). No formal action requested."
+    },
+    {
+      "name": "Station Site Plans",
+      "sha256": "9a821d5455f8b15eea25e5ca94c11e012989a3cc43b5104264751bf9f6a03407",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4231/Sykesville-Station-Site-Plans",
+      "raw_key": "documents/sykesville/by-sha/9a821d5455f8b15eea25e5ca94c11e012989a3cc43b5104264751bf9f6a03407.pdf",
+      "original_filename": "Sykesville Station Site Plans",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Preliminary site plans for the Sykesville Train Station renovation project.",
+      "description": "Site plans showing proposed alterations to the Sykesville Train Station building in anticipation of a new restaurant tenant, including kitchen addition and ADA improvements."
+    },
+    {
+      "name": "South End Streetscape Plans",
+      "sha256": "3a75fc1583602f7787a6489551fc55405ca0b080ea6f55708800e990155d0e68",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4229/South-End-Streetscape",
+      "raw_key": "documents/sykesville/by-sha/3a75fc1583602f7787a6489551fc55405ca0b080ea6f55708800e990155d0e68.pdf",
+      "original_filename": "South End Streetscape",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Engineering plans for South End Downtown Streetscape improvements (Carroll County GRO-23-0006).",
+      "description": "22-sheet engineering plan set by KCI Technologies for Main Street improvements in the southern Downtown area of Sykesville (Carroll County file GRO-23-0006). Covers grading, storm drain, site plan, signage, and streetscape details for the area south of Oklahoma Avenue including the train station parking lot reconfiguration."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "f19bebb513fc9d7781f743eff851b8086f0d3d3e26e3b2f1e5d140af08eb898e",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_12022024-152",
+      "raw_key": "documents/sykesville/by-sha/f19bebb513fc9d7781f743eff851b8086f0d3d3e26e3b2f1e5d140af08eb898e.pdf",
+      "original_filename": "12022024 152",
+      "document_type": "AGENDA",
+      "synopsis": "December 2, 2024 Planning Commission meeting agenda.",
+      "description": "Agenda for the December 2, 2024 regular Planning Commission meeting covering approval of November 4 minutes, county update, and informational presentation on the Sykesville Train Station renovation and South End Downtown Streetscape projects."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-12-02",
+      "sha256": "3752b4bb4a7354ccb36c1e5f95ac5bfc08733208b810e012360bc65723a3c880",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_12022024-152",
+      "raw_key": "documents/sykesville/by-sha/3752b4bb4a7354ccb36c1e5f95ac5bfc08733208b810e012360bc65723a3c880.pdf",
+      "original_filename": "Minutes - December 2, 2024",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the December 2, 2024 Planning Commission meeting.",
+      "description": "PC approved Nov 4 minutes unanimously. Business: Kevin Rubenstein and Joe Cosentini presented informational updates on the Train Station renovation and South End Streetscape projects (no action required). Town updates: Enclave at Parkside SWM plan submitted to county; Danny Mican introduced as PC candidate (to be appointed Dec 9); Springfield Ave paving deferred to spring. Adjourned 7:26 PM."
+    }
+  ]
+}

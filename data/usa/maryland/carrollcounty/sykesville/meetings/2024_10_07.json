@@ -1,0 +1,61 @@
+{
+  "version": "meeting/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "meetings": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "date": "2024-10-07",
+      "time": "19:00",
+      "location": "Town House Conference Room, 7547 Main Street",
+      "agenda_items": [
+        {
+          "order": 1,
+          "title": "Approval of Minutes - August 5, 2024, Minutes",
+          "section": "APPROVAL_OF_MINUTES"
+        },
+        {
+          "order": 2,
+          "title": "County Updates",
+          "section": "COUNTY_UPDATES"
+        },
+        {
+          "order": 3,
+          "title": "Site Plan Review - 7540 Main Street- Local Motive Expansion",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Site Plan for 7540 Main St.- Local Motive Expansion"
+          }
+        },
+        {
+          "order": 4,
+          "title": "Site Plan Review - 7306 Springfield Avenue",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "title": "Site Plan Review - 7306 Springfield Ave."
+          }
+        },
+        {
+          "order": 5,
+          "title": "Enclave and Parkside Development Updates",
+          "section": "BUSINESS_AGENDA",
+          "application": {
+            "jurisdiction_abbreviation": "PC",
+            "file_number": "P-23-0026"
+          }
+        },
+        {
+          "order": 6,
+          "title": "Town Updates",
+          "section": "TOWN_UPDATES"
+        }
+      ]
+    }
+  ]
+}

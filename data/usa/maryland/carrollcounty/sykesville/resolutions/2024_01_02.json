@@ -1,0 +1,22 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Ratification of Report and Recommendation - Petition for Zoning Map Amendment"
+      },
+      "body": "Planning Commission",
+      "date": "2024-01-02",
+      "outcome": "APPROVED",
+      "vote": "unanimous (Scheiner and Smith absent)",
+      "summary": "The Planning Commission voted to approve the formal report and recommendation letter prepared by the Town's legal advisor, suggesting a modification to the Business-Local (B-L) zone to add Service Garage as a conditional use. The letter will be submitted to the Mayor and Town Council for final action on the 7306 Springfield Ave. petition."
+    }
+  ]
+}

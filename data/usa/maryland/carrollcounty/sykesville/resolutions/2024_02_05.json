@@ -1,0 +1,33 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "file_number": "P-23-0026",
+        "title": "Preliminary Plan and Pattern Book Update- The Enclave at Parkside"
+      },
+      "body": "Planning Commission",
+      "date": "2024-02-05",
+      "outcome": "NO_DECISION",
+      "summary": "The Planning Commission voted unanimously to close the public hearing for the Enclave at Parkside preliminary plan. The developer responded to staff comments: end unit side yard setback will remain 5 feet (not the 10-foot staff preference); building separation distances will remain as proposed; Note 33 will follow code requirements. The developer requested conditional approval, but Chair Singleton stated the Commission was not prepared to make a motion at this time. The preliminary plan still awaits final county agency approvals (Storm Water Management and Development Review outstanding) before returning for formal approval."
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Review and approve Annual Report submittal to the county."
+      },
+      "body": "Planning Commission",
+      "date": "2024-02-05",
+      "outcome": "APPROVED",
+      "vote": "unanimous",
+      "summary": "The Planning Commission voted unanimously to approve the 2023 Annual Report for submission to Carroll County and the Maryland Department of Planning."
+    }
+  ]
+}

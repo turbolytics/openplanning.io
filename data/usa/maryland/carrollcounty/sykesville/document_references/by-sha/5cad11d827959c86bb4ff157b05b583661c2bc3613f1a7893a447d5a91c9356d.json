@@ -1,0 +1,72 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "5cad11d827959c86bb4ff157b05b583661c2bc3613f1a7893a447d5a91c9356d",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 115,
+          "end": 128,
+          "excerpt": "7611 Main St.",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 193,
+          "end": 196,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7611",
+            "street_name": "MAIN",
+            "street_suffix": "ST",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7399"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 276,
+          "end": 289,
+          "excerpt": "7611 Main St.",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 645,
+          "end": 648,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

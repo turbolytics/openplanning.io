@@ -1,0 +1,87 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - August 7, 2023",
+      "sha256": "babd531e0aa19807cfb70339009e6f76baaf34033d31a601e23b022badbac412",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_08072023-41",
+      "raw_key": "documents/sykesville/by-sha/babd531e0aa19807cfb70339009e6f76baaf34033d31a601e23b022badbac412.pdf",
+      "original_filename": "08072023 41",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the August 7, 2023 Sykesville Planning Commission meeting. The Commission opened a public hearing for the Enclave at Parkside preliminary plan (no public comments; extended 30 days) and ratified the Adequate Public Facilities recommendation letter for transmittal to Town Council.",
+      "description": "The August 7, 2023 meeting was held virtually due to an active tornado watch for Carroll County. July 5 minutes approved unanimously. Business: (1) Public Hearing for Enclave at Parkside Preliminary Plan and Pattern Book opened; no public comments received; comment period extended 30 days to the next PC meeting. (2) Certification of Adequacy of Public Facilities \u2014 Commission voted to ratify the formal recommendation letter prepared by legal counsel and transmit it to the Clerk of the Town Council and the developer. Town updates: zoning code rewrite discussions with Carroll County underway; School House Road property developers still addressing agency comments. Adjourned 7:24 PM."
+    },
+    {
+      "name": "Planning Commission Draft Minutes July 5 2023",
+      "sha256": "",
+      "source_url": "/DocumentCenter/View/3492/Planning-Commission---Draft-Minutes---July-5-2023",
+      "document_type": "MINUTES"
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "5577dde11b241c720be3f97578fc79df6896de64eada2c204e008ddbf5cfa1bd",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3495/Staff-Report---Enclave-Public-Hearing",
+      "raw_key": "documents/sykesville/by-sha/5577dde11b241c720be3f97578fc79df6896de64eada2c204e008ddbf5cfa1bd.pdf",
+      "original_filename": "Staff Report - Enclave Public Hearing",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the August 7, 2023 public hearing on the Enclave at Parkside Preliminary Plan and Pattern Book (P-23-0026). Per \u00a7180-144D, a public hearing is required for PEC zone preliminary plans. No Commission action required after the hearing.",
+      "description": "The PEC zone requires a public hearing before Planning Commission approval of a preliminary plan and pattern book (\u00a7180-144D). Staff noted that all county agency comment letters involve details that will not materially alter the plan from the Commission's review perspective. The applicant (Elm Street Communities) is actively working with county agencies to address concerns. No action on the preliminary plan was required following the hearing."
+    },
+    {
+      "name": "Preliminary Plan",
+      "sha256": "40ab6918ec0d43265b97af652949926a3e30dcbaa83fc8ef21fc5ea7572d13e0",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3458/The-Enclave-at-Parkside-Prelim-Plan",
+      "raw_key": "documents/sykesville/by-sha/40ab6918ec0d43265b97af652949926a3e30dcbaa83fc8ef21fc5ea7572d13e0.pdf",
+      "original_filename": "Enclave at Parkside - Preliminary Plan",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Preliminary subdivision plan drawings for The Enclave at Parkside, a proposed 47-unit townhouse development on the east side of Sykesville adjacent to the existing Parkside community.",
+      "description": "Full set of preliminary plan sheets for the Enclave at Parkside subdivision (P-23-0026) submitted by Elm Street Communities. Shows site layout, road connections via Town Park Drive and Village Green Way, open space (7.67 acres), and reserved non-residential parcels along Route 32."
+    },
+    {
+      "name": "Pattern Book",
+      "sha256": "f7c4bdcfd931e8a14df1e40d8b82de40d329a80bd32c61d99de94008067e5f67",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3456/The-Enclave-at-Parkside---Pattern-Book-5-22-2023",
+      "raw_key": "documents/sykesville/by-sha/f7c4bdcfd931e8a14df1e40d8b82de40d329a80bd32c61d99de94008067e5f67.pdf",
+      "original_filename": "The Enclave at Parkside - Pattern Book (May 2023)",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Pattern Book (May 22, 2023) establishing architectural, landscape, signage, and management standards for The Enclave at Parkside PEC townhome subdivision by Elm Street Development.",
+      "description": "Governs design standards for all residential and future non-residential buildings. Key standards: 24-foot-wide townhomes, minimum setbacks (10 ft front, 20 ft rear), parking per \u00a7180-88, brick-primary facades (60% minimum), TND pedestrian design. Open space: 7.67 acres provided vs. 5.92 required. Residential construction targeted to begin spring 2025."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "d8122f8995e7bbb3ae9e46d2fda34b1a02b7d7de67bc0882ed2a500683ef8dc4",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3494/Staff-Report---Enclave-APF-Letter",
+      "raw_key": "documents/sykesville/by-sha/d8122f8995e7bbb3ae9e46d2fda34b1a02b7d7de67bc0882ed2a500683ef8dc4.pdf",
+      "original_filename": "Staff Report - Enclave APF Letter",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for the August 7, 2023 ratification of the Adequate Public Facilities recommendation memorandum for The Enclave at Parkside. Per \u00a7145-5C(1)(b), the Planning Commission must prepare written findings and transmit them to the Town Council.",
+      "description": "Following the July 5 vote recommending Council find public facilities adequate, the Town's legal advisor prepared a formal Memorandum of Recommendation. The memorandum was distributed to Commissioners for pre-meeting review. The Planning Commission was asked to ratify it and authorize transmittal to the Clerk of the Town Council and the developer (Elm Street Communities)."
+    },
+    {
+      "name": "Town of Sykesville Proposed Recommendation Draft",
+      "sha256": "b4b9eb79f3b69825c183e3e24efb2901f3547e1a4f56933c66e6a8121cb6fb21",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3496/Town-of-Sykesville-Proposed-Recommendation-DRAFT",
+      "raw_key": "documents/sykesville/by-sha/b4b9eb79f3b69825c183e3e24efb2901f3547e1a4f56933c66e6a8121cb6fb21.pdf",
+      "original_filename": "APF Recommendation Memorandum - Enclave at Parkside",
+      "document_type": "OTHER",
+      "synopsis": "Draft Memorandum of Recommendation for the Adequate Public Facilities determination for The Enclave at Parkside subdivision, prepared by the Town's legal advisor for Planning Commission ratification.",
+      "description": "Formal memorandum prepared by the Town's legal advisor containing the Planning Commission's written findings and recommendations on the adequacy of public facilities serving the proposed Enclave at Parkside 47-unit subdivision, for transmittal to the Clerk of the Town Council and the developer."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "eb7fd8f9a396df14d6beedda334e10989b045c8be2e38af4dee0c25522587e57",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_08072023-41",
+      "raw_key": "documents/sykesville/by-sha/eb7fd8f9a396df14d6beedda334e10989b045c8be2e38af4dee0c25522587e57.pdf",
+      "original_filename": "08072023 41",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for August 7, 2023. Business items: public hearing for The Enclave at Parkside preliminary plan and pattern book, and ratification of the Adequate Public Facilities recommendation memorandum.",
+      "description": "Agenda for the August 7, 2023 Sykesville Planning Commission meeting at Town House. Items: July 5 minutes approval, public hearing for Enclave at Parkside (P-23-0026, PEC zone per \u00a7180-144D), APF memorandum ratification (per \u00a7145-5C(1)(b)), and Town updates."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "application/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "source": {
+    "observed_at": "2025-04-07",
+    "source_document_sha256": "3d3de2272ed2894d43a7a4c83a63280f1f96f5fa0c590aa9fd897d048fdcb637"
+  },
+  "applications": [
+    {
+      "jurisdiction_abbreviation": "PC",
+      "title": "Review and vote on ratification of Parcel B Recommendation to the Board of Appeals.",
+      "fields": {
+        "date_received": "2025-04-07",
+        "next_hearing_date": "2025-04-07"
+      },
+      "retract": []
+    }
+  ]
+}

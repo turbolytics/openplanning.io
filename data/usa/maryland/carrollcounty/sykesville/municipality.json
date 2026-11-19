@@ -1,0 +1,18 @@
+{
+  "version": "municipality/v1",
+  "municipality": {
+    "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+    "country": "US",
+    "state": "MD",
+    "state_fips_code": "24",
+    "county": "Carroll County",
+    "county_fips_code": "24013",
+    "name": "Sykesville",
+    "status": "ACTIVE",
+    "subdomain": "sykesville",
+    "website": "https://www.townofsykesville.org",
+    "population": 4806,
+    "regrid_towncode": "051",
+    "openplanning_coverage": "PREVIEW"
+  }
+}

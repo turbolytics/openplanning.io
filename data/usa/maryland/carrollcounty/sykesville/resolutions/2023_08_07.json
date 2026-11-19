@@ -1,0 +1,23 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "file_number": "P-23-0026",
+        "title": "Certification of Adequacy of Public Facilities - The Enclave at Parkside"
+      },
+      "body": "Planning Commission",
+      "date": "2023-08-07",
+      "outcome": "APPROVED",
+      "vote": "unanimous",
+      "summary": "The Planning Commission voted to ratify the formal Adequate Public Facilities recommendation letter prepared by the legal advisor and directed that it be transmitted to the Clerk of the Town Council and the developer. This ratification fulfills the procedural step committed to at the July 5, 2023 meeting."
+    }
+  ]
+}

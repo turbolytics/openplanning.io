@@ -1,0 +1,80 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "975022d8c92ec9d41857e3f2f2700e2871a6c5408107989f6b3f740ec03aa032",
+      "references": [
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Local Motive"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1094,
+          "end": 1106,
+          "excerpt": "Local Motive",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Local Motive"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1765,
+          "end": 1777,
+          "excerpt": "Local Motive",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7306",
+            "street_name": "SPRINGFIELD",
+            "street_suffix": "AVE",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7549"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 1940,
+          "end": 1963,
+          "excerpt": "7306 Springfield Avenue",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Elm Street Development"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 3537,
+          "end": 3559,
+          "excerpt": "Elm Street Development",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "project",
+          "target_key": {
+            "name": "Warfield"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "project",
+          "start": 3674,
+          "end": 3682,
+          "excerpt": "Warfield",
+          "confidence": 0.95
+        }
+      ]
+    }
+  ]
+}

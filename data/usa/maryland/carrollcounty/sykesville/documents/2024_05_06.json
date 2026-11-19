@@ -1,0 +1,47 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes April 1 2024",
+      "sha256": "787ba0bb5bbfdb662b7439f82863e50e55b0d80eff514fb13b046cd78e057369",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3962/Planning-Commission---Minutes---April-1-2024",
+      "raw_key": "documents/sykesville/by-sha/787ba0bb5bbfdb662b7439f82863e50e55b0d80eff514fb13b046cd78e057369.pdf",
+      "original_filename": "Planning Commission   Minutes   April 1 2024",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the April 1, 2024 Sykesville Planning Commission meeting, presented for approval. Site plan for 7503 Village Road approved with parking modification condition. Town updates on Enclave at Parkside and Joy Property BZA approval."
+    },
+    {
+      "name": "County Updates",
+      "sha256": "078838c5d595c9e300f8fd5d6535e2ab430ef40532bb3af2fa1cf87abe6e7e6a",
+      "source_url": "https://www.townofsykesville.org/DocumentCenter/View/3965/County-Staff-Report-",
+      "raw_key": "documents/sykesville/by-sha/078838c5d595c9e300f8fd5d6535e2ab430ef40532bb3af2fa1cf87abe6e7e6a.pdf",
+      "original_filename": "County Staff Report",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Carroll County Bureau of Comprehensive Planning staff report for the May 6, 2024 PC meeting covering Water and Sewer Master Plan spring amendments, Carroll County Housing Study, and 2023 Annual Report preparation."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "12c68eb0512ab8e5d3710ef516c827408b461c20e96194b025b05ff8432ae089",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_05062024-121",
+      "raw_key": "documents/sykesville/by-sha/12c68eb0512ab8e5d3710ef516c827408b461c20e96194b025b05ff8432ae089.pdf",
+      "original_filename": "05062024 121",
+      "document_type": "AGENDA",
+      "synopsis": "Planning Commission agenda for May 6, 2024. Business items: Village Road island site plan review and Sykesville Apartments sign review."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-05-06",
+      "sha256": "78c658578f445b16fb05a065697a30ff537351e2389052185c16d7cdcd8aa917",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_05062024-121",
+      "raw_key": "documents/sykesville/by-sha/78c658578f445b16fb05a065697a30ff537351e2389052185c16d7cdcd8aa917.pdf",
+      "original_filename": "05062024 121",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the May 6, 2024 Sykesville Planning Commission meeting. Village Road island site plan and sign approved after-the-fact with condition that the oversized sign (violating \u00a7180-89 C. 6) must be moved on Town request. Town updates on Enclave at Parkside stormwater approval, Joy Property, and Springfield Avenue road work."
+    }
+  ]
+}

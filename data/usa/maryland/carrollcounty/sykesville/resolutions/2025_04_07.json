@@ -1,0 +1,44 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Ratification of Parcel B Recommendation to the Board of Zoning Appeals"
+      },
+      "body": "Planning Commission",
+      "date": "2025-04-07",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Enclave at Parkside Preliminary Plan and Pattern Book"
+      },
+      "body": "Planning Commission",
+      "date": "2025-04-07",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously"
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Site Plan Review and Approval - Schoolhouse Road Apartments accessory structure"
+      },
+      "body": "Planning Commission",
+      "date": "2025-04-07",
+      "outcome": "APPROVED",
+      "vote": "carried unanimously",
+      "conditions": [
+        "Any labeling errors on the plan shall be corrected."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "65cbae908e92b188e6f25022cff16ddfda7f1a294feeab411fa658e8aae0bed2",
+      "references": [
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "PEC"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 224,
+          "end": 227,
+          "excerpt": "PEC",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "application",
+          "target_key": {
+            "file_number": "P-23-0026"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "application",
+          "start": 242,
+          "end": 251,
+          "excerpt": "P-23-0026",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Elm Street Communities"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 448,
+          "end": 470,
+          "excerpt": "Elm Street Communities",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-134"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 855,
+          "end": 862,
+          "excerpt": "purpose",
+          "confidence": 0.75
+        },
+        {
+          "target_type": "block",
+          "target_key": {
+            "jurisdiction": "Planning Commission",
+            "section_number": "180-134"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_title",
+          "start": 1253,
+          "end": 1260,
+          "excerpt": "purpose",
+          "confidence": 0.75
+        }
+      ]
+    }
+  ]
+}

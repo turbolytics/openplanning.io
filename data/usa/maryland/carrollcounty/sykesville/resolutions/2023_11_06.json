@@ -1,0 +1,31 @@
+{
+  "version": "resolution/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "resolutions": [
+    {
+      "application": {
+        "jurisdiction_abbreviation": "PC",
+        "title": "Rezone Petition Recommendation - 7306 Springfield Ave (Joy Property)"
+      },
+      "body": "PC",
+      "date": "2023-11-06",
+      "outcome": "CONTINUED",
+      "summary": "Following lengthy discussion with the applicant and their counsel, the Planning Commission was not ready to make a recommendation and asked the applicant to return in December. The Commission expressed a preference for modifying the B-L zone to add automobile service garages as a conditional use rather than a full rezone, and asked staff to provide additional information for the December meeting."
+    },
+    {
+      "application": {
+        "jurisdiction_abbreviation": "Planning Commission",
+        "title": "Rezone Petition Recommendation- 7306 Springfield Ave. (Joy Property)"
+      },
+      "body": "Planning Commission",
+      "date": "2023-11-06",
+      "outcome": "CONTINUED",
+      "summary": "Following a lengthy discussion with the applicant and their counsel about the possibilities of rezoning the property to B-G and modifying the B-L zone to allow an automobile service garage as a conditional use, the Planning Commission agreed it was not ready to make a recommendation to the Mayor and Town Council. The Commission asked the applicant to return in December for further discussion. The Commission expressed a preference toward modifying the B-L zone rather than rezoning the property and asked staff to provide additional information for the December meeting."
+    }
+  ]
+}

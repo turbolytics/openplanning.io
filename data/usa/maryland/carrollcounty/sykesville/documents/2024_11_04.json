@@ -1,0 +1,101 @@
+{
+  "version": "document/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "name": "Planning Commission Minutes - 2024-10-07",
+      "sha256": "975022d8c92ec9d41857e3f2f2700e2871a6c5408107989f6b3f740ec03aa032",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4196/PC-Minutes---October-7",
+      "raw_key": "documents/sykesville/by-sha/975022d8c92ec9d41857e3f2f2700e2871a6c5408107989f6b3f740ec03aa032.pdf",
+      "original_filename": "10072024 142",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the October 7, 2024 Planning Commission meeting.",
+      "description": "Planning Commission approved site plan for Local Motive bar expansion at 7540 Main Street (parking waiver granted) and site plan for 7306 Springfield Avenue auto garage (conditional on screening at parcel 4088). Included informational update from Jason Van Kirk (Elm Street Development) on Parkside/Enclave stormwater deficit status."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "a4df3ec89fe8276af9655aa98736b58988fceb70a4da77d41216ceee4c6af0f6",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4194/Staff-Report-7422-Springfield",
+      "raw_key": "documents/sykesville/by-sha/a4df3ec89fe8276af9655aa98736b58988fceb70a4da77d41216ceee4c6af0f6.pdf",
+      "original_filename": "Staff Report 7422 Springfield",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for site plan review of residential addition at 7422 Springfield Avenue.",
+      "description": "Applicant proposes a 9x18 ft addition at the rear of 7422 Springfield Ave (Map/Parcel 201/4338-6, B-L zoning) to create a new studio apartment (approx. 608 sq ft). Historic District Commission approved exterior modifications on September 25, 2024. Staff recommends approval per \u00a7180-47 and \u00a7180-95 with condition on dust control for unpaved parking."
+    },
+    {
+      "name": "Site Plan",
+      "sha256": "abd47f1529502427039b003bd22060ac93129e302c49372af18397ffaad28a12",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4193/Site-Plan-7422-Springfield-Ave",
+      "raw_key": "documents/sykesville/by-sha/abd47f1529502427039b003bd22060ac93129e302c49372af18397ffaad28a12.pdf",
+      "original_filename": "Site Plan 7422 Springfield Ave",
+      "document_type": "SITE_PLAN",
+      "synopsis": "Site plan drawing for 7422 Springfield Avenue residential addition.",
+      "description": "Site layout showing the proposed 9x18 ft rear addition, six parking spaces (four existing, two new), and setback compliance for the new studio apartment at 7422 Springfield Ave."
+    },
+    {
+      "name": "Basement Plan",
+      "sha256": "6cdcc410484ea3852de92e158352eb73e084ee8e1495f728d524e162855bf4f5",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4195/7422-Interior-Basement-Plan",
+      "raw_key": "documents/sykesville/by-sha/6cdcc410484ea3852de92e158352eb73e084ee8e1495f728d524e162855bf4f5.pdf",
+      "original_filename": "7422 Interior Basement Plan",
+      "document_type": "OTHER",
+      "synopsis": "Interior basement plan for 7422 Springfield Avenue addition.",
+      "description": "Interior floor plan showing the proposed studio apartment layout within the addition at the basement/rear level of 7422 Springfield Ave."
+    },
+    {
+      "name": "Staff Report",
+      "sha256": "e6fa60637d4e53434fa9e4c9be20e1c0a25d064e98cefe49ebc5332df703ddcc",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4191/Staff-Report-Parkside-SWM-Revisions",
+      "raw_key": "documents/sykesville/by-sha/e6fa60637d4e53434fa9e4c9be20e1c0a25d064e98cefe49ebc5332df703ddcc.pdf",
+      "original_filename": "Staff Report Parkside SWM Revisions",
+      "document_type": "STAFF_REPORT",
+      "synopsis": "Staff report for revised stormwater management plan for Parkside at Warfield (GRO-23-0017).",
+      "description": "Staff report presenting the revised SWM plan for Parkside at Warfield, required under \u00a7180-44(B) for amendments to approved PEC zone plans. As-built review identified a volume deficit; revised plan increases bank slopes and adds retaining wall near Conley Aly. Carroll County has issued final approval. Remaining deficit to be covered by Enclave at Parkside project."
+    },
+    {
+      "name": "Revised Stormwater Management Plan",
+      "sha256": "9da4a67edeb30240d12680c75d6bff20e1c4fd82c5b530f6f6c781ebcb1503fa",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4200/Revised-SWM-Plan-1-8",
+      "raw_key": "documents/sykesville/by-sha/9da4a67edeb30240d12680c75d6bff20e1c4fd82c5b530f6f6c781ebcb1503fa.pdf",
+      "original_filename": "Revised SWM Plan 1 8",
+      "document_type": "OTHER",
+      "synopsis": "Revised stormwater management plan for Parkside at Warfield, pages 1-8.",
+      "description": "First eight pages of the revised SWM plan for GRO-23-0017 showing updated facility designs with increased bank slopes."
+    },
+    {
+      "name": "County Approval Letter",
+      "sha256": "053d1b79a7908ad37c4cbbf2e86d3404b83a068610af13b291e6a11d05a5f0be",
+      "source_url": "https://townofsykesville.org/DocumentCenter/View/4192/Carroll-County-Final-Approval-letter",
+      "raw_key": "documents/sykesville/by-sha/053d1b79a7908ad37c4cbbf2e86d3404b83a068610af13b291e6a11d05a5f0be.pdf",
+      "original_filename": "Carroll County Final Approval letter",
+      "document_type": "APPLICATION_MATERIAL",
+      "synopsis": "Carroll County final approval letter for Parkside at Warfield SWM revisions.",
+      "description": "Letter from Carroll County Stormwater Management Program Engineers granting final approval for the revised stormwater management plan for Parkside at Warfield (GRO-23-0017)."
+    },
+    {
+      "name": "Agenda",
+      "sha256": "cd22b44221742864b0047ac19e3c4d10e8cfd231c166483b4c1c39626d7997d2",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Agenda/_11042024-147",
+      "raw_key": "documents/sykesville/by-sha/cd22b44221742864b0047ac19e3c4d10e8cfd231c166483b4c1c39626d7997d2.pdf",
+      "original_filename": "11042024 147",
+      "document_type": "AGENDA",
+      "synopsis": "November 4, 2024 Planning Commission meeting agenda.",
+      "description": "Agenda for the November 4, 2024 regular Planning Commission meeting, covering approval of October 7 minutes, site plan review for 7422 Springfield Ave residential addition, and review/approval of Parkside at Warfield revised stormwater management plan."
+    },
+    {
+      "name": "Planning Commission Minutes - 2024-11-04",
+      "sha256": "1265dcbe0b27a21971ba13a1dd8a003f22793762c985ef4424a01ab8a4f2babd",
+      "source_url": "https://townofsykesville.gov/AgendaCenter/ViewFile/Minutes/_11042024-147",
+      "raw_key": "documents/sykesville/by-sha/1265dcbe0b27a21971ba13a1dd8a003f22793762c985ef4424a01ab8a4f2babd.pdf",
+      "original_filename": "11042024 147",
+      "document_type": "MINUTES",
+      "synopsis": "Official minutes of the November 4, 2024 Planning Commission meeting.",
+      "description": "PC approved site plan for 7422 Springfield Ave (9x16 ft residential addition for studio apartment, unanimous). PC approved revised Stormwater Management Plan for Parkside at Warfield (3-to-1 grass slopes, playground fencing, HOA notification required, unanimous). Town Updates: 2025 meeting dates approved unanimously; Station building and South End streetscape plans announced for December."
+    }
+  ]
+}

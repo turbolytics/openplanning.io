@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/resolution/v1",
+  "title": "Parcela Resolution Schema v1",
+  "description": "Formal decisions adopted by a deciding body on Applications. Each Resolution records the outcome (approved, continued, denied, etc.), date, vote, and optional conditions of approval. Natural key: (application, body/jurisdiction, date). Multiple resolutions on the same application are allowed when a case is heard across multiple meetings or bodies (e.g. PC recommends, Town Council ratifies).",
+  "type": "object",
+  "required": ["version", "municipality", "resolutions"],
+  "properties": {
+    "version": {
+      "const": "resolution/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "description": "Provenance of this data (e.g. minutes PDF).",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "municipality": {
+      "$ref": "#/$defs/municipality_ref"
+    },
+    "resolutions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/resolution" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "application_ref": {
+      "type": "object",
+      "description": "Reference to an Application. Resolved within the named jurisdiction by file_number first, then title.",
+      "required": ["jurisdiction_abbreviation"],
+      "properties": {
+        "jurisdiction_abbreviation": { "type": "string" },
+        "file_number": { "type": "string" },
+        "title": { "type": "string" }
+      }
+    },
+    "resolution": {
+      "type": "object",
+      "required": ["application", "body", "date", "outcome"],
+      "properties": {
+        "application": {
+          "$ref": "#/$defs/application_ref",
+          "description": "The application this resolution applies to."
+        },
+        "body": {
+          "type": "string",
+          "description": "Abbreviation of the jurisdiction that adopted this resolution (e.g. 'PC', 'TC', 'BZA'). Must match an existing Jurisdiction.abbreviation within the municipality."
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date of the decision. Together with application and body this forms the natural key."
+        },
+        "outcome": {
+          "type": "string",
+          "enum": [
+            "APPROVED", "APPROVED_WITH_CONDITIONS", "DENIED",
+            "TABLED", "CONTINUED", "WITHDRAWN", "REFERRED", "NO_DECISION"
+          ],
+          "description": "Formal outcome adopted by the body."
+        },
+        "vote": {
+          "type": "string",
+          "description": "Vote tally free-text (e.g. '5-0', 'unanimous', '4-1').",
+          "default": ""
+        },
+        "summary": {
+          "type": "string",
+          "description": "Brief narrative of the decision or discussion (1-3 sentences).",
+          "default": ""
+        },
+        "is_final": {
+          "type": "boolean",
+          "description": "Whether this is the binding final resolution on the application.",
+          "default": false
+        },
+        "conditions": {
+          "type": "array",
+          "description": "Conditions of approval adopted in the motion.",
+          "items": { "type": "string" },
+          "default": []
+        }
+      }
+    }
+  }
+}

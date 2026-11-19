@@ -1,0 +1,56 @@
+{
+  "version": "document_references/v1",
+  "municipality": {
+    "country": "US",
+    "state": "MD",
+    "county": "Carroll County",
+    "name": "Sykesville"
+  },
+  "documents": [
+    {
+      "sha256": "dc3f248544f9ae523bd14bd38f2f910d89ac8eb3fbe0053e6552eee36ce7a477",
+      "references": [
+        {
+          "target_type": "parcel",
+          "target_key": {
+            "street_number": "7503",
+            "street_name": "VILLAGE",
+            "street_suffix": "RD",
+            "city": "SYKESVILLE",
+            "zip_code": "21784-7445"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "address",
+          "start": 569,
+          "end": 586,
+          "excerpt": "7503 Village Road",
+          "confidence": 0.95
+        },
+        {
+          "target_type": "zoning_district",
+          "target_key": {
+            "code": "B-L"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "zoning_district",
+          "start": 1241,
+          "end": 1244,
+          "excerpt": "B-L",
+          "confidence": 0.9
+        },
+        {
+          "target_type": "entity",
+          "target_key": {
+            "name": "Joy Property"
+          },
+          "source": "GAZETTEER",
+          "extractor_name": "entity",
+          "start": 1731,
+          "end": 1743,
+          "excerpt": "Joy property",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

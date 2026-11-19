@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "openplanning/specs/jurisdiction/v1",
+  "title": "Parcela Jurisdiction Schema v1",
+  "description": "Defines jurisdictions (deciding bodies and external agencies) that participate in the development review process. Each jurisdiction carries its own municipality natural key for full self-containment.",
+  "type": "object",
+  "required": ["version", "jurisdictions"],
+  "properties": {
+    "version": {
+      "const": "jurisdiction/v1",
+      "description": "Schema version identifier."
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "title": { "type": "string" },
+        "retrieved_at": { "type": "string", "format": "date" }
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/jurisdiction" }
+    }
+  },
+  "$defs": {
+    "municipality_ref": {
+      "type": "object",
+      "required": ["country", "state", "county", "name"],
+      "description": "Natural key identifying the municipality this jurisdiction belongs to. Required for DECIDING_BODY jurisdictions. Null/omitted for EXTERNAL_AGENCY jurisdictions (scoped by county/state instead).",
+      "properties": {
+        "country": { "type": "string", "default": "US" },
+        "state": { "type": "string", "minLength": 2, "maxLength": 2 },
+        "county": { "type": "string" },
+        "name": { "type": "string" }
+      }
+    },
+    "jurisdiction": {
+      "type": "object",
+      "required": ["id", "name", "abbreviation", "jurisdiction_type"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uuid",
+          "description": "Stable UUID v4 identifier. Used for idempotent loads."
+        },
+        "municipality": {
+          "$ref": "#/$defs/municipality_ref",
+          "description": "Municipality this jurisdiction belongs to. Required for DECIDING_BODY, omitted for EXTERNAL_AGENCY."
+        },
+        "name": {
+          "type": "string",
+          "description": "Full name, e.g. 'Planning Commission'."
+        },
+        "abbreviation": {
+          "type": "string",
+          "description": "Short code, e.g. 'PC'."
+        },
+        "jurisdiction_type": {
+          "type": "string",
+          "enum": ["DECIDING_BODY", "EXTERNAL_AGENCY"],
+          "description": "DECIDING_BODY for review bodies (PC, BZA). EXTERNAL_AGENCY for county/state agencies."
+        },
+        "authority_type": {
+          "type": "string",
+          "enum": ["MUNICIPAL", "COUNTY", "STATE", "REGIONAL", "JOINT"],
+          "default": "MUNICIPAL"
+        },
+        "county": {
+          "type": "string",
+          "description": "County scope for EXTERNAL_AGENCY jurisdictions."
+        },
+        "state": {
+          "type": "string",
+          "description": "State scope for EXTERNAL_AGENCY jurisdictions."
+        },
+        "description": { "type": "string" },
+        "holds_meetings": { "type": "boolean", "default": false },
+        "zoning_code_version": { "type": "string" },
+        "contact_phone": { "type": "string" },
+        "contact_email": { "type": "string" },
+        "website": { "type": "string", "format": "uri" },
+        "order": { "type": "integer", "default": 0 }
+      }
+    }
+  }
+}
