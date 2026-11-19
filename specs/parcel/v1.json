@@ -92,7 +92,6 @@
         "block": { "type": "string" },
         "subdivision": { "type": "string" },
         "zoning_code": { "type": "string", "description": "Zoning district code. Resolved to ZoningDistrict by code within jurisdiction." },
-        "regrid_id": { "type": "string", "format": "uuid" },
         "source_url": { "type": "string", "format": "uri" },
         "geometry": {
           "type": ["object", "null"],
