@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/project/v1",
-  "title": "Parcela Project Schema v1",
+  "title": "OpenPlanning Project Schema v1",
   "description": "Defines a long-running Project (e.g. a master-planned development like 'Warfield') as a municipality-owned grouping of parcels, applications, and governing documents. Identity: optional `id` (uuid) is canonical; otherwise natural key is (municipality, slug) ,  slug is auto-derived from name when missing.",
   "type": "object",
   "required": ["version", "municipality", "projects"],
@@ -102,15 +102,7 @@
         },
         "parcels": {
           "type": "array",
-          "items": {
-            "type": "object",
-            "required": ["street", "city", "state"],
-            "properties": {
-              "street": { "type": "string" },
-              "city": { "type": "string" },
-              "state": { "type": "string", "minLength": 2, "maxLength": 2 }
-            }
-          },
+          "items": { "$ref": "openplanning/specs/parcel/v1#/$defs/parcel_ref" },
           "description": "Parcels to attach via M2M, keyed by street address natural key. Preferred over parcel_ids ,  survives the seed-to-prod transition. Unresolvable refs are skipped with a warning."
         },
         "parcel_ids": {

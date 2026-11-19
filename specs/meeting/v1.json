@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/meeting/v1",
-  "title": "Parcela Meeting Schema v1",
+  "title": "OpenPlanning Meeting Schema v1",
   "description": "Defines a Meeting of a deciding body (e.g. Planning Commission, Town Council) with its ordered AgendaItems. Identity: optional `id` (uuid) is canonical. Otherwise the natural key for a Meeting is (jurisdiction, date) ,  unique_together at the model layer. AgendaItems are children of a Meeting and keyed on (meeting, order). Staff reports and resolutions are loaded by their own specs (staff_report/v1, resolution specs) ,  this spec only carries the meeting frame and its agenda.",
   "type": "object",
   "required": ["version", "municipality", "meetings"],

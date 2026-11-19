@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/resolution/v1",
-  "title": "Parcela Resolution Schema v1",
+  "title": "OpenPlanning Resolution Schema v1",
   "description": "Formal decisions adopted by a deciding body on Applications. Each Resolution records the outcome (approved, continued, denied, etc.), date, vote, and optional conditions of approval. Natural key: (application, body/jurisdiction, date). Multiple resolutions on the same application are allowed when a case is heard across multiple meetings or bodies (e.g. PC recommends, Town Council ratifies).",
   "type": "object",
   "required": ["version", "municipality", "resolutions"],

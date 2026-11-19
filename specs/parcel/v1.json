@@ -65,10 +65,14 @@
     },
     "parcel": {
       "type": "object",
-      "required": ["address"],
       "properties": {
         "parcel_id": { "type": ["string", "null"], "description": "State/county-assigned parcel identifier (parcelnumb). NULL when the source has no real identifier (e.g., right-of-way, unknown). Do NOT fabricate from internal IDs." },
-        "address": { "type": "string" },
+        "street_number": { "type": "string", "description": "House or building number. Empty string for unaddressed parcels." },
+        "street_prefix": { "type": "string", "description": "Directional prefix, e.g. 'N'." },
+        "street_name": { "type": "string", "description": "Street name without number or suffix. For unaddressed parcels, the descriptive name, e.g. 'Warfield Parcel B'." },
+        "street_suffix": { "type": "string", "description": "Street suffix, e.g. 'Ave'." },
+        "street_direction_suffix": { "type": "string", "description": "Directional suffix, e.g. 'NW'." },
+        "street_unit": { "type": "string", "description": "Unit or suite." },
         "map_number": { "type": "string" },
         "acreage": { "type": ["number", "null"] },
         "owner": { "type": "string" },

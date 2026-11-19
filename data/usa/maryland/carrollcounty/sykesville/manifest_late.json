@@ -4,7 +4,6 @@
   "load": [
     "staff_reports.json",
     "../../jurisdictions.json",
-    "../jurisdictions.json",
-    "workflows.json"
+    "../jurisdictions.json"
   ]
 }

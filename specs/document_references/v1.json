@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/document_references/v1",
   "title": "OpenPlanning Document References Schema v1",
-  "description": "Materializes DocumentReference rows (annotation links from documents to parcels, blocks, projects, entities, and jurisdictions) for documents that already exist in the target environment. Split out from document/v1 so the load graph stays acyclic: documents create rows with no outgoing edges to entity targets, then this spec resolves the targets after all entities exist. Identity is (document.sha256, target_type, target_key, source) ,  re-applying the same fixture replaces the GAZETTEER rows for each named document and leaves LLM/MANUAL rows alone.",
+  "description": "Materializes DocumentReference rows (annotation links from documents to parcels, blocks, projects, zoning districts, applications, legal documents, entities, and jurisdictions) for documents that already exist in the target environment. Split out from document/v1 so the load graph stays acyclic: documents create rows with no outgoing edges to entity targets, then this spec resolves the targets after all entities exist. Identity is (document.sha256, target_type, target_key, source) ,  re-applying the same fixture replaces the GAZETTEER rows for each named document and leaves LLM/MANUAL rows alone.",
   "type": "object",
   "required": ["version", "municipality", "documents"],
   "properties": {
@@ -59,11 +59,11 @@
       "properties": {
         "target_type": {
           "type": "string",
-          "enum": ["parcel", "block", "project", "entity", "jurisdiction"]
+          "enum": ["parcel", "block", "project", "zoning_district", "application", "legal_document", "entity", "jurisdiction"]
         },
         "target_key": {
           "type": "object",
-          "description": "Natural-key fields for the referenced target. Shape depends on target_type: parcel uses {street_number?, street_name, street_suffix?}; block uses {jurisdiction?, section_number}; project uses {name}; entity uses {name} or {id} (global rolodex, no municipality scope); jurisdiction uses {name} or {abbreviation}, scoped to the document's municipality via Jurisdiction.for_municipality. Unresolvable keys are skipped silently."
+          "description": "Natural-key fields for the referenced target. Shape depends on target_type: parcel uses {street_number?, street_name, street_suffix?, city?, zip_code?}; block uses {jurisdiction?, section_number}; project uses {name}; zoning_district uses {code}; application uses {file_number}; legal_document uses {name}; entity uses {name} or {id} (global rolodex, no municipality scope); jurisdiction uses {name} or {abbreviation}, scoped to the document's municipality via Jurisdiction.for_municipality. Unresolvable keys are skipped silently."
         },
         "source": {
           "type": "string",

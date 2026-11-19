@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/jurisdiction/v1",
-  "title": "Parcela Jurisdiction Schema v1",
+  "title": "OpenPlanning Jurisdiction Schema v1",
   "description": "Defines jurisdictions (deciding bodies and external agencies) that participate in the development review process. Each jurisdiction carries its own municipality natural key for full self-containment.",
   "type": "object",
   "required": ["version", "jurisdictions"],

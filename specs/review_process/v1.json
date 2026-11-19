@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/review_process/v1",
-  "title": "Parcela Review Process Schema v1",
+  "title": "OpenPlanning Review Process Schema v1",
   "description": "Defines review processes (state-machine workflows) administered by jurisdictions. Each process has a graph of nodes and edges representing the approval workflow.",
   "type": "object",
   "required": ["version", "municipality", "review_processes"],

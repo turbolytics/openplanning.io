@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/legal_document/v1",
-  "title": "Parcela Legal Document Schema v1",
+  "title": "OpenPlanning Legal Document Schema v1",
   "description": "Defines a legal document (zoning code, comprehensive plan, rules of procedure, etc.) with optional structured block tree. Combines document metadata with recursive content blocks for a fully self-contained, loadable spec.",
   "type": "object",
   "required": ["version", "municipality", "jurisdiction", "document"],
@@ -113,8 +113,20 @@
         },
         "references": {
           "type": "array",
-          "items": { "type": "string" },
-          "description": "Cross-references to other sections."
+          "items": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["target"],
+                "properties": {
+                  "text": { "type": "string", "description": "Label for the referenced material, e.g. 'Floodplain management'." },
+                  "target": { "type": "string", "description": "Citation of the referenced section or chapter, e.g. 'Ch. 89'." }
+                }
+              }
+            ]
+          },
+          "description": "Cross-references to other sections, as a citation string or a {text, target} object."
         },
         "children": {
           "type": "array",

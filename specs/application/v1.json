@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/application/v1",
-  "title": "Parcela Application Schema v1",
+  "title": "OpenPlanning Application Schema v1",
   "description": "Defines an Application: the bridge between a Jurisdiction (who reviews) and a Parcel (what is reviewed). Two shapes are supported, dispatched on the presence of source.source_document_sha256: (1) Observation merge: each item lists `fields` (and optional `retract`) that ONE source document observed on ONE date; the loader merges field-by-field by observed_at into Application.field_provenance. Spec path is conventionally applications/by-source/<source_doc_sha256>.json so re-emit of the same source bytes is idempotent. (2) Full-row upsert (legacy hand-authored fixtures): items carry full row state; identity is optional id (uuid) or natural key (jurisdiction, application_number) > (jurisdiction, file_number) > (jurisdiction, title).",
   "type": "object",
   "required": ["version", "municipality", "applications"],

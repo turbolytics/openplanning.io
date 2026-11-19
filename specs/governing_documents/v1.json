@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/governing_documents/v1",
-  "title": "Parcela Governing Documents Schema v1",
+  "title": "OpenPlanning Governing Documents Schema v1",
   "description": "Batch-loads simple legal.Document records (without block trees) as governing documents for a municipality. For documents with structured content (zoning codes), use legal_document/v1 instead.",
   "type": "object",
   "required": ["version", "municipality", "documents"],

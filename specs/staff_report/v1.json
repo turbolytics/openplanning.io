@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/staff_report/v1",
-  "title": "Parcela Staff Report Schema v1",
+  "title": "OpenPlanning Staff Report Schema v1",
   "description": "Defines staff reports authored by planning staff for a deciding body. A staff report is the structured analysis presented at a hearing: title, summary, background, analysis, action requested, recommendation, suggested motion. May be linked to an agenda item (one-to-one) and/or an application, and may reference a source PDF document.",
   "type": "object",
   "required": ["version", "municipality", "staff_reports"],

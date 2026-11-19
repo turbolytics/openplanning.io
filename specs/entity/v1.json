@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "openplanning/specs/entity/v1",
-  "title": "Parcela Entity Schema v1",
+  "title": "OpenPlanning Entity Schema v1",
   "description": "Defines an Entity (a person or legal entity in the global rolodex). Entities are CROSS-MUNICIPALITY: the same Toll Brothers record is referenced by every municipality in which Toll Brothers files an application. Identity: optional `id` (uuid) is canonical. Otherwise the natural key is `name` (case-insensitive exact match across the global rolodex).",
   "type": "object",
   "required": ["version", "entities"],
